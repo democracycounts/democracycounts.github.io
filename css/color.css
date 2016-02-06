@@ -146,7 +146,7 @@ ul.kode_orgnizer_email li:hover,
 .kf_comming_form button:hover,
 .kf_comming_form input[type="submit"]:hover
 {
-	color:#ef4a2b;	
+	color:#33CC33;	
 }
 
 
@@ -284,7 +284,7 @@ ul.kode_tab_lnk li:after,
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active
 {
-	background-color:#ef4a2b;	
+	background-color:#33CC33;	
 }
 
 
@@ -380,7 +380,7 @@ ul.kode_tab_lnk li:after,
 .kf_comming_form button:hover,
 .kf_comming_form input[type="submit"]:hover
 {
-	border-color:#ef4a2b;	
+	border-color:#33CC33;	
 }
 
 
@@ -630,15 +630,15 @@ ul.kode_aside_org_scl li a,
 	  ============================================================
 */
 ::selection {
-    background: #ef4a2b;
+    background: #33CC33;
     color:#ffffff;
 }
 ::-webkit-selection {
-    background: #ef4a2b;
+    background: #33CC33;
     color: #ffffff;
 }
 ::-moz-selection {
-    background: #ef4a2b;
+    background: #33CC33;
     color: #ffffff;
 }
 
@@ -659,7 +659,7 @@ ul.kode_aside_org_scl li a,
 	  ============================================================
 */
 .kode_about_welcome a.kode_link_3{
-	outline:1px solid #ef4a2b;		
+	outline:1px solid #33CC33;		
 }
 
 /*
@@ -693,21 +693,21 @@ ul.kode_aside_org_scl li a,
 */
 @media (max-width: 991px) {
 	.kode_galry_des{
-		background-color:#ef4a2b;
+		background-color:#33CC33;
 	}
 }
 @media (min-width: 768px) and (max-width: 979px) {
 	.kode_galry_des{
-		background-color:#ef4a2b;
+		background-color:#33CC33;
 	}
 }
 @media (max-width: 767px) {
 	.kode_galry_des{
-		background-color:#ef4a2b;
+		background-color:#33CC33;
 	}
 }
 @media (max-width: 480px) {
 	.kode_galry_des{
-		background-color:#ef4a2b;
+		background-color:#33CC33;
 	}
 }
