@@ -1,0 +1,5752 @@
+/*==================================================
+
+Project:	Democracy - The political Theme
+Version:	1.0
+Last change:	05/11/15
+Author :	KodeForest
+
+/**
+ * Table of Contents :
+ *
+* 1.0 - Kode Wrapper
+* 2.0 - TOP STRAIP WRAP CSS START
+* 3.0 - TLOGO & NAVIGATION WRAP CSS START
+* 4.0 - UI Element Style
+* 5.1 - 1st DropDown Menu
+* 5.2 - 2nd DropDown Menu
+* 6.0 - Favorite and Search Wrap Start
+* 7.0 - BANNER WRAP CSS START
+* 8.1 - BREAKING NEWS WRAP CSS START
+* 8.2 - Breaking News 2
+* 9.0 - PROGRAM LIST WRAP CSS START
+* 10.0 - WELCOME TO DEMOCRACY WRAP CSS START
+* 11.0 - WHAT WE DO WRAP CSS START
+* 12.0 - HEADING WRAP CSS START
+* 13.0 - Heading 2 Wrap
+* 14.0 - NEWS & PRESS RELEASE WRAP CSS START
+* 15.0 - LATEST WORK WRAP CSS START
+* 16.0 - PURCHASE NOW WRAP CSS START
+* 17.0 - OUR POLITICAL CAMPAIGN WRAP CSS START
+* 18.0 - OUR POLITICIAN WRAP CSS START
+* 19.0 - PROGRESS BAR WRAP CSS START
+* 20.0 - COUNT UP WRAP CSS START
+* 21.0 - LATEST BLOG POST WRAP CSS START
+* 22.0 - VIDEO & AUDIO WRAP CSS START
+* 23.0 - PURCHASE NOW 2 WRAP CSS START
+* 24.0 - COMMING UP ELECTION WRAP CSS START
+* 25.0 - TESTIMONIAL WRAP CSS START
+* 26.0 - CONTACT WITH US WRAP CSS START
+* 27.0 - BREAD CRUMB WRAP CSS START
+* 28.0 - ABOUT US SERVICES WRAP CSS START
+* 29.0 - SOCIAL COUNTER WRAP CSS START
+* 30.0 - OUR ACHIEVEMENT WRAP CSS START
+* 31.0 - WHERE WE ARE WRAP CSS START
+* 32.0 - BECOME A VOLUNTEER WRAP CSS START
+* 33.0 - OUR SKILLS WRAP CSS START
+* 34.0 - WHY WE ARE WRAP CSS START
+* 35.0 - SUBCRIBE WRAP CSS START
+* 36.0 - PAGINATION WRAP CSS Start
+* 37.0 - NEWS WRAP CSS START
+* 38.0 - NEWS LIST WRAP CSS START
+* 39.0 - EVENT WRAP CSS START
+* 40.0 - OUR FOCUS WRAP CSS START
+* 41.0 - HOW IT WORK WRAP CSS START
+* 42.0 - ADVANCE SERVICES WRAP CSS START
+* 43.0 - WHY CHOOSE US WRAP CSS START
+* 44.0 - TEAM WRAP CSS START
+* 45.0 - BACKGROUND WRAP CSS START
+* 46.0 - EDUCATION WRAP CSS START
+* 47.0 - LATEST WORK WRAP CSS START
+* 48.0 - POLITICAL CAREER WRAP CSS START
+* 49.0 - PERFORMANCE CHART WRAP CSS START
+* 50.0 - YEARLY PERFORMANCE WRAP CSS START
+* 51.0 - EVENT DETAIL WRAP CSS START
+* 52.0 - NEWS DETAIL WRAP CSS START
+* 53.0 - CONTACT US WRAP CSS START
+* 54.0 - GET IN TOUCH WRAP CSS START
+* 55.0 - 404 PAGE WRAP CSS START
+* 56.0 - COMMING SOON PAGE WRAP CSS START
+* 57.0 - TEAM LISTING WRAP CSS START
+[Color codes]
+
+Background:	#ffffff (white)
+Content:	#999999 (light black)
+Header h1:	#111111 (dark black)
+Header h2:	#111111 (dark black)
+Footer:		#000000 (dark black)
+
+a (standard):	#999999 (light black)
+a (visited):	#999999 (light black)
+a (active):	#999999 (light black)
+
+[Typography]
+  
+Body copy:		14px/ 'Lato', sans-serif;
+Headers:		'Josefin Sans', sans-serif;
+Input, textarea:	'Lato', sans-serif;
+Sidebar heading:	'Lato', sans-serif;
+
+-------------------------------------------------------------------*/
+/*
+	  ==============================================================
+		   kode wrapper
+	  ==============================================================
+*/
+
+.kode_wrapper,
+.kode_content,
+section{
+	float:left;
+	width:100%;	
+	overflow:hidden;
+}
+header{
+	float:left;
+	width:100%;	
+}
+section{
+	padding:70px 0px;	
+}
+
+/*
+	  ==============================================================
+		   TOP STRAIP WRAP CSS START
+	  ==============================================================
+*/
+header{
+	position:absolute;
+	z-index:99999;
+	top:0px;
+	left:0px;
+	padding-bottom:5px;	
+}
+.kode_top_strip{
+	width:100%;	
+}
+.kode_cnt_info{
+	float:left;	
+}
+.kode_cnt_info ul,
+.kode_scl_icon ul
+{
+	float:left;
+	width:100%;	
+}
+.kode_cnt_info ul li{
+	display:inline-block;
+	position:relative;
+	color:#fff;	
+	padding:10px 16px;
+}
+.kode_cnt_info ul li i{
+	margin-right:5px;	
+}
+.kode_cnt_info ul li:first-child{
+	padding-left:0px;	
+}
+.kode_scl_icon{
+	float:right;	
+}
+.kode_scl_icon ul li{
+	display:inline-block;
+	position:relative;
+	-ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);	
+}
+.kode_scl_icon ul li a{
+	display:block;
+	padding:12px 12px 13px;
+	color:#fff;	
+	-ms-transform: skewX(30deg);
+    -webkit-transform: skewX30deg);
+    transform: skewX(30deg);
+}
+
+/*
+	  ==============================================================
+		   TOP STRAIP WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   LOGO & NAVIGATION WRAP CSS START
+	  ==============================================================
+*/
+.kode_navigation_outr_wrap{
+	float:left;
+	width:100%;
+	position:relative;
+	background-color:#FFF;
+}
+.kode_navigation_outr_wrap:before{
+	content:"";
+	position:absolute;
+	top:-4px;
+	left:0px;
+	height:2px;
+	width:37.5%;	
+}
+.kode_navigation_outr_wrap:after{
+	content:"";
+	position:absolute;
+	bottom:-4px;
+	right:0px;
+	background-color:#fff;
+	height:2px;
+	width:65%;	
+}
+.kode_navigation_outr_wrap .container{
+	position:relative;
+	z-index:9999999;	
+}
+.kode_logo{
+	float:left;
+	padding:25px 20px;
+	position:relative;	
+}
+.kode_logo:before{
+	content:"";
+	position:absolute;
+	right:100%;
+	top:0px;
+	height:100%;
+	width:2000%;
+}
+.kode_logo:after{
+	content:"";
+	position:absolute;
+	right:-26px;
+	height:100%;
+	width:100px;
+	transform:skew(-25deg);
+	top:0;
+}
+.kode_logo img{
+	position:relative;
+	z-index:10;
+}
+.kode_logo a{
+	display:block;	
+}
+/*UI Element Style*/
+.kode_ui_element{
+	float:right;
+	padding-top:18px;	
+}
+.kode_menu{
+	float:left;	
+}
+.kode_menu ul{
+	float:left;
+	width:100%;	
+}
+.kode_menu ul li{
+	float:left;
+	position:relative;	
+}
+.kode_menu ul li:before{
+	content:"";
+	position:absolute;
+	bottom:-22px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	width:0;
+	height:2px;	
+}
+.kode_menu ul li a{
+	display:block;
+	text-transform:uppercase;
+	color:#27282d;
+	font-size:14px;
+	padding:25px 15px;
+	font-weight:600;
+	line-height:14px;	
+}
+.kode_menu ul li.active:before,
+.kode_menu ul li:hover:before,
+.kode_menu ul li:focus:before
+{
+	width:70%;	
+}
+/*1st DropDown Menu*/
+.kode_menu ul ul{
+	width:250px;
+	position:absolute;
+	top:50%;
+	left:-50px;
+	background-color:#fff;
+	opacity:0;
+	visibility:hidden;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+	-moz-transform:scale(0);
+	padding-top:20px;
+	border-bottom:4px solid;
+}
+.kode_menu ul ul li{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kode_menu ul ul li:after{
+	content:"";
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:0px;
+	z-index:-1;
+}
+.kode_menu ul ul > li:hover > a{
+	color:#fff;
+}
+.kode_menu ul ul li:hover:after{
+	width:100%;
+}
+.kode_menu ul ul li a{
+	padding:15px 15px;	
+}
+.kode_menu ul ul li:before{
+	content:"";
+	display:none;	
+}
+.kode_menu ul > li:hover > ul{
+	left:0px;
+	top:100%;
+	opacity:1;
+	visibility:visible;
+	transform:scale(1);
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);	
+}
+/*2nd DropDown Menu*/
+.kode_menu ul ul ul{
+	position:absolute;
+	top:0px;
+	left:100%;	
+}
+.kode_menu ul ul > li:hover > ul{
+	left:100%;
+	top:0px;
+	opacity:1;
+	visibility:visible;
+	transform:scale(1);
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);	
+}
+/*Favorite and Search Wrap Start*/ 
+.search-wrapper-area{
+	position:absolute;
+	right:0px;
+	background:#fff;
+	padding:20px;
+	display:none;
+}
+.search-area{
+	position:relative;
+}
+.search-area input[type="text"]{
+	float:left;
+	border:1px solid #ccc;
+	height:40px;
+	padding:5px 15px;
+}
+.search-area input[type="submit"]{
+	float:left;
+	position:absolute;
+	right:0px;
+	padding:10px; 
+	border:none;
+	background:#ccc;
+	color:#333;
+}
+.kode_favorite,
+.kode_search{
+	float:left;
+	margin-left:10px;
+	margin-top:14px;	
+	position:relative;
+}
+.dl-menuwrapper button,
+.kode_favorite a i,
+.kode_search a i
+{
+	padding:9px;
+	color:#27282d;
+	border:2px solid #9e9ea0;	
+}
+.dl-menuwrapper button:hover,
+.kode_favorite:hover a i,
+.kode_search:hover a i
+{
+	color:#fff;	
+}
+.dl-menuwrapper button:hover:after{
+	background:#fff;
+	box-shadow:0 7px 0 #fff, 0 14px 0 #fff;	
+}
+.dl-menuwrapper{
+	float:left;
+	margin-top:14px;
+	display:none;
+}
+.dl-menuwrapper button{
+	background:#fff;
+	color:#333;
+	padding:0px;
+	height:36px;
+	width:40px;
+}
+.dl-menuwrapper button:after{
+	background:#333;
+	box-shadow:0 7px 0 #333, 0 14px 0 #333;	
+	top:8px;
+}
+
+/*
+	  ==============================================================
+		   LOGO & NAVIGATION WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   BANNER WRAP CSS START
+	  ==============================================================
+*/
+.kode_banner{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_banner ul.bxslider > li{
+	position:relative;
+	float:left;	
+}
+.kode_banner ul.bxslider > li:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.6);
+}
+.kode_banner ul li img{
+	width:100%;
+	height:auto;
+}
+.kode_caption{
+	position:absolute;
+	width:535px;
+	top:50%;
+	left:50%;
+	margin:-160px 0px 0px -558px;	
+}
+.kode_caption h6{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	border-left:4px solid;
+	margin:0px 0px 16px;
+	line-height:15px;
+	padding-left:10px;	
+}
+.kode_caption h2{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;	
+	margin:0px 0px 8px;
+	line-height:normal;
+}
+.kode_caption h2 span{
+	font-weight:normal;
+	display:inline-block;	
+}
+.kode_caption p{
+	line-height:30px;
+	color:#fff;
+	word-break:break-all;
+	margin:0px 0px 32px;	
+	font-size:16px;
+}
+.kode_caption a.kode_link_1:hover{
+	color:#fff;
+}
+.kode_caption a.kode_link_1:hover:before{
+	background-color:#fff;	
+}
+.kode_banner .bx-wrapper .bx-pager{
+	padding:0px;	
+}
+.kode_banner .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom: 150px;
+    left: 50%;
+    margin-left: -566px;
+    text-align: left;
+    width: 538px;
+}
+.kode_banner .bx-wrapper .bx-pager.bx-default-pager a{
+	background-color:#fff;	
+}
+.kode_banner .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.kode_banner .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background-color:#8e8e91;	
+}
+
+/*
+	  ==============================================================
+		   BANNER WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   BREAKING NEWS WRAP CSS START
+	  ==============================================================
+*/
+.kode_breaking_news{
+	float:left;
+	width:1140px;
+	position:absolute;
+	left:15px;
+	right:0px;
+	margin:auto;
+	bottom:40px;
+	border:2px solid;
+	background-color:#fff;	
+}
+.kode_breaking_hdg{
+	padding:16px 20px 15px;
+	float:left;
+	position:relative;	
+}
+.kode_breaking_hdg:before{
+	content:"";
+	position:absolute;
+	top:19px;
+	right:-8px;
+	width: 0; 
+	height: 0; 
+	border-left:15px solid;
+	border-top:15px solid;
+	transform:rotate(45deg);		
+}
+.kode_breaking_news h6{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	line-height:18px;	
+}
+.kode_brekg_news_des{
+	float:none;
+	background-color:#fff;
+	padding:13px 50px 15px 200px;	
+}
+.kode_brekg_news_des ul{
+	float:left;
+	width:100%;	
+}
+.kode_brekg_news_des ul li{
+	display:inline-block;
+	color:#000000;
+	margin:0px;
+	line-height:22px;
+	line-height:18px;	
+}
+.kode_brekg_news_des .bx-pager.bx-default-pager,
+.kode_breaking_news2 .kode_brekg_news_des .bx-pager.bx-default-pager{
+	display:none;
+}
+.kode_brekg_news_des .bx-controls-direction{
+	position:absolute;
+	width:60px;
+	top:18px;
+	right:-30px;
+}
+.kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-prev,
+.kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-next,
+.kode_breaking_news2 .kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-prev,
+.kode_breaking_news2 .kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-next
+{
+	position:absolute;
+	right:0px;
+	top:-5px;
+}
+.kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-prev:before,
+.kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-next:before,
+.kode_breaking_news2 .kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-prev:before,
+.kode_breaking_news2 .kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-next:before{
+	content:"\f104";
+	font-family:fontawesome;
+	font-size:20px;
+	text-indent:0;
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+.kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-next:before,
+.kode_breaking_news2 .kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-next:before
+{
+	content:"\f105";
+}
+.kode_breaking_news .bxslider div.item{
+	float:left;
+}
+/*Breaking News 2*/
+.kode_breaking_news2{
+	float:left;
+	width:100%;
+	position:relative;
+	border-bottom:2px solid;	
+}
+.kode_breaking_news2:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:29%;
+	height:100%;
+	background-color:#fff;	
+}
+.kode_breaking_news2:after{
+	content:"";
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:71%;
+	height:100%;	
+}
+.kode_breaking_news2 .container{
+	position:relative;
+	z-index:99999;	
+}
+.kode_breaking_news2 .kode_brekg_news_des{
+	background:none;
+	position:relative;	
+}
+.kode_breaking_news2 .kode_breaking_hdg{
+	background:none;
+}
+.kode_breaking_news2 .kode_breaking_hdg:before{
+	border-left: 15px solid #fff;
+    border-top: 15px solid #fff;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -8px;
+    top: 22px;
+    transform: rotate(45deg);
+    width: 0;	
+}
+.kode_breaking_news2 .kode_breaking_hdg h6{
+	font-weight:bold;	
+}
+.kode_breaking_news2 .kode_brekg_news_des p{
+	color:#fff;	
+	font-weight:bold;
+	padding-top:5px;
+}
+.kode_breaking_news2 .kode_brekg_news_des .bx-controls-direction{
+	position:absolute;
+	width:60px;
+	top:25px;
+	right:-30px;
+}
+.kode_breaking_news2 .kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-prev:before,
+.kode_breaking_news2 .kode_brekg_news_des .bx-wrapper .bx-controls-direction a.bx-next:before{
+	color:#fff;
+}
+
+/*
+	  ==============================================================
+		   BREAKING NEWS WRAP CSS START
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   PROGRAM LIST WRAP CSS START
+	  ==============================================================
+*/
+.kode_program_bg{
+	padding:15px 0px 0px;
+	float:left;
+	width:100%;	
+}
+.kode_program_list{
+	float:left;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.kode_program_list:before{
+    content: "";
+    height: 100%;
+    left: -320px;
+    position: absolute;
+    top: -116px;
+    transform: rotate(-30deg);
+    width: 160%;
+	background-color:rgba(55,45,44,0.65);
+	z-index:9;
+	box-shadow:0px 0px 0px 7px rgba(0,0,0,0.65);	
+}
+.kode_program_list:after{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+	width:0px;
+	height:0px;
+	background-color:#15bfe9;	
+}
+.kode_program_list figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_program_des{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	padding:30px 0 0 30px;
+	z-index:99999;	
+}
+.kode_program_des h5{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:20px;
+	margin-bottom:15px;	
+}
+.kode_program_des p{
+	color:#fff;
+	margin:0 0 15px;
+	line-height:16px;	
+}
+.kode_program_des i{
+	color:#fff;
+	font-size:100px;	
+}
+.kode_program_hover{
+	position:absolute;
+	width:100%;
+	top:0%;
+	left:0px;
+	margin-top:-92px;
+	text-align:center;
+	z-index:99999;
+	padding:0px 40px;
+	opacity:0;	
+}
+.kode_program_hover h5{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0 0 19px;
+	line-height:20px;	
+}
+.kode_program_hover p{
+	color:#fff;
+	line-height:24px;
+	margin-bottom:20px;
+	word-break:break-all;
+}
+.kode_program_list:hover .kode_program_des{
+	top:50%;
+	opacity:0;	
+}
+.kode_program_list:hover:before{
+	top:-100%;
+	left:-100%;
+	opacity:0;	
+}
+.kode_program_list:hover .kode_program_hover{
+	top:50%;
+	opacity:1;	
+}
+.kode_program_list:hover:after{
+	width:100%;
+	height:100%;
+	opacity:0.7;	
+}
+.kode_program_list a:hover{
+	color:#000000;	
+}
+figure img {
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+.kode_program_list figure::before,
+.kode_program_list figure::after {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+.kode_program_list figure::before {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+.kode_program_list figure::after {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+.kode_program_list:hover figure::before,
+.kode_program_list:hover figure::after {
+	opacity: 1;
+	z-index:9999;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+/*
+	  ==============================================================
+		   PROGRAM LIST WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   WELCOME TO DEMOCRACY WRAP CSS START
+	  ==============================================================
+*/
+.kode_welcome_bg{
+}
+
+ul.kode_tab_lnk{
+	float:left;
+	width:100%;
+	text-align:center;
+	margin-bottom:104px;	
+}
+.kode_welcome_bg ul.kode_tab_lnk{
+	margin-bottom:85px;	
+}
+ul.kode_tab_lnk li{
+	position:relative;
+	display:inline-block;	
+}
+ul.kode_tab_lnk li:before,
+ul.kode_tab_lnk li:after
+{
+	content:"";
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:0px;
+	height:1px;	
+	opacity:0
+}
+ul.kode_tab_lnk li:after{
+	left:0px;
+	bottom:0px;
+	right:auto;
+	top:auto;
+	width:0px;
+	opacity:0	
+}
+ul.kode_tab_lnk li a{
+	display:block;
+	color:#999999;
+	padding:10px 15px;
+	font-weight:bold;
+	text-transform:uppercase;	
+}
+ul.kode_tab_lnk li.active:before,
+ul.kode_tab_lnk li:hover:before{
+	opacity:1;
+	width:50px;	
+}
+ul.kode_tab_lnk li.active:after,
+ul.kode_tab_lnk li:hover:after{
+	opacity:1;
+	width:40px;	
+}
+
+/*Image Wrap Style*/
+.kode_wel_outr_wrap{
+	float:left;
+	width:100%;
+	margin-bottom:25px;	
+}
+.kode_welcome{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_welcome:before{
+	content:"";
+	position:absolute;
+	top:-35px;
+	left:-58px;
+	width:100%;
+	height:100%;
+	border:9px solid #27282d;
+	background-color:#fff;
+	z-index:-1;	
+}
+.kode_welcome:after{
+	content: "";
+	position: absolute;
+	border: 3px solid #dfdfdf;
+    height: 110%;
+    left: -28px;
+    top: -24px;
+    width: 100%;
+    z-index: -2;	
+}
+.kode_welcome figure img{
+	width:100%;
+	height:auto;	
+}
+/*Image Description Wrap Start*/
+.kode_wel_demo_des{
+	float:left;
+	width:100%;	
+	margin-top:17px;
+}
+.kode_wel_demo_des h6{
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:16px;
+	line-height:14px;
+	letter-spacing:2px;	
+}
+.kode_wel_demo_des h4{
+	text-transform:uppercase;
+	font-weight:bold;
+	position:relative;
+	padding-bottom:18px;
+	margin-bottom:20px;
+	position:relative;
+	line-height:24px;	
+}
+.kode_wel_demo_des h4:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:70px;
+	height:3px;
+	background-color:#000000;	
+}
+.kode_wel_demo_des p{
+	line-height:29px;
+	word-break:break-all;
+	font-weight:400;
+	margin-bottom:20px;	
+	color:#666;
+}
+ul.kode_tab_lnk.nav > li > a:focus,
+ul.kode_tab_lnk.nav > li > a:hover{
+	background:none;	
+}
+.kode_wel_demo_des a.kode_link_3:hover{
+	color:#fff;	
+}
+/*About US Welcome*/
+.kode_about_welcome{
+	padding:95px 0px 85px;	
+}
+.kode_about_welcome a.kode_link_3:hover i{
+	color:#fff;	
+}
+/*
+	  ==============================================================
+		   WELCOME TO DEMOCRACY WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   WHAT WE DO WRAP CSS START
+	  ==============================================================
+*/
+.kode_wht_otr_wrap{
+	float:left;
+	width:100%;
+	position:relative;
+	background-color:#202020;		
+}
+.kode_wht_otr_wrap:after{
+	content:"";
+	position:absolute;
+	background-image:url(extra-images/wht-we-do-01.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	left:0px;
+	top:0px;
+	width:50%;
+	height:100%;
+	background-attachment:fixed;	
+}
+.kode_wht_otr_wrap:before{
+	content:"";
+	position:absolute;
+	background-color:rgba(0,0,0,0.5);
+	top:0px;
+	left:0px;
+	width:50%;
+	height:100%;
+	z-index:1;	
+}
+.kode_wht_des{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:69px 40px 26px;
+	z-index:9999999;
+}
+.kode_wht_des > h6{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0px 0px 12px;
+	line-height:16px;
+	font-size:14px;
+	letter-spacing:2px;	
+}
+.kode_wht_des > h4{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	position:relative;
+	margin-bottom:30px;
+	position:relative;
+	line-height:24px;
+	padding-bottom:20px;	
+}
+.kode_wht_des h4:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	height:3px;
+	width:70px;
+	background-color:#fff;		
+}
+.kode_wht_des ul{
+	float:left;
+	width:100%;
+	z-index:9999999;	
+}
+.kode_wht_des ul li{
+	float:left;
+	position:relative;
+	padding:4px 0 28px 5px;
+	z-index:9999;
+	margin:0px;	
+}
+.kode_wht_des ul li span{
+	float:left;
+	display:inline-block;
+	width:62px;
+	height:62px;
+	background-color:#fff;
+	border-radius:100%;
+	border:5px solid #b0b6bb;
+	text-align:center;
+	line-height:62px;	
+}
+.kode_wht_des ul li span i{
+	font-size:25px;	
+}
+.kode_wht_icon_des{
+	float:none;
+	padding:0px 0px 0px 90px;
+	width:auto;	
+}
+.kode_wht_icon_des h6{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:15px;	
+}
+.kode_wht_icon_des p{
+	color:#fff;	
+	padding:0px 30px 0px 0px;
+}
+.kode_wht_icon_des h6 a{
+	color:#fff;	
+}
+.kode_wht_des .bx-wrapper .bx-pager{
+	padding:0px;
+	text-align:right;
+	font-size:0px;
+	width:20px;	
+}
+.kode_wht_des .bx-controls.bx-has-pager.bx-has-controls-direction{
+		position:relative;
+		right:0px;
+		z-index:99999;
+}
+.kode_wht_des .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:170px;
+	right:0px;
+	text-align:center;	
+}
+.kode_wht_des .bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item{
+	margin-bottom:5px;	
+}
+.kode_wht_des .bx-wrapper .bx-pager.bx-default-pager a{
+	height:40px;
+	border-radius:0px;
+	width:3px;	
+}
+.kode_wht_des .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.kode_wht_des .bx-wrapper .bx-pager.bx-default-pager a.active{
+	width:5px;	
+}
+.kode_wht_des .bx-viewport{
+	z-index:9999;	
+}
+/*
+	  ==============================================================
+		   WHAT WE DO WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   HEADING WRAP CSS START
+	  ==============================================================
+*/
+.kode_hdg_1,
+.kode_hdg_2,
+.kode_hdg_3
+{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;
+	margin:-4px 0px 50px;	
+}
+.kode_hdg_1 h6,
+.kode_hdg_2 h6,
+.kode_hdg_3 h6
+{
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	line-height:normal;
+	margin-bottom:1px;
+	letter-spacing:2.4px;
+}
+.kode_hdg_1 h4,
+.kode_hdg_2 h4,
+.kode_hdg_3 h4
+{
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-bottom:6px;
+	position:relative;	
+}
+.kode_hdg_1 h4:before,
+.kode_hdg_2 h4:before,
+.kode_hdg_3 h4:before
+{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	width:75px;
+	height:3px;
+	background-color:#27282d;	
+}
+
+/*Heading 2 Wrap*/
+.kode_hdg_2 h6,
+.kode_hdg_3 h6
+{
+	color:#fff;	
+}
+.kode_hdg_2 h4,
+.kode_hdg_3 h4
+{
+	color:#fff;	
+}
+.kode_hdg_2 h4:before{
+	background-color:#fff;	
+}
+/*
+	  ==============================================================
+		   HEADING WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   NEWS & PRESS RELEASE WRAP CSS START
+	  ==============================================================
+*/
+.kode_services_news_bg{	
+	background-color:#f7f7f7;
+}
+.kode_services_news_bg .kode_press_new_lst,
+.kode_services_news_bg .margin_bottom
+{
+	margin:0px;	
+}
+.kode_press_news{
+	float:left;
+	width:100%;
+	position:relative;
+	box-shadow:0 1px 2px 1px rgba(0, 0, 0, 0.24);	
+}
+.kode_press_new_lst{
+	float:left;
+	width:100%;
+	margin:0px 0px 0px;
+	margin-bottom:50px;
+}
+.kode_press_news:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:0px;
+	height:4px;	
+}
+.kode_press_news figure{
+	background-color:rgba(0,0,0,1);	
+}
+.kode_press_news figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_press_news figure.kode_pres1_style:before{
+	background-color: #fff;
+    bottom: -110px;
+    content: "";
+    height: 50%;
+    left: -10px;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 110%;
+    z-index: 9;	
+}
+.kode_press_news figure.kode_pres1_style:after{
+    bottom: 10px;
+    content: "";
+    height: 3px;
+    left: 0px;
+    position: absolute;
+    transform: rotate(-7deg);
+    width: 0%;
+    z-index: 9;	
+}
+.kode_press_news figure figcaption{
+	position:absolute;
+	top:0%;
+	width:100%;
+	text-align:center;
+	opacity:0;	
+}
+.kode_press_news figure figcaption a{
+	display:block;
+	font-weight:300;
+	font-size:45px;
+	margin:-45px 0px 0px;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;	
+}
+.kode_news_date{
+	float:left;
+	width:100%;
+	position:relative;
+	margin-bottom:15px;
+	padding-left:10px;	
+}
+.kode_news_date ul li{
+	float:left;
+	position:relative;
+}
+.kode_news_date ul li a{
+	font-size:12px;
+	color:#474747;
+	text-transform:uppercase;
+	padding:10px 10px 5px;	
+}
+.kode_news_des{
+	float:left;
+	width:100%;
+	padding:0px 20px 30px 20px;	
+}
+.kode_news_des h6 > a{
+	display:block;
+	font-size:20px;
+	color:#474747;
+	margin-bottom:9px;
+	text-transform:uppercase;
+	font-weight:bold;
+	position:relative;
+	line-height:18px;
+	float:left;
+	width:100%;
+}
+.kode_news_des h6 a:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:-22px;
+	width:3px;
+	height:100%;
+	background-color:#474747;	
+}
+.kode_news_des p{
+	color:#999999;
+	word-break:break-all;
+	margin-bottom:10px;	
+}
+.kode_news_des a{
+	display:inline-block;
+	float:right;
+	color:#27282d;	
+}
+.kode_news_des a i{
+	margin-left:5px;
+	font-weight:normal;
+	color:#27282d;	
+}
+.kode_press_news:hover:before{
+	width:100%;	
+}
+.kode_press_news:hover figure.kode_pres1_style:after{
+	width:100%;
+	bottom:32px;	
+}
+.kode_press_news:hover figure figcaption{
+	top:50%;
+	opacity:1;	
+}
+.kode_press_news:hover figure img{
+	opacity:0.4;	
+}
+.kode_press_news:hover figure.kode_pres1_style:before{
+	transform:rotate(-7deg);	
+}
+/*STYLE 2*/
+.kode_press_news figure.kode_pres2_style:before{
+	background-color: #fff;
+    bottom: -112px;
+    content: "";
+    height: 50%;
+    left: -10px;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 110%;
+    z-index: 9;	
+}
+.kode_press_news figure.kode_pres2_style:after{
+    bottom: 54px;
+    content: "";
+    height: 3px;
+    left: 0px;
+    position: absolute;
+    transform: rotate(7deg);
+    width: 0%;
+    z-index: 9;	
+}
+.kode_press_news:hover figure.kode_pres2_style:after{
+	width:100%;
+	bottom:32px;	
+}
+.kode_press_news:hover figure.kode_pres2_style:before{
+	transform: rotate(7deg);	
+}
+/*LINK STYLE*/
+.kode_press_link{
+	float:left;
+	width:100%;
+	text-align:center;	
+	line-height:12px;
+}
+.kode_press_link a{
+	border:2px solid #000000;
+	color:#474747;	
+}
+.kode_press_link a.kode_link_2:before{
+	content:"";
+	position:absolute;
+	background-color:#474747;	
+}
+.kode_press_link a.kode_link_2:hover{
+	color:#fff;	
+}
+
+/*
+	  ==============================================================
+		   NEWS & PRESS RELEASE WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   LATEST WORK WRAP CSS START
+	  ==============================================================
+*/
+.kode_latest_wrk_bg{
+	border-top:1px solid #e9e9e9;
+	padding-bottom:61px;	
+}
+.kode_latest_galry{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_latest_galry ul.kode_tab_lnk{
+	margin:0px 0px 40px;	
+}
+/*Gallery List Wrap Start*/
+.filterable_container{		
+	margin-left:-1.5%;
+	margin-right:-1.5%;
+}
+.filterable_container .home_gallery{
+	width:24.7%;
+	float:left;
+	padding-left:1.5%;
+	padding-right:0px;	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.kode_galry_item{
+	float:left;
+	width:100%;
+	position:relative;
+	margin-bottom:2.8%;
+	overflow:hidden;	
+}
+.kode_galry_item:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:0px;
+	background-color:rgba(0,0,0,0.3);
+	z-index:1;	
+}
+.kode_galry_item figure:before{
+    bottom: -48px;
+    content: "";
+    height: 50%;
+    position: absolute;
+    right: -471px;
+    transform: rotate(-36deg);
+    width: 110%;
+    z-index: 9;
+	opacity:0;	
+	box-shadow:0px 0px 0px 5px #fff;
+}
+.kode_galry_item figure img{
+	width:100%;
+	height:auto;
+}
+.kode_galry_item figure figcaption{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	text-align:center;
+	z-index:9999;
+	opacity:0;	
+}
+.kode_galry_item figure figcaption a{
+	display:inline-block;
+	font-size:45px;
+	color:#fff;	
+}
+.kode_galry_des{
+	position:absolute;
+	bottom:-50px;
+	right:0px;
+	z-index:99999;
+	text-align:right;
+	width:100%;
+	padding:0px 25px 20px 0px;
+	opacity:0;	
+}
+.kode_galry_des p{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:14px;	
+}
+.kode_galry_des h6{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;	
+}
+.kode_galry_item:hover:before{
+	height:100%;	
+}
+.kode_galry_item:hover figure figcaption{
+	bottom:41%;
+	opacity:1;	
+}
+.kode_galry_item:hover figure:before{
+	right: -171px;
+	opacity:1;	
+}
+.kode_galry_item:hover figure:after{
+	width:100%;	
+}
+.kode_galry_item:hover .kode_galry_des{
+	opacity:1;
+	bottom:0px;	
+}
+
+/*
+	  ==============================================================
+		   LATEST WORK WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   PURCHASE NOW WRAP CSS START
+	  ==============================================================
+*/
+.kode_purchase_bg{
+	position:relative;
+	background-image:url(images/purchase-now-bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;	
+}
+.kode_purchase_bg:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	opacity:0.7;
+
+}
+.kode_purchase_bg:after{
+	border: 1px solid;
+    bottom: 10px;
+    content: "";
+    height: 93%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 99%;	
+}
+.kode_purchase_bg .container{
+	position:relative;	
+}
+.kode_purchase{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;
+	z-index:99999;	
+	line-height:12px;
+}
+.kode_purchase h6{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0px 0px 21px;
+	line-height:18px;	
+}
+.kode_purchase h4{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0px 0px 22px;
+	line-height:24px;	
+}
+.kode_purchase a{
+	font-size:16px;
+	z-index:9999;	
+}
+.kode_purchase a.kode_link_2:hover{
+	color:#000000;	
+}
+
+/*
+	  ==============================================================
+		   PURCHASE NOW WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   OUR POLITICAL CAMPAIGN WRAP CSS START
+	  ==============================================================
+*/
+.kode_politician_bg{	
+	background:#f9f9f9;
+}
+.kode_camp_outr_wrap{
+	float:left;
+	width:100%;	
+}
+.kode_camp_outr_wrap > li{
+	float:left;
+	width:100%;	
+}
+.kode_campagin_lst{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_campgn_lst1{
+	float:right;
+	width:50%;
+	position:relative;	
+}
+.kode_cam_date{
+	float:left;
+	position:absolute;
+	left:-40px;
+	top:10px;
+	width:80px;
+	height:80px;
+	text-align:center;
+	padding-top:12px;
+	background-color:#fff;
+	border-radius:100%;
+	border:5px solid #757575;
+	box-shadow:0px 0px 0px 5px rgba(131,131,131,1), 0px 0px 0px 10px rgba(201,201,201,1);	
+}
+.kode_cam_date:before{
+	content:"";
+	position:absolute;
+	top:38px;
+	left:105px;
+	height:2px;
+	width:40px;
+	background-color:#838383;	
+}
+.kode_cam_date:after{
+	content:"";
+	position:absolute;
+	top:31px;
+	left:143px;
+	height:15px;
+	width:15px;
+	border-radius:100%;
+	background-color:#838383;	
+}
+.kode_cam_date h4,
+.kode_cam_date h6
+{
+	font-weight:bold;
+	color:#838383;
+	text-transform:uppercase;
+	line-height:26px;	
+}
+.kode_lst1_des{
+	float:none;
+	padding:0px 0px 0px 160px;
+	width:auto;	
+}
+.kode_lst1_des h6{
+	font-size:20px;
+	font-weight:500;
+	text-transform:uppercase;
+	color:#343434;
+	margin:0px 0px 4px;
+	line-height:31px;	
+}
+.kode_lst1_des p{
+	word-break:break-all;
+	line-height:28px;	
+}
+.kode_lst1_des ul{
+	float:left;
+	width:100%;
+	margin-bottom:6px;	
+}
+.kode_lst1_des > ul > li{
+	color:#838383;
+	position:relative;
+	display:inline-block;
+	padding:0px 10px;
+	font-weight:bold;	
+}
+.kode_lst1_des ul li i{
+	margin-right:5px;	
+}
+.kode_lst1_des ul li:first-child{
+	padding-left:0px;	
+}
+/*List 2 Style*/
+.kode_campgn_lst2{
+	float:left;
+	position:relative;
+	width:50%;	
+}
+.kode_campgn_lst2:after{
+	content:"";
+	position:absolute;
+	top:120px;
+	left:100%;
+	bottom:20px;
+	width:2px;
+	background-color:#d8d8d8;
+}
+.kode_campgn_lst1:after{
+	content:"";
+	position:absolute;
+	top:120px;
+	right:100%;
+	bottom:20px;
+	width:2px;
+	background-color:#d8d8d8;
+}
+
+.kode_campgn_lst2 .kode_cam_date{
+	right:-40px;
+	left:auto;	
+}
+.kode_campgn_lst2 .kode_cam_date:before{
+	right:110px;
+	left:auto;	
+}
+.kode_campgn_lst2 .kode_cam_date::after{
+	right:150px;
+	left:auto;	
+}
+.kode_campgn_lst2 .kode_lst1_des{
+	float:none;
+	padding:0px 160px 0px 0px;
+	text-align:right;	
+}
+/*Hover Style*/
+.kode_campgn_lst1:hover .kode_cam_date h4,
+.kode_campgn_lst1:hover .kode_cam_date h6,
+.kode_campgn_lst2:hover .kode_cam_date h4,
+.kode_campgn_lst2:hover .kode_cam_date h6
+{
+	color:#fff;	
+}
+.kode_campgn_lst1:hover .kode_cam_date,
+.kode_campgn_lst2:hover .kode_cam_date
+{
+	border:5px solid #fff;		
+}
+
+/*
+	  ==============================================================
+		   OUR POLITICAL CAMPAIGN WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   OUR POLITICIAN WRAP CSS START
+	  ==============================================================
+*/
+.kode_about_meet_bg{
+}
+.kode_meet_bg{
+	padding-top:58px;	
+}
+.kode_top_politician_bg{	
+}
+.kode_politician {
+    float: left;
+    padding: 0 0 30px;
+    position: relative;
+    width: 100%;
+	box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.18));
+}
+.kode_politician figure{
+	border-bottom:4px solid #434343;
+	margin-bottom:15px;	
+}
+.kode_politician figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_politician figure:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:0%;
+	background-color:rgba(51,51,51,0.8);	
+}
+.kode_poli_img_des{
+	width:100%;
+	text-align:center;
+	position:absolute;
+	top:0%;
+	margin:-100px 0px 0px;
+	z-index:99999;
+	padding:0px 25px;
+	opacity:0;	
+}
+.kode_poli_img_des h6 a{
+	display:inline-block;
+	color:#fff;
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:15px;	
+}
+.kode_poli_img_des span{
+	display:block;
+	color:#cccccc;
+	margin-bottom:20px;	
+}
+.kode_poli_img_des p{
+	color:#cccccc;
+	word-break:break-all;	
+}
+.kode_politician_des{
+	float:left;
+	width:100%;
+	text-align:center;
+	position:relative;	
+}
+.kode_politician_des:before{
+	content:"";
+	position:absolute;
+	width: 0; 
+	height: 0;
+	top:-15px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	opacity:0px;
+	visibility:hidden; 
+}
+.kode_politician_des h6{
+	font-size:20px;
+	color:#27282d;
+	text-transform:uppercase;
+	
+	font-weight:bold;	
+}
+.kode_politician_des p{
+	color:#999999;
+	text-transform:capitalize;
+	
+}
+.kode_politician_des ul{
+	float:left;
+	width:100%;	
+}
+.kode_politician_des ul li{
+	display:inline-block;
+	position:relative;	
+}
+.kode_politician_des ul li a{
+	display:block;
+	padding:0px 15px;
+	color:#777;	
+	font-size:20px;
+}
+.kode_politician:hover{
+	box-shadow:0px 0px 8px 2px rgba(0,0,0,0.18);
+}
+.kode_politician:hover figure:before{
+	height:100%;	
+}
+.kode_politician:hover .kode_poli_img_des{
+	top:50%;
+	opacity:1;	
+}
+.kode_politician:hover figure{
+	border-bottom:4px solid;	
+}
+.kode_politician:hover .kode_politician_des:before{
+	opacity:1;
+	visibility:visible;	
+}
+
+/*
+	  ==============================================================
+		   OUR POLITICIAN WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   PROGRESS BAR WRAP CSS START
+	  ==============================================================
+*/
+.kode_progress_bg{	
+background:#f9f9f9;
+}
+.kode_progress{
+	float:left;
+	width:100%;
+	position:relative;
+	margin-bottom:30px;	
+}
+.kode_progress h6{
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+.kode_progress .progress{
+	margin:0px;
+	height:4px;
+	border-radius:0px;
+	background-color:#e3e5e8;	
+}
+
+/*
+	  ==============================================================
+		   PROGRESS BAR WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   COUNT UP WRAP CSS START
+	  ==============================================================
+*/
+.kode_countup_bg{
+	position:relative;
+	background-image:url(images/count-up-bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;	
+}
+.kode_countup_bg:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	opacity:0.9;
+	
+}
+.kode_countup_bg .container{
+	position:relative;	
+}
+.kode_countup{
+	float:left;
+	width:100%;
+	text-align:center;
+	position:relative;	
+}
+.kode_countup i{
+	color:#fff;
+	font-size:50px;
+	margin-bottom:10px;	
+}
+.kode_countup h3{
+	color:#fff;
+	text-transform:uppercase;
+	padding-bottom:12px;
+	position:relative;
+	margin-bottom:22px;
+	font-weight:bold;	
+}
+.kode_countup h3:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	width:55px;
+	height:2px;
+	background-color:#fff;	
+}
+.kode_countup p{
+	margin:0px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	line-height:14px;	
+}
+
+/*
+	  ==============================================================
+		   COUNT UP WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   LATEST BLOG POST WRAP CSS START
+	  ==============================================================
+*/
+.kode_latest_outer_wrap{
+		
+}
+.kode_latest_outer_wrap .kode_hdg_1 h6{
+	margin-bottom:1px;
+}
+.kode_latest_outer_wrap .kode_hdg_1 h4{
+	padding-bottom:7px;
+}
+.kode_latst_post_lst .bx-wrapper{
+	float:left;	
+}
+.kode_latest_blog{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_latest_blog:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.6);
+	z-index:1;	
+}
+.kode_latest_blog figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_latest_blog > h6{
+	position:absolute;
+	top:20px;
+	left:20px;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:capitalize;
+	background-color:#ff0000;
+	padding:8px 15px;
+	z-index:99999;	
+}
+.kode_latest_blog_des{
+	position:absolute;
+	bottom:15px;	
+	z-index:99999;
+	padding:0px 80px 0px 25px;
+}
+.kode_latest_blog_des h6 a{
+	display:inline-block;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:20px;
+	margin-bottom:8px;	
+	line-height:30px;
+}
+.kode_latest_blog_des ul{
+	float:left;
+	width:100%;	
+}
+.kode_latest_blog_des ul li{
+	float:left;
+	position:relative;
+	border-left:2px solid #fff;	
+}
+.kode_latest_blog_des ul li a{
+	display:block;
+	padding:0px 12px;
+	color:#fff;
+	line-height:18px;
+}
+.kode_latest_blog_des ul li a i{
+	margin-right:5px;	
+}
+.kode_latest_blog_des ul li:first-child{
+	border-left:0px;
+	padding-left:0px;	
+}
+.kode_latst_post_lst .bx-wrapper .bx-pager{
+	display:none;	
+}
+.kode_latst_post_lst .bx-wrapper .bx-controls-direction a{
+	background-color:#1eade5;
+	border-radius:100%;
+	border:3px solid #fff;
+	text-indent:0;
+	text-align:center;
+}
+.kode_latst_post_lst .bx-wrapper .bx-controls-direction a.bx-prev{
+	left:-15px;	
+}
+.kode_latst_post_lst .bx-wrapper .bx-controls-direction a.bx-next{
+	right:-15px;	
+}
+.kode_latst_post_lst .bx-wrapper .bx-controls-direction a.bx-prev:before
+{
+	content:"\f104";
+	font-family:fontawesome;
+	color:#fff;
+	font-size:20px;
+	position:absolute;
+	top:-2px;
+	left:9px;
+	font-weight:bold;	
+}
+.kode_latst_post_lst .bx-wrapper .bx-controls-direction a.bx-next:before{
+	content:"\f105";
+	font-family:fontawesome;
+	color:#fff;
+	font-size:20px;
+	position:absolute;
+	top:-2px;
+	left:9px;
+	font-weight:bold;	
+}
+/*Blog Style 2*/
+.kode_blog_style2{
+	margin-bottom:20px;	
+}
+
+/*
+	  ==============================================================
+		   LATEST BLOG POST WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   VIDEO & AUDIO WRAP CSS START
+	  ==============================================================
+*/
+.kode_video_bg{
+	float:left;
+	width:100%;
+	background-color:#262927;
+	padding:70px 0px;	
+}
+.kode_audio_wrap{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_audio_wrap figure:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	width:0px;
+	height:0px;
+	margin:auto;
+	background-color:rgba(0,0,0,0.6);
+}
+.kode_audio_wrap figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_audio_wrap figure figcaption{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	top:50%;
+	opacity:0;	
+}
+.kode_audio_wrap figure figcaption a{
+	display:inline-block;
+	color:#fff;
+	font-size:30px;
+	margin-top:-30px;
+	border:1px solid #fff;	
+	padding:10px 20px;
+}
+.kode_audio_wrap figure:hover figcaption{
+	opacity:1;
+}
+.kode_video_list .owl-controls .owl-pagination,
+.kode_video_list .owl-controls .owl-buttons
+{
+	display:none;	
+}
+/*Hover */
+.kode_audio_wrap figure:hover:before{
+	width:100%;
+	height:100%;	
+}
+
+/*
+	  ==============================================================
+		   VIDEO & AUDIO WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   PURCHASE NOW 2 WRAP CSS START
+	  ==============================================================
+*/
+.kode_purchase_now2{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_purchase_now2 h4{
+	float:left;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-top:16px;
+	line-height:24px;	
+}
+.kode_purchase_now2 a{
+	float:right;
+	font-size:16px;
+	text-transform:uppercase;
+	z-index:9999;	
+}
+.kode_purchase_now2 a.kode_link_2:hover{
+	color:#000000;	
+}
+
+/*
+	  ==============================================================
+		   COMMING UP ELECTION WRAP CSS START
+	  ==============================================================
+*/
+.kode_counter_bg{
+	border-bottom:4px solid #f9f9f9;	
+}
+.kode_coming_election{
+	float:left;
+	width:100%;
+	position:relative;
+	background-image:url(extra-images/upcomming-election-01.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding:90px 0px;
+	background-attachment:fixed;	
+}
+.kode_coming_election:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.7);
+	z-index:1;	
+}
+.kode_coming_election:after{
+	border: 1px solid #a9a7aa;
+    bottom: 10px;
+    content: "";
+    height: 92%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 98%;
+	z-index:9999;	
+}
+/*Time Counter Style Start*/
+.kode_counter_caption{
+	width:100%;
+	text-align:center;
+	z-index:999999;
+	position:relative;	
+}
+.kode_counter_caption h5{
+	color:#fff;	
+	text-transform:capitalize;
+	font-weight:bold;
+	margin:0px 0px 40px;
+}
+ul.countdown {
+	list-style: none;
+	padding: 0;
+	display: block;
+	text-align: center;
+	position:relative;
+}
+ul.countdown:before{
+	content:"";
+	position:absolute;
+	border-top:	1px solid #a9a7aa;
+	border-bottom:	1px solid #a9a7aa;
+	width:29%;
+	height:69.9%;
+	left:12px;
+	top:0px;
+}
+ul.countdown:after{
+	content:"";
+	position:absolute;
+	border-top:	1px solid #a9a7aa;
+	border-bottom:	1px solid #a9a7aa;
+	width:29%;
+	height:69.9%;
+	right:12px;
+	top:0px;
+}
+ul.countdown li { 
+	display: inline-block;
+	position:relative;
+	margin-left:30px;
+}
+.kode_banner_counter ul.countdown li:before{
+	content:"";
+	position:absolute;
+	top:18px;
+	left:0px;
+	width:100%;
+	height:50px;
+	border-right:1px solid #fff;	
+}
+ul.countdown li span{
+	display:inline-block;
+	font-size:36px;
+	color:#fff;
+	font-weight:bold;
+	padding:0px;
+	margin:0px 0px 10px;
+	line-height:normal;
+	width:100px;
+	height:100px;
+	line-height:100px;
+	border:1px solid #ababac;
+	background-color:rgba(171,171,171,0.3);
+}
+ul.countdown li p {
+	color: #fff;
+	font-size: 15px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.days{
+	padding: 0 10px;
+	color: #fff;
+}
+/*
+	  ==============================================================
+		   COMMING UP ELECTION WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   TESTIMONIAL WRAP CSS START
+	  ==============================================================
+*/
+.kode_testimonial_bg{
+	background-image:url(images/testiminial-bg.png);
+	background-repeat:no-repeat;
+	background-size:50%;
+	background-position:center;	
+}
+.kode_testimonial_wrap .item{
+	margin-left:30px;
+}
+.kode_testi_wrap{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;
+	border-bottom:2px solid #dbd9d9;
+	padding:30px 0px;
+	border-left:1px solid #f2f2f2;
+	border-right:1px solid #f2f2f2;
+	border-top:1px solid #f2f2f2;
+	background-color:#f9f9f9;	
+}
+.kode_testi_wrap figure{
+	margin-bottom:20px;	
+}
+.kode_testi_wrap figure img{
+	border-radius:100%;
+	border:9px solid #dcd9d9;	
+}
+.kode_testi_wrap p{
+	line-height:26px;
+	word-break:break-all;
+	margin-bottom:20px;
+	padding:0px 30px;	
+}
+.kode_testi_wrap a{
+	color:#333333;
+	display:block;	
+}
+.kode_testimonial_wrap .owl-pagination{
+	display:none;	
+}
+.kode_testimonial_wrap .owl-wrapper-outer{
+	margin-bottom:50px;
+	float:left;
+}
+.kode_testimonial_wrap.owl-theme .owl-controls .owl-buttons div{
+	width:30px;
+	height:30px;
+	border:2px solid #dcd9d9;
+	margin:0px;
+	border-radius:0px;
+	background:none;
+	margin-left:10px;
+	position:relative;
+	font-size:0px;
+}
+.kode_testimonial_wrap.owl-theme .owl-controls .owl-buttons div.owl-prev:before,
+.kode_testimonial_wrap.owl-theme .owl-controls .owl-buttons div.owl-next:before
+{
+	content:"\f104";
+	font-family:fontawesome;
+	position:absolute;
+	top:0px;
+	left:2px;
+	color:#838383;
+	font-size:20px;
+	width:20px;
+	height:20px;
+	line-height:25px;	
+}
+.kode_testimonial_wrap.owl-theme .owl-controls .owl-buttons div.owl-next:before{
+	content:"\f105";	
+}
+/*
+	  ==============================================================
+		   TESTIMONIAL WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   CONTACT WITH US WRAP CSS START
+	  ==============================================================
+*/
+.kode_contact_bg{
+	position:relative;
+	background-image:url(images/contact-us-bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;	
+	background-attachment:fixed;
+}
+.kode_contact_bg:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);	
+}
+.kode_contact_bg .container{
+	position:relative;
+	z-index:99999;	
+}
+/*Contact Us Field Wrap Style*/
+.kode_contact_wrap,
+.kode_contact_field
+{
+	float:left;
+	width:100%;	
+}
+.kode_contact_wrap h5{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:20px;
+	font-size:26px;
+	line-height:20px;	
+}
+.kode_contact_field{
+	margin-bottom:50px;	
+	text-align:center;
+}
+.kode_contact_field input[type="text"]{
+	width:100%;
+	height:50px;
+	padding:8px 0px;
+	border:0px;
+	border-bottom:1px solid #fff;
+	background:none;
+	color:#fff;	
+}
+.kode_contact_field textarea{
+	width:100%;
+	height:120px;
+	border:0px;
+	border-bottom:1px solid #fff;
+	background:none;
+	padding:20px 0px;
+	resize:none;
+	color:#fff;	
+}
+.kode_contact_field input[type="submit"],
+.kode_contact_field button{
+	border:0px;
+	color:#fff;
+	font-weight:bold;
+	font-size:18px;
+	font-family: 'Sintony', sans-serif;
+	text-transform:uppercase;
+	padding:20px 25px;
+	line-height:16px;	
+}
+.kode_contact_field input[type="submit"]:hover,
+.kode_contact_field button:hover{
+	background-color:#000000;	
+}
+/*Contact Info Wrap Start*/
+.kode_contact_info{
+	float:left;
+	width:100%;	
+	margin-bottom:35px;
+	padding:0px 10px 0px 50px;
+}
+.kode_contact_info h5{
+	margin-bottom:40px;	
+}
+.kode_contact_info i{
+	width:30px;
+	font-size:30px;
+	color:#fff;
+	float:left;
+	line-height:22px;	
+}
+.kode_contact_des{
+	float:none;
+	padding:0px 0px 0px 50px;	
+}
+.kode_contact_des span{
+	display:block;
+	font-size:16px;
+	color:#fff;	
+}
+.kode_contact_des span a{
+	color:#fff;	
+}
+/*
+	  ==============================================================
+		   CONTACT WITH US WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   BREAD CRUMB WRAP CSS START
+	  ==============================================================
+*/
+.kode_about_bg{
+	float:left;
+	width:100%;
+	border-bottom:3px solid;
+	position:relative;
+	background-image:url(images/about-us-01.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	min-height:350px;
+	background-attachment:fixed;	
+}
+.kode_about_bg:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.7);	
+}
+.kode_about_bg .container{
+	position:relative;	
+}
+.kode_aboutus_wrap{
+	float:left;
+	width:100%;
+	text-align:center;
+	position:relative;
+	padding:209px 0 0;	
+}
+.kode_aboutus_wrap h4{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;	
+}
+.kode_bread_crumb{
+	float:left;
+	width:100%;	
+}
+.kode_bread_crumb ul li{
+	display:inline-block;
+	position:relative;	
+}
+.kode_bread_crumb ul li:before{
+	content:"\f101";
+	font-family:fontawesome;
+	color:#fff;
+	position:absolute;
+	top:0px;
+	left:-4px;
+	font-weight:bold;	
+}
+.kode_bread_crumb ul li:first-child:before{
+	font-size:0px;	
+}
+.kode_bread_crumb ul li a{
+	display:block;
+	padding:0px 10px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:12px;	
+}
+/*
+	  ==============================================================
+		   BREAD CRUMB WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   ABOUT US SERVICES WRAP CSS START
+	  ==============================================================
+*/
+.kode_services_abt_bg{	
+	background:#f9f9f9;
+}
+.kode_about_services{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;
+	padding:0px 20px 20px;	
+}
+.kode_about_services i{
+	display:block;
+	font-size:60px;
+	margin:0px 0px 16px;
+	color:#3d3d3d;	
+}
+.kode_about_services h5 a{
+	display:block;
+	font-weight:bold;
+	text-transform:capitalize;
+	padding-bottom:16px;
+	margin-bottom:10px;
+	position:relative;
+	line-height:24px;
+}
+.kode_about_services h5 a:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	height:1px;
+	width:50px;
+	margin:auto;
+	background-color:#333333;	
+}
+.kode_about_services p{
+	word-break:break-all;
+	line-height:26px;
+	font-weight:600;	
+}
+
+/*
+	  ==============================================================
+		   ABOUT US SERVICES WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   SOCIAL COUNTER WRAP CSS START
+	  ==============================================================
+*/
+.kode_socil_counter_bg{	
+}
+.kode_social_item_list{
+	float:left;
+	width:100%;	
+	position:relative;
+}
+.kode_social_item{
+	float:left;
+	width:100%;
+	border-left:1px solid #fff;
+	text-align:center;
+	position:relative;	
+}
+.kode_social_item i{
+	float:left;
+	width:100px;
+	font-size:50px;
+	color:#fff;
+	padding-top:15px;	
+}
+.kode_social_des{
+	float:none;
+	padding:0px 0px 0px 60px;
+	width:auto;
+	text-align:left;	
+}
+.kode_social_des h4{
+	color:#fff;
+	display:inline-block;
+	font-weight:bold;
+	font-size:36px;
+	line-height:30px;	
+}
+.kode_social_des span{
+	display:inline-block;
+	color:#fff;
+	font-weight:bold;
+	font-size:36px;	
+}
+.kode_social_des p{
+	color:#fff;
+	text-transform:capitalize;
+	margin:0px;
+	font-size:16px;	
+}
+.kode_social_item_list .col-md-3:first-child .kode_social_item{
+	border-left:0px;	
+}
+/*
+	  ==============================================================
+		   SOCIAL COUNTER WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   OUR ACHIEVEMENT WRAP CSS START
+	  ==============================================================
+*/
+.kode_achivemnt_bg{	
+}
+.kode_achment_wrap{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_achment_wrap figure:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.4);	
+}
+.kode_achment_wrap figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_achment_wrap figcaption{
+	position:relative;
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+.kode_achment_wrap figcaption h6{
+	display:inline-block;
+	font-weight:bold;
+	color:#fff;
+	font-size:14px;
+	padding:5px 10px;
+	background-color:#333333;	
+}
+.kode_achment_des{
+	float:left;
+	width:100%;
+	padding:32px 25px;
+	box-shadow:0 2px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.kode_achevemnt_des_2
+{
+	float:left;
+	width:100%;
+	padding:20px 25px;
+	box-shadow:0 2px 7px 0px rgba(0, 0, 0, 0.25);	
+}
+.kode_achment_des h5{
+	line-height:20px;
+}
+.kode_achevemnt_des_2 h5{
+	line-height:20px;
+	padding:5px 0 10px;
+}
+.kode_achment_des h5 a,
+.kode_achevemnt_des_2 h5 a
+{
+	font-size:16px;
+	text-transform:capitalize;
+	font-weight:bold;
+}
+.margin_bottom{
+	margin-bottom:40px;	
+}
+
+/*
+	  ==============================================================
+		   OUR ACHIEVEMENT WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   WHERE WE ARE WRAP CSS START
+	  ==============================================================
+*/
+.kode_where_bg{	
+	background:#f9f9f9;
+}
+.kode_where_we{
+	width:100%;
+	float:left;
+	position:relative;
+}
+.kode_where_we ul{
+	position:relative;
+	width:100%;
+	float:left;	
+}
+.kode_where_we ul li{
+	display:inline-block;
+	position:relative;
+	width:48%;
+	padding:0px 90px 0px 0px;
+	margin-bottom:50px;
+}
+.kode_where_we ul:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	bottom:50px;
+	left:50%;
+	width:2px;	
+}
+.kode_year_list{
+	display:inline-block;
+	position:relative;
+	width:100%%;
+		
+}
+.kode_year_list figure{
+	margin-bottom:40px;
+	overflow:visible;
+	z-index:9999;
+	background-color: #000;	
+}
+.kode_year_list figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_year_list a:before {
+    color: #fff;
+    content: "\f067";
+    font-family: FontAwesome;
+    font-size: 40px;
+    left: 0;
+    margin-top: -25px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: scale(0);
+    width: 100%;
+    z-index: 10;
+}
+.kode_where_des h5{
+	text-transform:uppercase;
+	margin-bottom:10px;
+	font-weight:500;	
+}
+.kode_where_des p{
+	word-break:break-all;	
+}
+.kode_where_year{
+	background-color: #fff;
+    border: 5px solid #757575;
+    border-radius: 100%;
+    box-shadow: 0 0 0 5px rgba(131, 131, 131, 1), 0 0 0 10px rgba(201, 201, 201, 1);
+    float: left;
+    height: 90px;
+    position: absolute;
+    right: -160px;
+    text-align: center;
+    top: 120px;
+    width: 90px;	
+}
+.kode_where_year h6{
+	color:#838383;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:80px;
+}
+/*Second Li Style*/
+.kode_where_we ul li:nth-child(even){
+	padding:0px 0px 0px 90px;
+	width:48%;
+	float:right;
+}
+.kode_where_we ul li:nth-child(even) .kode_where_year{
+	left:-160px;
+	right:auto;	
+}
+.kode_where_we ul li:nth-child(even) .kode_year_list figure{
+	margin-bottom:0px;	
+}
+.kode_where_we ul li:nth-child(even) .kode_where_des{
+	margin-bottom:40px;	
+}
+.kode_where_we ul li:hover .kode_where_year{
+	border:5px solid #fff;	
+}
+.kode_where_we ul li:hover .kode_where_year h6{
+	color:#fff;
+}
+/*Hover Style*/
+.kode_where_we ul li:hover figure img{
+	opacity:0.3;	
+}
+.kode_where_we ul li:hover figure a:before{
+	transform: scale(1);	
+}
+
+/*
+	  ==============================================================
+		   WHERE WE ARE WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   BECOME A VOLUNTEER WRAP CSS START
+	  ==============================================================
+*/
+.kode_volunteer_bg{
+	position:relative;
+	background-image:url(images/volunter-bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+.kode_volunteer_bg:before,
+.kode_skill_bg:before
+{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.7);	
+}
+.kode_volunteer_bg:container{
+	position:relative;
+	z-index:99999;	
+}
+.kode_volunteer{
+	width:610px;
+	margin:auto;
+	text-align:center;
+	position:relative;	
+}
+.kode_volunteer p{
+	color:#fff;
+	font-size:16px;
+	margin-bottom:43px;
+	line-height:26px;
+	float:left;
+}
+.kode_volunteer_btn{
+	margin:auto;
+	position:relative;
+	width:610px;
+	overflow:hidden;	
+}
+.kode_volunteer_btn a{
+	display:inline-block;
+	position:relative;
+	float:left;
+	width:50%;	
+	z-index:99999;
+	padding:10px 15px 10px 20px;
+}
+.kode_volunteer_btn a.donate:before{
+	content: "";
+	position: absolute;
+    height: 100%;
+    left: -200px;
+    right: -4px;
+    top: 0;
+    transform:skewX(28deg);
+	-moz-transform:skewX(28deg);
+	-webkit-transform:skewX(28deg);
+    z-index: -1;
+}
+.kode_volunteer_btn a.donate i{
+	display:inline-block;
+	width:55px;
+	height:55px;
+	background-color:#fff;
+	font-size:28px;
+	border-radius:100%;
+	box-shadow:0px 0px 0px 5px rgba(247,165,149,0.7);
+	text-align:center;
+	line-height:48px;
+	vertical-align:middle;	
+}
+.kode_volunteer_btn a.donate span{
+	display:inline-block;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;	
+	padding-left:15px;
+	padding-top:1px;
+	font-size:15px;
+}
+.kode_volunteer_btn a.kf_volunteer:after{
+	content: "";
+	position:absolute;
+	background-color: #2196f3;
+    height: 100%;
+    left:15px;
+    right:-2000px;
+    top: 0;
+    transform:skewX(28deg);
+    z-index: -1;		
+}
+.kode_volunteer_btn a.kf_volunteer i{
+	float:right;
+	display:inline-block;
+	width:55px;
+	height:55px;
+	background-color:#fff;
+	font-size:28px;
+	border-radius:100%;
+	color:#2196f3;
+	box-shadow:0px 0px 0px 5px rgba(144,203,249,0.7);
+	text-align:center;
+	line-height:48px;
+	vertical-align:middle;	
+}
+.kode_volunteer_btn a.kf_volunteer span{
+	display:inline-block;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+	padding-top:16px;
+	padding-right:15px;
+	float:right;
+	font-size:15px;	
+}
+.kode_volunteer_btn a:hover{
+	opacity:0.7;
+}
+/*
+	  ==============================================================
+		   BECOME A VOLUNTEER WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   OUR SKILLS WRAP CSS START
+	  ==============================================================
+*/
+.kode_skill_bg{
+	position:relative;
+	background-image:url(images/our-skill-bg.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;	
+}
+.kode_volunteer_bg:container{
+	position:relative;	
+}
+.kode-skills{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.kode-skills ul{
+	float: left;
+	width: 100%;
+	margin: 0px 0px 30px 0px;
+}
+.kode-chart{
+  display: inline-block;
+  width: 185px;
+  height: 195px;
+  margin: 20px 40px;
+  vertical-align: top;
+  position: relative;
+  padding-top: 22px;
+  text-align: center;
+
+}
+.kode-chart span{
+	background:#fff;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 18;
+    font-weight: normal;
+    height: 80px;
+    width: 80px;
+    line-height: 82px;
+    text-align: center;
+    margin: 16% 0px;
+    color: #000;
+	font-size:20px;
+	font-weight:bold;
+}
+.kode-chart canvas{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.kode-chart > h5 {
+    bottom: -50px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+	margin-bottom:15px;
+	color:#fff;
+}
+
+/*
+	  ==============================================================
+		   OUR SKILLS WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   WHY WE ARE WRAP CSS START
+	  ==============================================================
+*/
+.kode_people_bg{	
+}
+.kode_goal_wrap{
+	margin-bottom:15px;
+	float:left;
+	width:100%;	
+}
+.kode_goal_wrap .accordion{
+	padding:15px 30px;
+	box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.27);
+	cursor:pointer;	
+}
+.kode_goal_wrap .accordion{
+	background-color:#f5f5f5;	
+}
+.kode_goal_wrap .accordion-close h6,
+.kode_goal_wrap .accordion-open h6
+{
+	font-size:18px;
+	color:#111111;
+	text-transform:capitalize;	
+}
+.kode_goal_wrap .accordion-close h6:after{
+	content:"\f105";
+	font-family:fontawesome;
+	float:right;
+	font-size:20px;
+}
+.goal_des{
+	padding:20px 30px;	
+}
+.goal_des ul li{
+	color:#666666;
+	line-height:30px;	
+}
+.goal_des ul li:before{
+	content:"\f10c";
+	font-family:fontawesome;
+	font-size:10px;
+	margin-right:10px;
+	vertical-align:middle;	
+}
+.kode_goal_wrap .accordion-open h6{
+	color:#fff;	
+}
+.kode_goal_wrap .accordion-open h6:after{
+	content:"\f107";
+	font-family:fontawesome;
+	float:right;
+	font-size:20px;	
+}
+/*Planning Wrap Style*/
+.kode_planning_wrap,.kode_planning_detail{
+	float:left;
+	width:100%;	
+}
+.kode_planning_wrap .nav-tabs{
+	border:0px;	
+}
+.kode_planning_wrap .nav-tabs li a{
+	border-radius:0;
+	margin:0;	
+}
+.kode_planning_wrap ul li{
+	float:left;
+	width:32.333%;
+	margin:0px 0.4%;
+}
+.kode_planning_wrap ul li a{
+	display:block;
+	text-align:center;
+	font-size:18px;
+	line-height:26px;
+	background-color:#f5f5f5;
+	color:#111111;
+	padding:10px 0px;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.27);
+		
+}
+.kode_planning_wrap ul li.active a,
+.kode_planning_wrap ul li:hover a
+{
+	color:#fff;	
+}
+.kode_planning_wrap .nav-tabs li.active a,
+.kode_planning_wrap .nav-tabs li.active a:focus,
+.kode_planning_wrap .nav-tabs li.active a:hover{
+	color:#fff;	
+}
+.kode_planning_detail{
+	padding-top:20px;	
+}
+.planning_img{
+	float:left;
+	width:30%;
+}
+.planning_img img{
+	width:100%;
+	height:auto;	
+}
+.planning_des{
+	padding:0 0 0 180px;
+	float:none;
+}
+.planning_des p{
+	word-break:break-all;
+	color:#666666;
+	line-height:22px;
+}
+p.planning_1{
+	padding-bottom:20px;
+	padding-top:10px;	
+}
+/*
+	  ==============================================================
+		   WHY WE ARE WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   SUBCRIBE WRAP CSS START
+	  ==============================================================
+*/
+.kode_subcribe_des{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_subcribe_des h5{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	float:left;
+	font-size:20px;	
+	padding-top:12px;
+}
+.kode_subcribe_des form{
+	position:relative;
+	width:485px;
+	float:right;	
+}
+.kode_subcribe_des input[type="text"]{
+	width:100%;
+	border:1px solid #fff;
+	height:52px;
+	background:none;
+	float:left;
+	padding:10px 100px 10px 30px;
+	color:#fff;
+	font-weight:bold;	
+}
+.kode_subcribe_des button{
+	border:3px solid #fff;
+	position:absolute;
+	right:0px;
+	top:0px;
+	height:51px;
+	background:none;
+	line-height:none;
+	padding:0px 40px;	
+}
+.kode_subcribe_des button i{
+	color:#fff;
+	font-size:16px;	
+}
+/*
+	  ==============================================================
+		   SUBCRIBE WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   PAGINATION WRAP CSS Start
+	  ==============================================================
+*/
+.kode_pagination{
+	float:left;
+	width:100%;
+	text-align:center;
+	margin-bottom:12px;
+}
+.kode_pagination .pagination{
+	margin:0px;
+	border:0px;
+	border-radius:0px;	
+}
+.kode_pagination .pagination li{
+	display:inline-block;
+	margin-right:3px;	
+}
+.kode_pagination .pagination li a{
+	color:#666666;
+	border:0px;
+	margin:0px;	
+	font-size:16px;
+	padding:6px 14px;
+	border:1px solid #d9d9d9;
+	border-radius:0px;
+}
+.kode_pagination .pagination li a span{
+	border:1px solid #cfcfcf;
+	padding:4px 9px;	
+}
+.kode_pagination .pagination li a:focus,
+.kode_pagination .pagination li a:hover{
+	background:none;	
+}
+.kode_pagination .pagination li:hover a,
+.kode_pagination .pagination li:focus a{
+	color:#fff;	
+}
+.kode_pagination .bx-wrapper .bx-pager{
+	display:none;	
+}
+/*Second Pagination*/
+.kode_pagination2{
+	margin-top:20px;	
+	margin-bottom:38px;
+}
+.kode_pagination ul.pagination{
+	float:left;
+	width:100%;	
+}
+.kode_pagination .pagination li a b{
+	border-top:2px solid #000000;
+	color:#000000;
+	padding-top:5px;	
+}
+
+
+/*
+	  ==============================================================
+		   PAGINATION WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   NEWS WRAP CSS START
+	  ==============================================================
+*/
+.kode_news_wrap{
+	border:1px solid #d9d9d9;
+	margin-bottom:30px;	
+}
+.kode_news_wrap,
+.kode_news_wrap_des{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_news_wrap figure{
+	margin-bottom:20px;	
+}
+.kode_news_wrap figure:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:0;
+	background-color:rgba(0,0,0,0.5);	
+}
+.kode_news_wrap figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_news_wrap_des{
+	padding:5px 15px 23px;
+	border-bottom:5px solid;	
+}
+.kode_news_wrap_des > span > a{
+	color:#929292;
+	display:block;
+	margin-bottom:17px;	
+	text-transform:uppercase;
+}
+.kode_news_wrap_des > h6 > a{
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#000000;
+	margin-bottom:10px;	
+}
+.kode_news_wrap_des p{
+	color:#7e7e7e;
+	font-weight:500;
+	word-break:break-all;
+	margin-bottom:4px;	
+}
+.kode_news_wrap_des > b > a{
+	float:left;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:20px;
+	margin-top:15px;	
+}	
+.kode_news_wrap_des > a{
+	float:right;
+	color:#b1b1b1;
+	padding-top:23px;	
+}
+.kode_news_wrap:hover{
+	box-shadow:0 2px 3px 1px rgba(0, 0, 0, 0.3);	
+}
+.kode_news_wrap:hover figure:before{
+	height:100%;	
+}
+
+/*
+	  ==============================================================
+		   NEWS WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   NEWS LIST WRAP CSS START
+	  ==============================================================
+*/
+.kode_news_list{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:0px 0px 40px;
+	margin-bottom:30px;
+	border-bottom:1px solid #e5e5e5;	
+}
+.kode_news_list figure{
+	width:350px;	
+}
+.kode_news_list figure img{
+	width:100%;
+	height:auto;
+}
+.kode_news_list_des{
+	float:none;
+	padding:10px 0px 0px 370px;	
+}
+.kode_news_list_des span{
+	display:inline-block;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:10px;
+	padding:5px 10px;
+	text-transform:uppercase;	
+}
+.kode_news_list_des > h6 > a{
+	display:block;
+	color:#000000;
+	font-weight:bold;
+	margin-bottom:10px;	
+}
+.kode_author{
+	float:left;
+	color:#a1a1a1;
+	margin-bottom:10px;	
+}
+.kode_author > a{
+	color:#a1a1a1;
+}
+.kode_news_list_des > ul > li{
+	float:left;
+	position:relative;
+}
+.kode_news_list_des > ul > li > a{
+	padding:0px 8px;
+	color:#a1a1a1;
+}
+.kode_news_list_des > ul > li > a > i{
+	margin-right:5px;	
+}
+.kode_news_list_des p{
+	word-break:break-all;
+	color:#a1a1a1;
+	float:left;
+	line-height:25px;
+}
+.kode_news_colmn_list.col-md-8 .kode_news_list:first-child{
+	padding-top:0px;
+}
+.kode_news_colmn_list.col-md-8 .kode_news_list:last-child{
+	border-bottom:0px;
+	padding-bottom:20px;	
+}
+
+/*
+	  ==============================================================
+		   NEWS LIST WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   EVENT WRAP CSS START
+	  ==============================================================
+*/
+.kode_event_grid_bg{
+	padding-bottom:50px;	
+}
+.kode_event_wrap{
+	float:left;
+	width:100%;
+	position:relative;
+	border:1px solid #ececec;
+	margin-bottom:30px;	
+}
+.kode_event_wrap figure{
+	margin-bottom:24px;	
+}
+.kode_event_wrap figure:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+	width:0px;
+	height:0px;
+	opacity:0.7;	
+}
+.kode_event_wrap figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_event_wrap figure figcaption{
+	position:absolute;
+	width:100%;
+	top:0px;
+	text-align:center;
+	margin-top:-20px;
+	opacity:0;	
+}
+.kode_event_wrap figure figcaption a{
+	color:#fff;
+	font-size:25px;
+	font-weight:bold;	
+}
+.kode_event_des{
+	float:left;
+	width:100%;	
+	padding:0px 15px 26px 15px;
+}
+.kode_event_des > h6 > a{
+	display:block;
+	font-size:20px;
+	text-transform:uppercase;
+	margin-bottom:22px;	
+	font-weight:600;
+	line-height:20px;
+}
+.kode_event_des ul{
+	float:left;
+	width:100%;
+	padding-bottom:18px;
+	margin-bottom:26px;
+	position:relative;	
+	line-height:12px;
+}
+.kode_event_des ul:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:50px;
+	height:2px;	
+}
+.kode_event_des ul > li{
+	float:left;
+	position:relative;
+}
+.kode_event_des > ul > li > a{
+	color:#333;
+	font-size:12px;
+	padding:0px 5px;	
+}
+.kode_event_des > ul > li > a > i{
+	margin-right:5px;
+	font-size:14px;	
+}
+.kode_event_des ul li:first-child a{
+	padding-left:0px;	
+}
+.kode_event_des p{
+	line-height:27px;
+	color:#888;
+	word-break:break-all;	
+	margin:0px 0px 28px;	
+}
+.kode_event_des > a{
+	font-weight:bold;
+	text-transform:uppercase;
+	display:inline-block;
+	outline:1px solid #ececec;
+	color:#999999;
+	padding:10px 30px;
+	line-height:normal;
+	border-left:4px solid;	
+}
+/*Hover Style*/
+.kode_event_wrap:hover{
+	box-shadow:0px 1px 2px 1px rgba(0,0,0,0.2);	
+}
+.kode_event_wrap:hover figure:before{
+	width:100%;
+	height:100%;	
+}
+.kode_event_wrap:hover figure figcaption{
+	top:50%;
+	opacity:1;	
+}
+
+/*
+	  ==============================================================
+		   EVENT WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   OUR FOCUS WRAP CSS START
+	  ==============================================================
+*/
+.kode_focus_wrap{
+	float:left;
+	width:100%;
+	position:relative;
+	border-bottom:1px solid #e0e0e0;
+	padding-bottom:35px;	
+}
+.kode_focus_wrap h2{
+	text-transform:uppercase;
+	font-weight:bold;
+	position:absolute;
+	top:-25px;
+	right:0px;
+	color:#f7f7f7;	
+}
+.kode_focus_wrap h6{
+	font-size:20px;
+	line-height:normal;
+	margin-bottom:30px;	
+}
+.kode_focus_wrap span{
+	display:block;	
+}
+.kode_focus_wrap p{
+	word-break:break-all;	
+}
+.kode_focus_wrap a{
+	display:inline-block;
+	font-weight:bold;	
+}
+.kode_focus_wrap a i{
+	margin-left:5px;
+	vertical-align:middle;	
+}
+/*
+	  ==============================================================
+		   OUR FOCUS WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   HOW IT WORK WRAP CSS START
+	  ==============================================================
+*/
+.kode_services_video_bg{
+	background-color:#f7f7f7;
+}
+.kode_service_video{
+	width:960px;
+	margin:auto;
+	text-align:center;	
+}
+.kode_service_video p{
+	word-break:break-all;
+	margin-bottom:35px;	
+}
+.kode_video{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_video:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.6);	
+}
+.kode_video img{
+	width:100%;
+	height:auto;	
+}
+.kode_video_icon{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	z-index:99999;
+	margin-top:-10px;
+	opacity:0;	
+}
+.kode_video_icon a{
+	color:#fff;
+	font-size:20px;
+	padding:10px 20px;
+	border:1px solid #fff;	
+}
+.kode_video:hover .kode_video_icon{
+	opacity:1;	
+}
+/*
+	  ==============================================================
+		   HOW IT WORK WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   ADVANCE SERVICES WRAP CSS START
+	  ==============================================================
+*/
+.kode_advance_service{
+	float:left;
+	width:100%;
+	position:relative;
+	border:1px solid #ececec;
+}
+.kode_advance_service figure{
+	opacity:0;	
+}
+.kode_advance_service figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_advance_service figure:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:0px;	
+	opacity:0.7;
+}
+.kode_service_caption{
+	float:left;
+	width:100%;
+	position:absolute;
+	bottom:-50%;
+	text-align:center;
+	padding:0px 20px;
+	opacity:0;
+	z-index:-99999;	
+}
+.kode_service_caption p{
+	color:#fff;
+	font-weight:bold;
+	word-break:break-all;
+	margin-bottom:20px;	
+}
+.kode_service_caption a.kode_link_2:before{
+	z-index:-9;	
+}
+.kode_advance_hdg{
+	float:left;
+	width:100%;
+	position:absolute;
+	top:50%;
+	width:100%;	
+	text-align:center;
+	margin-top:-55px;
+}
+.kode_advance_hdg i{
+	font-size:40px;
+	color:#666666;
+	margin-bottom:15px;	
+}
+.kode_advance_hdg h6{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#666666;
+	position:relative;
+	padding-top:15px;	
+}
+.kode_advance_hdg h6:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	height:3px;	
+	width:50px;
+	background-color:#666666;
+}
+/*Hover Style*/
+.kode_advance_service:hover .kode_advance_hdg h6:before{
+	background-color:#fff;	
+}
+.kode_advance_service:hover figure{
+	opacity:1;	
+}
+.kode_advance_service:hover figure:before{
+	height:100%;	
+}
+.kode_advance_service:hover .kode_advance_hdg{
+	top:20px;
+	margin:0px;	
+}
+.kode_advance_service:hover .kode_advance_hdg i,
+.kode_advance_service:hover .kode_advance_hdg h6{
+	color:#fff;	
+}
+.kode_advance_service:hover .kode_service_caption{
+	z-index:9999;
+	opacity:1;
+	bottom:5%;	
+}
+.kode_advance_service a:hover{
+	color:#000000;
+}
+
+/*
+	  ==============================================================
+		   WHY CHOOSE US WRAP CSS START
+	  ==============================================================
+*/
+.kode_choose{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;
+	cursor:pointer;
+	position:relative;
+}
+.kode_choose i{
+	font-size:20px;
+	color:#333333;
+	float:left;
+	padding-left:25px;
+	position:absolute;
+	top:30px;
+	left:0px;	
+}
+.kode_choose span{
+	display:inline-block;
+	text-transform:uppercase;
+	color:#333333;
+	font-weight:bold;
+	padding:30px 0px;	
+}
+.kode_choose_des{
+	float:left;
+	width:100%;
+	background-color:#3fb3e5;
+	padding:20px;	
+}
+.kode_choose_des i{
+	width:30px;
+	float:left;	
+	color:#fff;
+	font-size:24px;
+	text-align:center;
+}
+.kdoe_choose_content{
+	float:none;
+	padding:0px 0px 0px 50px;	
+}
+.kdoe_choose_content span{
+	color:#fff;
+	display:block;
+	margin-bottom:20px;
+	font-weight:bold;
+	text-transform:uppercase;	
+}
+.kdoe_choose_content p{
+	color:#fff;
+	word-break:break-all;	
+}
+/*Tab Wrap Style*/
+.kode_choose_tab{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_choose_tab ul{
+	float:left;
+	width:100%;	
+}
+.kode_choose_tab ul li{
+	float:left;
+	width:24.7%;
+	border-radius:3px;
+	margin-left:2px;	
+}
+.kode_choose_tab ul li a{
+	display:block;
+	color:#a3a4a7;
+	text-align:center;
+	padding:18px 0px;
+	border:1px solid #ececec;
+	font-weight:bold;	
+}
+.kode_choose_tab ul li:first-child{
+	margin-left:0px;	
+}
+.kode_choose_tab ul li.active a,
+.kode_choose_tab ul li:hover a,
+.kode_choose_tab ul li:focus a
+{
+	color:#333333;
+	border:1px solid transparent;	
+}
+.kode_chose_tab_detail{
+	float:left;
+	width:100%;
+	padding:20px;
+	border:1px solid #ececec;
+	border-radius:4px;
+	margin-top:2px;	
+}
+.kode_chose_tab_detail figure{
+	width:112px;
+	float:left;
+	margin-bottom:30px;	
+}
+.kode_chose_tab_detail figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_tab_img_des{
+	float:none;
+	padding:0px 0px 0px 125px;	
+}
+.kode_tab_img_des p{
+	color:#a3a4a7;
+	word-break:break-all;
+}
+.kode_chose_tab_detail p{
+	float:left;	
+}
+
+/*
+	  ==============================================================
+		   WHY CHOOSE US WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   TEAM WRAP CSS START
+	  ==============================================================
+*/
+.kode-team-intro{
+	padding:70px 0px 50px;
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kode_background:before,
+.kode_background:after
+{
+	content:"";
+	position:absolute;
+	bottom:-56px;
+	left:0px;
+	width:100%;
+	height:1px;
+	background-color:#e3e3e3;	
+}
+.kode_background:after{
+	bottom:-51px;	
+}
+.kode-team-testi{
+	float:left;
+	width:100%;
+	background:#f7f7f7;
+	padding:70px 0px 40px;
+}
+.kode_team_img,
+.kode_team_img figure img
+{
+	float:left;
+	width:100%;	
+}
+.kode_team_img figure{
+	border-bottom:3px solid;	
+}
+.kode_team_img_des{
+	float:left;
+	width:100%;	
+}
+.kode_team_img_des h4{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#000000;
+	margin-bottom:7px;	
+	line-height:normal;
+}
+.kode_team_img_des > p{
+	color:#666666;
+	word-break:break-all;
+	margin-bottom:20px;	
+}
+.kode_team_img_des span{
+	display:inline-block;
+	font-size:16px;	
+}
+.kode_team_img_des blockquote{
+	position:relative;
+	background-color:#f4f4f4;
+	border:0px;
+	padding:75px 100px;
+	text-align:left;	
+	margin-bottom:0px;
+}
+.kode_team_img_des blockquote p{
+	color:#666666;
+	font-size:16px;
+	position:relative;	
+}
+.kode_team_img_des blockquote p:before,
+.kode_team_img_des blockquote p:after
+{
+	content:"\f10d";
+	font-family:fontawesome;
+	color:#d3d3d3;
+	font-size:40px;
+	position:absolute;
+	top:-40px;
+	left:-60px;	
+}
+.kode_team_img_des blockquote p:after{
+	content:"\f10e";
+	left:auto;
+	bottom:-42px;
+	right:-30px;
+	top:auto;	
+}
+.kode_team_img_des blockquote:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	height:80%;
+	width:3px;
+	margin:auto;
+	background-color:#eb0028;	
+}
+
+/*
+	  ==============================================================
+		   TEAM WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   BACKGROUND WRAP CSS START
+	  ==============================================================
+*/
+.kode_background{
+	position:relative;	
+}
+.kode_bground_des{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:43px 0 38px;	
+}
+.kode_bground_des h4{
+	color:#000000;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:30px;	
+}
+.kode-team-bio .kode_bground_des h4{
+	margin-bottom:10px;	
+}
+.kode_bground_des p{
+	color:#666666;
+	word-break:break-all;	
+}
+.kode_bground_des:before,
+.kode_bground_des:after
+{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:1px;
+	background-color:#e3e3e3;	
+}
+.kode_bground_des:after{
+	bottom:-5px;	
+}
+/*
+	  ==============================================================
+		   BACKGROUND WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   EDUCATION WRAP CSS START
+	  ==============================================================
+*/
+.kode_education,
+.kode_edu_year,
+.kode_edu_year ul,
+.kode_edu_des,
+.kode_edu_des ul
+{
+	float:left;
+	width:100%;	
+}
+.kode_education h4{
+	color:#000000;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:37px;	
+}
+.kode_edu_year{
+	position:relative;
+	text-align:center;	
+}
+.kode_edu_year:before,
+.kode_edu_year:after
+{
+	content:"";
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:100%;
+	width:1px;
+	background-color:#e3e3e3;	
+}
+.kode_edu_year:after{
+	right:-5px;	
+}
+.kode_edu_year ul li{
+	padding:40px 10px;
+	float:left;
+	width:100%;	
+}
+.kode_edu_year ul li h5{
+	font-weight:bold;
+	padding:15px;
+	display:inline-block;
+	background:#f7f7f7;
+	margin-bottom:10px;
+}
+.kode_edu_year ul li h6{
+	color:#eb0028;
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:bold;	
+}
+.kode_edu_des ul{
+	padding:0px 20px;	
+}
+.kode_edu_des ul li{
+	float:left;
+	width:100%;
+	padding:30px 0px;
+	border-top:1px solid #e4e4e4;	
+}
+.kode_edu_des ul li figure{
+	width:260px;
+	border:2px solid #e4e4e4;
+	border-radius:3px;	
+}
+.kode_edu_des ul li figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_edu_img_des{
+	float:none;
+	padding:0px 0px 0px 280px; 	
+}
+.kode_edu_img_des h6{
+	font-size:20px; 
+	text-transform:uppercase;
+	margin-bottom:10px;
+	font-weight:bold;	
+}
+.kode_edu_img_des p{
+	color:#666666;
+	word-break:break-all;	
+}
+.kode_edu_des ul li:first-child{
+	border-top:0px;
+	padding-top:0px;	
+}
+/*Even LI*/
+.kode_edu_des ul li:nth-child(even) figure{
+	float:right;	
+}
+.kode_edu_des ul li:nth-child(even) .kode_edu_img_des{
+	padding:0px 280px 0px 0px;	
+}
+.kode-team-edu,
+.kode-team-bio{
+	float:left;
+	width:100%;
+}
+.kode-team-edu{
+	margin-bottom:4px;	
+}
+.kode_education{
+	padding:42px 0px 10px;	
+}
+.kode_education:before,
+.kode_education:after
+{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:1px;
+	background-color:#e3e3e3;	
+}
+.kode_education:after{
+	bottom:-4px;	
+}
+/*
+	  ==============================================================
+		   EDUCATION WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   LATEST WORK WRAP CSS START
+	  ==============================================================
+*/
+.kode_work_wrap,
+.kode_work_des
+{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_work_wrap figure:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	content: '';
+	-webkit-transition: -webkit-transform 0.6s;
+	transition: transform 0.6s;
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+.kode_work_wrap figure img{
+	width:100%;
+	height:auto;
+	opacity: 0.95;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.05,1.05,1);
+	transform: scale3d(1.05,1.05,1);	
+}
+.kode_work_hover{
+	position:absolute;
+	top:-50px;
+	width:100%;
+	text-align:center;
+	margin-top:-20px;	
+}
+.kode_work_hover a{
+	font-size:24px;
+	color:#fff;	
+}
+.kode_work_des{
+	text-align:center;
+	padding:30px 20px 22px;
+	border:1px solid #e4e4e4;
+}
+.kode_work_des h6 a{
+	color:#242424;
+	text-transform:uppercase;
+	margin-bottom:10px;
+	font-weight:bold;	
+}
+.kode_work_des p{
+	font-size:16px;
+	color:#666666;
+	line-height:normal;	
+}
+.kode_work_wrap:hover img{
+	opacity: 0.3;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1)	
+}
+.kode_work_wrap:hover figure:before{
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);	
+}
+.kode_work_wrap:hover .kode_work_hover{
+	top:50%;	
+}
+.kode_work_outr.owl-carousel .owl-wrapper-outer{
+	padding-bottom:30px;	
+}
+.kode_work_outr .item{
+	margin-right:20px;	
+}
+.kode_work_outr .owl-pagination{
+	display:none;	
+}
+.kode_work_outr.owl-theme .owl-controls .owl-buttons div{
+	width:36px;
+	height:36px;
+	background-color:#fff;
+	text-align:center;
+	border-radius:0px;
+	top:50%;
+	font-size:0px;
+	line-height:34px;
+	padding:0px;
+	opacity:1;	
+}
+.kode_work_outr .owl-buttons .owl-prev{
+	position:absolute;
+	left:-20px;	
+}
+.kode_work_outr .owl-buttons .owl-next{
+	position:absolute;
+	right:-20px;	
+}
+.kode_work_outr .owl-buttons .owl-prev:before,
+.kode_work_outr .owl-buttons .owl-next:before
+{
+	content:"\f104";
+	font-family:fontawesome;
+	font-size:16px;
+	color:#666666;
+	position:absolute;
+	top:0px;
+	left:12px;	
+}
+.kode_work_outr .owl-buttons .owl-next:before{
+	content:"\f105";
+	left:auto;
+	right:12px;	
+}
+.kode_work_outr .owl-buttons .owl-prev:after{
+	content:"";
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 8px 8px 8px;
+	border-color: transparent transparent #8a8a8a transparent;
+	transform:rotate(131deg);
+	top:-7px;
+	left:4px;	
+}
+.kode_work_outr .owl-buttons .owl-next:after{
+	content:"";
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8px 0 0 8px;
+	border-color: transparent transparent transparent #8a8a8a;
+	top:-9px;
+	left:0px;	
+}
+
+/*
+	  ==============================================================
+		   LATEST WORK WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   POLITICAL CAREER WRAP CSS START
+	  ==============================================================
+*/
+.kf_political_career_bg{
+	padding-bottom:60px;
+	background-color:#f3f3f3;	
+}
+.kf_political_career,
+.kf_year
+{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kf_political_career:before{
+	content:"";
+	position:absolute;
+	top:40px;
+	bottom:10px;
+	width:2px;
+	background-color:#d8d8d8;
+	left:50%;	
+}
+.kf_year{
+	text-align:center;	
+}
+.kf_year h5{
+	color:#1a1b1d;
+	font-weight:bold;	
+}
+.kf_empty{
+	float:left;
+	width:100%;
+	padding:110px 0px 0px;	
+}
+/*Right Side Wrap Style*/
+.kf_monthly{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kf_month_right{
+	width:50%;
+	float:right;
+	position:relative;
+	padding:0px 0px 17px 30px;	
+}
+.kf_month_right:before{
+	content:"";
+	position:absolute;
+	top:24px;
+	left:-9px;
+	width:20px;
+	height:20px;
+	border-radius:100%;
+	background-color:#9c9c9c;
+	border:5px solid #ececec;
+	box-shadow:0px 0px 0px 10px #fff;	
+}
+.kf_month_right h6,
+.kf_month_left h6
+{
+	color:#ec6f75;
+	font-size:14px;
+	text-transform:uppercase;
+	padding:0px 0px 10px;
+	margin:0px 0px 30px;
+	border-bottom:2px solid #d8d8d8;
+	display:inline-block;	
+}
+.kf_month_right h5,
+.kf_month_left h5
+{
+	color:#1a1b1d;
+	text-transform:uppercase;
+	margin:0 0 26px;
+}
+.kf_month_right p,
+.kf_month_left p
+{
+	font-size:16px;
+	word-break:break-all;	
+}
+/*Left Side Wrap Style*/
+.kf_month_left{
+	width:50%;
+	float:left;
+	position:relative;
+	padding:0 30px 17px 0;
+	text-align:right;	
+}
+.kf_month_left:before{
+	content:"";
+	position:absolute;
+	right:-9px;
+	top:24px;
+	width:20px;
+	height:20px;
+	border-radius:100%;
+	background-color:#9c9c9c;
+	border:5px solid #ececec;
+	box-shadow:0px 0px 0px 10px #fff;
+		
+}
+
+/*
+	  ==============================================================
+		   POLITICAL CAREER WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		  PERFORMANCE CHART WRAP CSS START
+	  ==============================================================
+*/
+.kf_performance_bg{
+	float:left;
+	width:100%;
+	
+}
+.kf_chart{
+	float:left;
+	width:100%;
+}
+.kf_chart #curve_chart{
+	width:100%;
+	height:250px;	
+}
+/*
+	  ==============================================================
+		  PERFORMANCE CHART WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   YEARLY PERFORMANCE WRAP CSS START
+	  ==============================================================
+*/
+.kode_yearly_performance,
+.kode_yearly_performance ul
+{
+	float:left;
+	width:100%;	
+}
+.kode_yearly_performance ul li{
+	width:25%;
+	float:left;
+	position:relative;
+	padding:35px 20px 37px;
+	text-align:center;	
+}
+.kode_yearly_performance ul li h4{
+	color:#fff;
+	margin-bottom:5px;	
+	line-height:normal;
+}
+.kode_yearly_performance p{
+	margin:0px;
+	color:#fff;
+	font-size:16px;	
+}
+.kode_yearly_performance ul li:nth-child(odd){
+	background-color:#2b2b2b;	
+}
+.kode_yearly_performance ul li:nth-child(even){
+	background-color:#353434;		
+}
+
+/*
+	  ==============================================================
+		   YEARLY PERFORMANCE WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   EVENT DETAIL WRAP CSS START
+	  ==============================================================
+*/
+.kode_event_detail_timer,
+.kode_event_orgnizer,
+.kode_summary,
+.kode_event_share,
+.kode_related_event
+{
+	border-bottom:1px solid #d3d3d3;
+}
+.kode_event_detail_timer{
+	padding-bottom:8px;	
+}
+.kode_event_detail_timer,
+.kode_event_timer_des,
+.kode_event_orgnizer,
+.kode_orgnizer_wrap,
+.kode_summary,
+.kode_event_share,
+.kode_related_event,
+.kode_related_comment,
+.kode_leave_reply
+{
+	float:left;
+	width:100%;	
+}
+.kode_event_detail_timer figure{
+	margin-bottom:24px;	
+}
+.kode_event_detail_timer figure img{
+	width:100%;
+	height:auto;	
+}
+.event_timer_date{
+	width:120px;
+	height:120px;
+	position:absolute;
+	text-align:center;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;	
+}
+.event_timer_date:before{
+	content: "";
+    border: solid 1px;
+    position: absolute;
+    left: 100%;
+    height: 100%;
+    width: 500%;
+}
+.event_timer_date:after{
+	content: "";
+    border: solid 1px;
+    position: absolute;
+    right: 100%;
+    height: 100%;
+    width: 500%;
+	top:0px;
+}
+.kode_border_top{
+	position:relative;
+	float:left;
+	width:100%;
+}
+.kode_border_top:before{
+	content: "";
+    border: solid 1px;
+    position: absolute;
+    left: 0px;
+    height: 500%;
+    width: 100%;
+}
+.kode_border_top:after{
+	content: "";
+    border: solid 1px;
+    position: absolute;
+    left: 0px;
+    height: 500%;
+    width: 100%;
+	bottom:0px;
+}
+.event_timer_date h2{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	line-height:55px;
+	padding-top:28px;
+}
+.event_timer_date span{
+	display:block;
+	color:#fff;
+	font-size:10px;
+	text-transform:uppercase;	
+}
+.kode_event_timer_des p{
+	word-break:break-all;
+	margin-bottom:17px;	
+}
+.kode_event_timer_des h6{
+	font-size:20px;
+	margin-bottom:15px;
+	text-transform:uppercase;
+	font-weight:bold;	
+}
+.kode_timer{
+	float:left;
+	width:100%;
+	position:relative;	
+	padding:8px 0px 70px;
+	background-image:url(images/timer-bg-01.jpg);
+	background-size:cover;
+	background-position:center;
+}
+.kode_timer .kode_counter{
+	width:85%;
+	margin:0 auto;
+	left:0px;
+	right:0px;
+}
+.kode_timer:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	opacity:0.9;	
+}
+.kode_counter{
+	position:relative;
+	top:0px;
+	width:100%;
+	text-align:center;
+	z-index:9999;	
+}
+.kode_counter h4{
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:10px;	
+	margin-top:34px;	
+}
+/*Event Orgnizer Style*/
+.kode_event_orgnizer,
+.kode_summary,
+.kode_related_event,
+.kode_related_comment,
+.kode_leave_reply
+{
+	padding:29px 0px 23px;	
+}
+.kode_event_share{
+	padding:20px 0px 13px;	
+}
+.kode_event_orgnizer h6,
+.kode_summary h6,
+.kode_related_event > h6,
+.kode_related_comment > h6,
+.kode_leave_reply h6
+{
+	font-size:20px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+	font-weight:bold;
+	line-height:20px;	
+}
+.kode_leave_reply > h6,
+.kode_related_comment > h6,
+.kode_related_event > h6,
+.kode_event_orgnizer > h6{
+	margin-bottom:20px;	
+}
+.kode_related_event{
+	padding:29px 0 26px;	
+}
+.kode_orgnizer_wrap figure{
+	width:110px;
+	border-bottom:2px solid;		
+}
+.kode_orgnizer_wrap figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_orgnizer_des{
+	float:none;
+	padding:0px 0px 0px 130px;	
+}
+.kode_orgnizer_des h6{
+	text-transform:uppercase;
+	margin-bottom:8px;
+	line-height:normal;	
+}
+.kode_orgnizer_des h6 span{
+	margin-left:5px;
+	color:#999999;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:14px;	
+}
+ul.kode_orgnizer_email,
+ul.kode_orgnizer_social
+{
+	float:left;
+	width:100%;	
+	line-height:normal;
+}	
+ul.kode_orgnizer_email{
+	margin-bottom:2px;
+}
+.kode_orgnizer_email li{
+	width:100%;
+	float:left;
+	color:#999999;
+	margin-bottom:10px;	
+}
+.kode_orgnizer_email li i{
+	margin-right:10px;	
+}
+.kode_orgnizer_email{
+	margin-bottom:
+}
+ul.kode_orgnizer_social{
+	margin-bottom:10px;	
+}
+.kode_orgnizer_social li{
+	float:left;
+	position:relative;	
+}
+.kode_orgnizer_social li a{
+	color:#999999;
+	padding:0px 10px;	
+}
+.kode_orgnizer_social li:first-child a{
+	padding-left:0px;	
+}
+/*Summary Wrap Style*/
+.kode_summary ul li{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:8px 0px 8px 35px;	
+}
+.kode_summary ul li:before{
+	content:"\f00c";
+	font-family:fontawesome;
+	position:absolute;
+	top:8px;
+	left:0px;
+	font-size:16px;		
+}
+.kode_summary ul li a{
+	display:block;
+	line-height:normal;	
+}
+/*Event Share Style*/
+.kode_event_share{
+	padding-left:20px;	
+}
+.kode_event_share ul li{
+	float:left;
+	position:relative;	
+}
+.kode_event_share ul li a{
+	display:block;
+	text-transform:capitalize;
+	padding:0px 10px 4px;
+	color:#999999;	
+}
+/*Related Event Style*/
+.kode_event_list{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kode_event_list figure{
+	margin-bottom:14px;	
+}
+.kode_event_list figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_event_list > h6 > a{
+	display:block;
+	text-transform:uppercase;
+	font-size:16px;
+	margin-bottom:7px;	
+}
+.kode_event_list ul{
+	float:left;
+	width:100%;	
+}
+.kode_event_list ul > li{
+	float:left;
+	position:relative;	
+}
+.kode_event_list ul > li > a{
+	padding:0px 10px 6px;
+	font-size:12px;
+	color:#999999;
+}
+.kode_event_list ul > li > a > i{
+	margin-right:5px;	
+}
+.kode_event_list ul li:first-child a{
+	padding-left:0px;	
+}
+.kode_event_list a{
+	color:#000000;
+	line-height:20px;
+	word-break:break-all;
+	padding-right:10px;	
+	margin-bottom:5px;
+}
+/*Pagination Wrap Style*/
+.kf_pagination{
+	border-bottom:1px solid #d3d3d3;
+	padding:20px 0px 19px;	
+}
+.kf_pagination,
+.kf_pagination ul{
+	float:left;
+	width:100%;
+	margin:0px;	
+}
+.kf_pagination ul li a{
+	border:0px;
+	color:#222222;
+	font-size:16px;	
+}
+.kf_pagination ul li:hover a{
+	background:none;	
+}
+/*Related Comment Style*/
+.kode_related_comment{
+	padding-bottom:18px;	
+}
+.kode_related_comment ul{
+	float:left;
+	width:100%;	
+}
+.kode_related_comment ul li{
+	position:relative;
+	border-bottom:1px solid #d3d3d3;
+	padding:35px 0px 0px;
+	width:100%;
+	float:left;	
+}
+.kode_related_comment ul li ul{
+	border-top:1px solid #d3d3d3;
+}
+.kode_related_comment > ul > li:first-child{
+	padding-top:0px;	
+}
+.kode_related_comment ul li figure{
+	width:65px;	
+	border-bottom:1px solid;
+}
+.kode_related_comment ul li figure img{
+	width:100%;
+	height:auto;		
+}
+.kode_related_comment ul > li > .kode_comment_des p{
+	margin-bottom:30px;
+}
+.kode_comment_des{
+	float:none;
+	padding:0px 0px 0px 90px;	
+}
+.kode_comment_author{
+	float:left;
+	margin-bottom:10px;	
+}
+.kode_comment_author h6{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	display:inline-block;
+	line-height:20px;	
+}
+.kode_comment_author span{
+	display:inline-block;
+	margin-left:10px;
+	color:#909090;	
+}
+.kode_comment_des a{
+	display:inline-block;
+	text-align:right;
+	float:right;		
+}
+.kode_comment_des a i{
+	margin-right:5px;	
+}
+.kode_comment_des a:hover{
+	color:#000000;	
+}
+.kode_comment_des > p{
+	float:left;
+	width:100%;	
+	margin-bottom:10px;
+}
+.kode_related_comment ul ul{
+	padding-left:70px;
+}
+.kode_related_comment ul ul li{	
+	padding-bottom:0px;	
+}
+.kode_related_comment ul li:last-child{
+	border-bottom:0px;
+	padding-bottom:0px;	
+}
+/*Leave A Reply Style*/
+.kode_leave_reply{
+	padding-bottom:8px;	
+}
+.kode_reply_field{
+	float:left;
+	width:100%;	
+	margin-bottom:25px;
+}
+.kode_reply_field input[type="text"]{
+	width:100%;
+	height:45px;
+	border:1px solid #dddddd;
+	padding:8px 15px;
+	color:#939393;	
+}
+.kode_reply_field textarea{
+	width:100%;
+	height:235px;
+	border:1px solid #dddddd;
+	padding:15px 15px;
+	resize:none;
+	color:#939393;	
+}
+.kode_reply_field button{margin-bottom:13px;}
+/*
+	  ==============================================================
+		   EVENT DETAIL WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   NEWS DETAIL WRAP CSS START
+	  ==============================================================
+*/
+.kode_news_detail{
+	float:left;
+	width:100%;
+	border-bottom:1px solid #dddddd;	
+}
+.kode_news_detail figure{
+	border-bottom:5px solid;
+	margin-bottom:10px;	
+}
+.kode_news_detail figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_news_detail h4{
+	font-weight:bold;
+	margin-bottom:10px;	
+}
+.kode_news_detail > ul{
+	float:left;
+	width:100%;
+	border-bottom:1px solid #dddddd;
+	padding-bottom:15px;
+	margin-bottom:15px;	
+}
+.kode_news_detail > ul > li{
+	float:left;	
+	padding:0px 10px;
+}
+.kode_news_detail > ul > li > a{
+	color:#a1a1a1;
+}
+.kode_news_detail ul li i{
+	margin-right:10px;	
+}
+.kode_news_detail ul li:first-child{
+	padding-left:0px;	
+}
+.kode_news_detail p{
+	word-break:break-all;
+	margin-bottom:10px;	
+}
+.kode_news_detail blockquote{
+	padding:50px 70px;
+	border-left:2px solid;	
+	background:#f7f7f7;
+	margin-bottom:10px;
+}
+.kode_news_detail blockquote p{
+	font-size:16px;
+	font-weight:bold;
+	color:#898989;
+	position:relative;
+	line-height:30px;	
+}
+.kode_news_detail blockquote p:before,
+.kode_news_detail blockquote p:after
+{
+	content:"\f10d";
+	position:absolute;
+	font-family:fontawesome;
+	font-size:22px;
+	top:-30px;
+	left:-20px;	
+}
+.kode_news_detail blockquote p:after{
+	content:"\f10e";
+	left:auto;
+	right:0px;
+	bottom:-30px;
+	top:auto;	
+}
+
+
+/*
+	  ==============================================================
+		   NEWS DETAIL WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   CONTACT US WRAP CSS START
+	  ==============================================================
+*/
+.kf_contactus{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kf_contact_map{
+	float:left;
+	width:100%;		
+}
+.kf_contact_map .map-canvas{
+	position:absolute ;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	width:100%;
+}
+/*Office Location Wrap Style*/
+.kf_location_wrap{
+	margin:auto;
+	padding:70px 50px 55px;
+	width:960px;
+	position:relative;	
+	background:#fff;
+}
+ul.kf_office_name{
+	float:left;
+	width:100%;
+	text-align:center;
+	margin:0px 0px 50px;	
+}
+.kf_office_name li{
+	display:inline-block;
+	position:relative;
+	border:4px solid;
+	width:30%;
+	margin-left:-4px;	
+}
+.kf_office_name li a{
+	display:block;
+	color:#333236;
+	padding:18px 0px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:normal	
+}
+.kf_office_name li.active a,
+.kf_office_name li:hover a,
+.kf_office_name li:focus a{
+	color:#fff;		
+}
+/*Office Location Info Wrap Style*/
+.kf_location_info{
+	float:left;
+	width:100%;
+	text-align:center;	
+}
+.kf_location_info > i{
+	width:70px;
+	height:70px;
+	background-color:#1f1e22;
+	color:#fff;
+	border:4px solid #d2d2d3;
+	border-radius:100%;
+	line-height:65px;
+	font-size:30px;
+	margin-bottom:22px;
+}
+.kf_location_info h6{
+	color:#333236;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0px 0px 14px;
+	font-size:20px;	
+}
+.kf_location_info p,
+.kf_location_info span,
+.kf_location_info a{
+	color:#333236;
+	text-transform:uppercase;
+	margin:0px;
+}
+.kf_location_info a{
+	display:inline-block;
+	margin-bottom:10px;	
+}
+.kf_location_info span{
+	display:block;	
+}
+ul.kf_loc_socil_icon{
+	float:left;
+	width:100%;	
+}
+.kf_loc_socil_icon li{
+	display:inline-block;
+	position:relative;	
+}
+.kf_loc_socil_icon li a{
+	display:block;
+	color:#1f1e22;
+	font-size:16px;
+	padding:0px 8px;	
+}
+/*Hover Style*/
+.kf_location_info:hover i{
+	background-color:#fff;	
+}
+
+/*
+	  ==============================================================
+		   CONTACT US WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   GET IN TOUCH WRAP CSS START
+	  ==============================================================
+*/
+.kf_touch_field{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kf_touch_field input[type="text"],
+.kf_touch_field textarea{
+	width:100%;
+	height:50px;
+	border:1px solid #e5e6e9;
+	padding:8px 15px;
+	color:#27282d;
+	margin-bottom:30px;
+	color:#27282d;	
+}
+.kf_touch_field textarea{
+	height:150px;	
+}
+.kf_touch_field input[type="submit"],
+.kf_touch_field button{
+	float:right;	
+}
+.kf_touch_field button.kode_btn_1{
+	border:1px solid #000000;
+	padding:12px 40px;
+	color:#474747;	
+}
+.kf_touch_field button.kode_btn_1:before{
+	background-color:#474747;	
+}
+.kf_touch_field button.kode_btn_1:hover{
+	color:#fff;	
+}
+/*Get Touch Wrap Image*/
+.kf_touch_img{
+	float:left;
+	width:100%;
+	margin-top:-80px;	
+}
+.kf_touch_img img{
+	width:100%;
+	height:auto;	
+}
+
+/*
+	  ==============================================================
+		   GET IN TOUCH WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   404 PAGE WRAP CSS START
+	  ==============================================================
+*/
+.kf_404_bg{
+	padding-bottom:60px;	
+}
+.kf_404_wrap{
+	width:685px;
+	margin:auto;
+	text-align:center;	
+}
+.kf_404_wrap h2{
+	margin-top:-4px;
+	font-size:100px;
+	color:#333333;
+	font-weight:bold;
+	line-height:85px;	
+}
+.kf_404_wrap h2 span{
+	font-size:80px;	
+	display:inline-block;
+	font-weight:bold;
+	padding:0px 5px;
+}
+.kf_404_wrap h4{
+	font-weight:bold;
+	text-transform:uppercase;
+	position:relative;
+	margin:0px 0px 40px;	
+}
+.kf_404_wrap h4:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	width:50px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	height:2px;	
+}
+.kf_404_wrap h5{
+	color:#16283c;
+	text-transform:uppercase;
+	margin-bottom:32px;	
+}
+.kf_404_wrap h5 span{
+	display:block;	
+}
+.kf_404_wrap p{
+	text-transform:uppercase;
+	color:#16283c;
+	margin-bottom:43px;	
+}
+.kf_404_form{
+	position:relative;
+	width:535px;
+	height:55px;
+	margin:auto auto 43px;
+	border:1px solid #c8c8c8;	
+}
+.kf_404_form input[type="text"]{
+	width:100%;
+	border:0px;
+	padding:17px 60px 16px 40px;
+	color:#888888;
+}
+.kf_404_form button,
+.kf_404_form input[type="submit"]
+{
+	position:absolute;
+	right:0px;
+	top:0px;
+	color:#fff;
+	height:53px;
+	padding:0px 25px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:16px;	
+}
+.kf_404_form button:hover,
+.kf_404_form input[type="submit"]:hover{
+	background-color:#020202;	
+}
+.kf_404_form i{
+	position:absolute;
+	font-size:16px;
+	color:#b2b2b2;
+	left:10px;
+	top:19px;	
+}
+.kf_page_list,
+.kf_page_list ul{
+	float:left;
+	width:100%;	
+}
+.kf_page_list p{
+	text-transform:uppercase;
+	font-size:15px;
+	color:#666666
+}
+.kf_page_list ul{
+	padding-left:20px;	
+}
+.kf_page_list ul li{
+	float:left;
+	position:relative;
+	width:25%;	
+}
+.kf_page_list ul li:before{
+	content:"\f105";
+	position:absolute;
+	font-family:fontawesome;
+	top:6px;
+	left:0px;
+	color:#666666;
+	font-size:16px;	
+}
+.kf_page_list ul li a{
+	display:block;
+	color:#666666;
+	padding:8px 16px;
+	text-align:left;
+	text-transform:capitalize;	
+}
+
+/*
+	  ==============================================================
+		   404 PAGE WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   COMMING SOON PAGE WRAP CSS START
+	  ==============================================================
+*/
+.kf_comming_bg{
+	background-image:url(images/comeing-soon.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	background-attachment:fixed;
+	padding-bottom:66px;
+}
+.kf_comming_wrap,
+.kf_comming_counter
+{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.kf_comming_counter{
+	margin-bottom:50px;	
+}
+.kf_comming_wrap a{
+	display:inline-block;
+	margin-bottom:25px;		
+}
+.kf_comming_counter h2{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:10px;		
+}
+.kf_comming_counter h4{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:42px;	
+}
+.kf_comming_counter ul.countdown:before,
+.kf_comming_counter ul.countdown:after{
+	display:none;	
+}
+.kf_comming_counter ul.countdown li{
+	width:100px;
+	height:10px;
+	line-height:60px;
+	background-color:rgba(255, 255, 255, 0.5);
+	height:150px;
+	width:150px;
+	border:0px;	
+	text-align:center;
+	position:relative;
+	margin-left:15px;
+}
+.kf_comming_counter ul.countdown li span{
+	background:none;
+	border:0px;	
+	padding-top:10px;
+}
+.kf_comming_counter ul.countdown li p{
+	position:absolute;
+	bottom:44px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	color:#020202;
+}
+.kf_comming_form{
+	width:560px;
+	margin:auto auto 50px;
+	position:relative;	
+}
+.kf_comming_form form input[type="text"]{
+	width:370px;
+	border:1px solid #fff;
+	height:50px;
+	float:left;
+	background:none;
+	padding:8px 15px;
+	color:#fff;
+}
+.kf_comming_form button,
+.kf_comming_form input[type="submit"]{
+	text-transform:uppercase;
+	border:1px solid #fff;
+	height:50px;
+	padding:0px 25px;
+	float:right;
+	background:none;
+	color:#fff;
+}
+.kf_comming_form button:hover,
+.kf_comming_form input[type="submit"]:hover{
+	color:#fff;	
+}
+.kf_comming_social{
+	margin-top:50px;	
+}
+.kf_comming_social,
+.kf_comming_social ul
+{
+	float:left;
+	width:100%;
+	text-align:center;	
+}
+.kf_comming_social ul li{
+	display:inline-block;
+	position:relative;	
+}
+.kf_comming_social ul li a{
+	display:block;
+	font-size:18px;
+	padding:0px 15px;
+	color:#fff;	
+}
+
+/*
+	  ==============================================================
+		   COMMING SOON PAGE WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   TEAM LISTING WRAP CSS END
+	  ==============================================================
+*/
+.kf_team_listing_bg{
+	padding-bottom:50px;	
+}
+.kode_politician{
+	margin-bottom:30px;
+	box-shadow:0px 0px 8px 1px rgba(0,0,0,0.18);	
+}
+.kode_politician:hover{
+	box-shadow:0px 0px 8px 2px rgba(0,0,0,0.18);	
+}
+/*
+	  ==============================================================
+		   TEAM LISTING WRAP CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   SHORTCODE PAGE WRAP CSS START
+	  ==============================================================
+*/
+.kf_shortcode_bg{
+	padding-top:57px;	
+}
+.kode_shortcode_wrap,.kode_shortcode_inner_wrap{
+	width:100%;
+	float:left;
+	padding-bottom:50px;
+	position:relative;	
+}
+.kode_shortcode_wrap:before,
+.kode_shortcode_inner_wrap:before
+{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:16px;
+	right:16px;
+	border-bottom:1px solid #e1e1e1;	
+}
+.kode_shortcode_heading{
+	float:left;
+	background:none;
+	padding-bottom:30px;	
+}
+.kode_shortcode_heading h4{
+	border-bottom:1px solid #e1e1e1;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-bottom:20px;	
+}
+.kf_hdg_style{
+	float:left;
+	width:100%;	
+}
+/*Heading Wrap Style*/
+.kode_shortcode_inner_wrap{
+	padding-top:50px	
+}
+.kode_shortcode_para,.kode_shortcode_social,.kode_shortcode_btn{
+	width:100%;
+	float:left;	
+}
+.kode_shortcode_inner_wrap .kode_hdg_2,
+.kode_shortcode_inner_wrap .kode_hdg_3{
+	background-color:#000000;
+	padding:20px 0px;	
+}
+/*Heading Wrap Style ends*/
+
+
+/*Blockquotes Style*/
+.kode_shortcode_para p{
+	color:#666;	
+}
+.kode_shortcode_inner_wrap .kode_news_detail{
+	border-bottom:0px;	
+}
+
+/*Socail Icon 1*/
+.kode_shortcode_social > ul{
+	padding-bottom:25px;	
+}
+.kode_shortcode_social > ul > li{
+	display:inline-block;	
+}
+.kode_shortcode_social > ul > li > a{
+	font-size:24px;
+	color:#666666;
+	padding:0px 20px;	
+}
+.kode_shortcode_social > ul > li:first-child a{
+	padding:0px;	
+}
+/*Icon Style 2*/
+.kode_shortcode_inner_wrap .kode_scl_icon{
+	float:left;
+	width:100%;	
+}
+.kode_shortcode_inner_wrap .kode_scl_icon ul li a{
+	color:#000000;
+}
+.kode_shortcode_inner_wrap .kode_scl_icon ul li.active a,
+.kode_shortcode_inner_wrap .kode_scl_icon ul li:hover a{
+	color:#fff;	
+}
+
+/*Socail Icon 1 ends*/
+
+/*Link Style*/
+.kf_btn_list{
+	float:left;
+	width:100%;
+	background-color:#000000;
+	padding:20px;	
+}
+.kf_btn_list a{
+		margin:20px;
+}
+
+/*Link Style ends*/
+
+/*Skill Style*/
+.kode_shortcode_inner_wrap .kode-skills{
+	background-color:#000000;	
+}
+/*
+	  ==============================================================
+		   SHORTCODE PAGE WRAP CSS START
+	  ==============================================================
+*/
+.dl-menuwrapper button.dl-active:after {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;   
+}
+.kode_event_des ul li a {
+    font-size: 14px;
+    line-height: 25px;
+}

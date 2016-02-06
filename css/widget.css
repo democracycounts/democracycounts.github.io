@@ -1,0 +1,886 @@
+footer{
+	float:left;
+	width:100%;
+}
+/*
+	  ==============================================================
+		   FOOTER NEWS LETTER CSS START
+	  ==============================================================
+*/
+.kode_newsletter_bg{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_newsletter_bg:before{
+	content:"";
+	position:absolute;
+	top:-46px;
+	left:-57px;
+	width:43%;
+	height:141%;
+	background-color:#1daee5;
+	transform:skewX(30deg);
+	-moz-transform:skewX(30deg);
+	-webkit-transform:skewX(30deg);
+	-ms-transform:skewX(30deg);	
+}
+.kode_newsletter_bg .container{
+	position:relative;
+	z-index:99999;	
+}
+.kode_newsletter_des{
+	float:left;	
+	text-align:right;
+	padding-left:50px;
+	padding-top:5px;
+}
+.kode_newsletter_des h5{
+	color:#fff;
+	text-transform:uppercase;
+	line-height:20px;
+	margin-bottom:8px;	
+}
+.kode_newsletter_des h3{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	line-height:30px;	
+}
+/*Form Style*/
+.kode_newsletter_form{
+	float:right;
+	padding:30px;	
+}
+.kode_newsletter_form form{
+	width:650px;
+	position:relative;	
+}
+.kode_newsletter_form form input[type="text"]{
+	width:100%;
+	height:53px;
+	background-color:#fff;
+	border:0px;
+	padding:8px 62px 8px 15px;
+	color:#939393;	
+}
+.kode_newsletter_form form button{
+	color:#fff;
+	padding:14px 15px;
+	position:absolute;
+	right:5px;
+	top:5px;
+	line-height:16px;	
+}
+.kode_newsletter_form form button:hover{
+	background-color:#1daee5;	
+}
+/*
+	  ==============================================================
+		   FOOTER NEWS LETTER CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   FOOTER WIDGET CSS START
+	  ==============================================================
+*/
+.kode_footer_bg{
+	float:left;
+	width:100%;
+	background-color:#1a1a1a;
+}
+/*Footer Logo Style*/
+.kode_footer_logo{
+	padding:40px 0 44px;
+	border-bottom:1px solid #2a2a2a;
+	position:relative;	
+}
+.kode_footer_logo:before{
+	content:"";
+	position:absolute;
+	bottom:2px;
+	left:0px;
+	width:100%;
+	height:1px;
+	background-color:#2a2a2a;
+}
+.kode_footer_logo,
+.kode_footer_logo ul
+{
+	float:left;
+	width:100%;
+	text-align:center;	
+}
+.kode_footer_logo figure{
+	margin-bottom:40px;	
+}
+.kode_footer_logo > a{
+	display:block;	
+}
+.kode_footer_logo ul li{
+	display:inline-block;
+	position:relative;
+	padding:0px 4px;	
+}
+.kode_footer_logo ul li a{
+	display:block;
+	width:33px;
+	height:33px;
+	border-radius:100%;
+	background-color:#313131;
+	line-height:33px;
+	color:#fff;	
+}
+.kode_footer_logo ul li:hover a{
+	color:#fff;
+}
+/*Widget Wrap Style*/
+.kode_widgt_outr_wrap{
+	border-bottom:1px solid #2a2a2a;
+	padding:41px 0 28px;	
+}
+.widget_hdg,
+.kode_widgt_outr_wrap
+{
+	float:left;
+	width:100%;	
+}
+.widget_hdg h5{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-bottom:15px;
+	margin-bottom:35px;
+	position:relative;
+	line-height:20px;	
+}
+.widget_hdg h5:before{
+	content:"";
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:50px;
+	height:1px;
+	background-color:#1daee5;	
+}
+.kode_widgt_touch p{
+	color:#919191;
+	line-height:20px;
+	margin-bottom:10px;	
+}
+.kode_widgt_touch ul,
+.kode_widgt_tweets ul,
+.kode_widgt_event ul,
+.kode_foo_gallery ul
+{
+	float:left;
+	width:100%;	
+}
+.kode_widgt_touch ul li{
+	float:left;
+	position:relative;
+	color:#919191;
+	padding:10px 0px;
+}
+.kode_widgt_touch ul li i,
+.kode_widgt_tweets ul li i
+{
+	float:left;
+	width:20px;
+	padding-top:5px;	
+}
+.kode_widgt_des{
+	float:none;
+	padding:0px 0px 0px 30px;	
+	font-size:15px;
+}
+.kode_widgt_des a{
+	display:inline-block;
+}
+.kode_widgt_des span{
+	display:block;	
+}
+/*Widget 2 style*/
+.kode_widgt_tweets ul li{
+	float:left;
+	width:100%;
+	border-bottom:1px solid #2a2a2a;
+	color:#808080;
+	padding:10px 0px;	
+}
+.kode_widgt_des a{
+	display:inline-block;
+	color:#067db7;	
+}
+.kode_widgt_tweets ul li .kode_widgt_des span{
+	padding-top:5px;
+	line-height:18px;	
+}
+.kode_widgt_des p{
+	margin-top:15px;
+	margin-bottom:0px;	
+}
+.kode_widgt_tweets ul li:first-child{
+	padding-top:0px;	
+}
+/*Widgets 3 Style*/
+.kode_widgt_event ul li{
+	float:left;
+	width:100%;
+	padding:20px 0px;	
+}
+.kode_widgt_event ul li figure{
+	width:58px;
+}
+.kode_widgt_event ul li figure:before{
+	content:"";
+	position:absolute;
+	bottom:-26px;
+	left:-10px;
+	width:110%;
+	height:50%;
+	background-color:#1a1a1a;
+	transform:rotate(20deg);
+}
+.kode_widgt_event ul li figure:after{
+	content:"";
+	position:absolute;
+	left:0px;
+	bottom:9px;
+	width:110%;
+	height:4px;
+	transform:rotate(20deg);
+}
+.kode_widgt_event ul li figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_foo_event_des{
+	float:none;
+	padding:0px 0px 0px 75px;	
+}
+.kode_foo_event_des a{
+	color:#fff;
+	display:block;
+	font-size:13px;
+	margin-bottom:10px;
+	line-height:22px;	
+}
+.kode_foo_event_des span{
+	display:block;
+	font-size:13px;
+	color:#8e8e8e;	
+}
+.kode_widgt_event ul li:first-child{
+	padding-top:0px;	
+}
+/*Widget 4 Style*/
+.kode_foo_gallery ul li{
+	float:left;
+	margin:0px 7px 10px 0px;	
+}
+.kode_foo_gallery ul li a{
+	display:block;	
+}
+.kode_foo_gallery ul li a img{
+	width:100%;
+	height:auto;	
+}
+.kode_foo_gallery ul li:hover a img{
+	opacity:0.5;	
+}
+
+/*Site map Style*/
+.kode_site_map{
+	border-bottom:1px solid #2a2a2a;
+	padding:35px 0;	
+}
+.kode_site_map,
+.kode_site_map ul
+{
+	float:left;
+	width:100%;	
+	text-align:center;
+}
+.kode_site_map ul li{
+	display:inline-block;	
+}
+.kode_site_map ul li a{
+	display:block;
+	text-transform:uppercase;
+	color:#fff;
+	padding:0px 22px;
+	line-height:14px;	
+}
+
+/*
+	  ==============================================================
+		   FOOTER WIDGET CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   COPY RIGHT WIDGET CSS START
+	  ==============================================================
+*/
+.kode_copyright{
+	float:left;
+	width:100%;
+	padding:30px 0px;	
+}
+.kode_copyright p{
+	margin:0px;
+	float:left;
+	font-size:14px;
+	color:#fff;
+	line-height:15px;
+	padding-top:6px;	
+}
+.kode_copyright span a{
+	display:inline-block;
+	color:#9c9c9c;	
+}
+.kode_copyright > a{
+	float:right;
+	width:50px;
+	height:50px;
+	text-align:center;
+	font-size:26px;
+	color:#fff;
+	background-color:#222222;
+	line-height:48px;
+	position:fixed;
+	bottom:30px;
+	right:30px;	
+}
+.kode_copyright > a:hover{
+	color:#fff;	
+}
+/*
+	  ==============================================================
+		   COPY RIGHT WIDGET CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   ASIDE ABR WRAP CSS START
+	  ==============================================================
+*/
+.kode_aside{
+	float:left;
+	width:100%;
+	margin-bottom:40px;
+	box-shadow:0 3px 6px 1px rgba(0, 0, 0, 0.15);	
+}
+.kode_aside h5{
+	font-size:20px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:20px 20px;
+	line-height:normal;	
+}
+/*Aside Search*/
+.kode_aside_search{
+	margin-bottom:40px;	
+}
+.kode_aside_search,
+.kode_aside_search form
+{
+	position:relative;
+	float:left;
+	width:100%;	
+}
+.kode_aside_search form input[type="text"]{
+	width:100%;
+	height:58px;
+	background-color:#fff;
+	border:1px solid #e1e0e0;
+	padding:15px 60px 15px 20px;	
+}
+.kode_aside_search form input[type="submit"],
+.kode_aside_search form button{
+	position:absolute;
+	background:none;
+	color:#929292;
+	top:18px;
+	right:30px;	
+}
+.kode_aside_search form input[type="text"]:hover{
+	box-shadow:0 0 7px 1px rgba(0, 0, 0, 0.15);	
+}
+/*Aside Category*/
+.kode_aside_cat{
+	background-color:#f7f7f7;	
+}
+.kode_aside_cat ul{
+	float:left;
+	width:100%;
+	padding:10px 30px 13px;	
+}
+.kode_aside_cat ul li,
+.kode_aside_event ul li
+{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_aside_cat ul li a{
+	display:block;
+	color:#a8a8a8;
+	padding:15px 0px;
+	border-bottom:1px solid #d8d6d6;
+	font-size:18px;
+	line-height:normal;
+	text-transform:capitalize;	
+}
+.kode_aside_cat ul li:last-child a{
+	border-bottom:0px;	
+}
+.kode_aside_cat ul li:hover a{
+	padding-left:10px;	
+}
+/*Recent Events*/
+.kode_aside_event{
+	position:relative;	
+}
+.kode_aside_event ul{
+	padding:40px;
+	float:left;
+	width:100%;	
+}
+.kode_aside_event ul li{
+	padding:30px 0px 28px;
+	border-bottom:1px solid #d8d6d6;	
+}
+.kode_aside_event ul li figure{
+	margin-bottom:20px;
+}
+.kode_aside_event ul li figure:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	width:0;
+	height:0;
+	margin:auto;
+	background-color:rgba(0,0,0,0.6);	
+}
+.kode_aside_event ul li figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_aside_event ul li figure figcaption{
+	position:absolute;
+	top:-50px;
+	width:100%;
+	text-align:center;
+	margin-top:-20px;
+	opacity:0px;	
+}
+.kode_aside_event ul li figure figcaption a{
+	font-size:20px;
+	color:#fff;
+	padding:0px 8px;	
+}
+.kode_aside_event_des{
+	float:left;
+	width:100%;
+	padding:0px 10px;
+	text-align:center;
+}
+.kode_aside_event_des p{
+	color:#a9a9a9;
+	word-break:break-all;	
+}
+.kode_aside_event_des span{
+	color:#000000;
+	display:block;	
+}
+.kode_aside_event_des span b{
+	font-weight:normal;	
+}
+.kode_aside_event ul li:first-child{
+	padding-top:0px;	
+}
+.kode_aside_event ul li:last-child{
+	border-bottom:0px;
+	padding-bottom:0px;	
+}
+/*Hover Style*/
+.kode_aside_event ul li:hover figure:before{
+	width:96%;
+	height:94%;	
+}
+.kode_aside_event ul li:hover figure figcaption{
+	opacity:1;	
+	top:50%;
+}
+/*Aside Video Wrap*/
+.kode_aside_video .kode_video_icon a{
+	line-height:5px;	
+}
+.kode_aside_video .kode_video_icon a i{
+	margin-left:-4px;	
+}
+.kode_aside_video .kode_video_icon{
+	margin:0px;	
+}
+.kode_aside_video figure:hover .kode_video_icon{
+	opacity:1;	
+}
+/*Aside Flicker Gallery*/
+.kode_aside_flicker{
+	box-shadow:none;	
+}
+.kode_aside_flicker ul{
+	float:left;
+	width:100%;
+	margin-top:10px;
+}
+.kode_aside_flicker ul li{
+	float:left;
+	position:relative;
+	border:5px solid #d8d8d8;
+	width:32%;
+	margin:0px 4px 5px 0px;	
+}
+.kode_aside_flicker ul li a{
+	display:block;	
+}
+.kode_aside_flicker ul li figure:before{
+	content:"";
+	position:absolute;
+	height:60%;
+	width:130%;
+	bottom:-20px;
+	right:-80px;
+	transform:rotate(-36deg);
+	opacity:0;
+}
+.kode_aside_flicker ul li figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_aside_flicker ul li figure figcaption{
+	position:absolute;
+	bottom:-50px;
+	right:25px;
+	font-size:20px;
+	opacity:0;	
+}
+.kode_aside_flicker ul li figure figcaption i{
+	color:#fff;	
+	width:100%;
+}
+/*Hover style*/
+.kode_aside_flicker ul li:hover figure figcaption{
+	bottom:12px;
+	opacity:1;	
+}
+.kode_aside_flicker ul li:hover figure:before{
+	right:-38px;
+	opacity:1;	
+}
+
+
+/*
+	  ==============================================================
+		   ASIDE ABR WRAP CSS END
+	  ==============================================================
+*/
+
+/*
+	  ==============================================================
+		   EVENT DETAIL ASIDE ABR WRAP CSS START
+	  ==============================================================
+*/
+.kode_aside_map,
+.kode_aside_organizer,
+.kode_aside_gallery,
+.kode_aside_related
+{
+	border:1px solid #dddddd;
+	margin-bottom:40px;	
+}
+.kode_aside_map{
+	text-align:center;	
+}
+.kode_aside_map_des,
+.kode_aside_org_des
+{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kode_aside_map .map-canvas{
+	width:100%;
+	float:left;
+	height:300px;	
+}
+.kode_aside_map_des{
+	padding:20px;	
+}
+.kode_aside_map_des p{
+	color:#8a8a8a;
+	line-height:10px;	
+}
+.kode_aside_map_des span{
+	position:absolute;
+	width:30px;
+	height:30px;
+	background-color:#fff;
+	border-radius:100%;
+	top:-15px;
+	margin-left:-25px;
+	line-height:22px;
+}
+/*Aside Organizer*/
+.aside_hdg{
+	float:left;
+	width:100%;	
+}
+.aside_hdg > h6{
+	text-transform:uppercase;
+	font-size:20px;
+	line-height:20px;
+	font-weight:bold;
+	border-bottom:1px solid #dddddd;
+	padding:20px;	
+}
+.kode_aside_org_des{
+	float:left;
+	width:100%;
+	padding:30px;	
+}
+.kode_aside_org_des p{
+	word-break:break-all;	
+}
+.kode_aside_contnt,
+.kode_aside_org_scl
+{
+	float:left;
+	width:100%;
+	margin-bottom:10px;	
+}
+.kode_aside_contnt li{
+	float:left;
+	position:relative;
+	width:100%;
+	font-size:16px;
+	color:#999999;
+	padding:10px 0px;
+	line-height:15px;	
+}
+.kode_aside_contnt li i{
+	margin-right:10px;	
+}
+.kode_aside_org_scl{
+	margin-bottom:20px;	
+}
+.kode_aside_org_scl li{
+	float:left;
+	position:relative;	
+}
+.kode_aside_org_scl li a{
+	padding:0px 10px;
+	font-size:18px;
+	color:#999999;	
+}
+.kode_aside_org_scl li:first-child a{
+	padding-left:0px;	
+}
+.kode_aside_org_des a h6{
+	display:inline-block;
+	float:left;
+	text-align:center;
+	padding:10px 0px;
+	width:100%;
+	display:block;
+	color:#fff;
+	text-transform:uppercase;
+	line-height:normal;	
+}
+.kode_aside_org_des > a h6:hover{
+	background-color:#000000;	
+}
+/*Event Gallery Wrap Style*/
+.kode_aside_gallery ul{
+	padding:30px 30px 20px 30px;
+	float:left;
+	width:100%;	
+}
+.kode_aside_gallery ul li{
+	float:left;
+	position:relative;
+	margin:0px 10px 10px 0px;
+	width:48.3%;
+}
+.kode_aside_gallery ul li a{
+	display:block;	
+}
+.kode_aside_gallery ul li a img{
+	width:100%;	
+}
+.kode_aside_gallery ul li:nth-child(even){
+	margin-right:0px;	
+}
+.kode_aside_gallery ul li:hover{
+	opacity:0.7;
+}
+/*Related Event Style*/
+.kode_aside_related ul{
+	float:left;
+	width:100%;	
+}
+.kode_aside_related > ul > li{
+	float:left;
+	position:relative;
+	padding:30px;
+	border-bottom:1px solid #dddddd;
+	width:100%;	
+}
+.kode_aside_related > ul > li:last-child{
+	border-bottom:0px;	
+}
+/*HOVER EFFECT OF RELATED EVENTS*/
+.kode_event_list figure:before,
+.kode_event_list figure:before
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	content: '';
+	-webkit-transition: -webkit-transform 0.6s;
+	transition: transform 0.6s;
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+.kode_event_list figure img,
+.kode_event_list figure img{
+	width:100%;
+	height:auto;
+	opacity: 0.95;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.05,1.05,1);
+	transform: scale3d(1.05,1.05,1);	
+}
+.kode_aside_related ul li:hover img,
+.kode_event_list:hover img
+{
+	opacity: 0.3;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1)	
+}
+.kode_event_list:hover figure:before,
+.kode_event_list:hover figure:before
+{
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);	
+}
+
+/*VIDEO WRAP STYLE START*/
+.kode_aside_video{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kode_aside_video figure:before{
+	background-color:rgba(0,0,0,0.7);
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+	width:0px;
+	height:0px;	
+}
+.kode_aside_video:hover figure:before{
+	width:100%;
+	height:100%;	
+}
+.kode_aside_video figure img{
+	width:100%;
+	height:auto;	
+}
+.kode_aside_video figure figcaption{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	top:38%;
+}
+.kode_aside_video figure figcaption a{
+	display:inline-block;
+	line-height:45px;
+	width:50px;
+	height:50px;
+	border-radius:100%;
+	border:3px solid #fff;
+	font-size:24px;
+	color:#fff;
+	text-align:center;
+	opacity:0;
+}
+.kode_aside_video figure:hover figcaption a{
+	opacity:1;
+}
+/*
+==============================================================
+		  			EVENT CALENDER WIDGET
+==============================================================
+*/
+.kode_calender{
+	float:left;
+	width:100%;
+}
+
+.kode_calender .fc-toolbar{
+	padding: 18px 20px;
+	margin-bottom: 0px;
+	position: relative;
+}
+.kode_calender .fc-toolbar h2{
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	position: absolute;
+	left: 0px;
+	width: 100%
+}
+.kode_calender .fc-right button{
+	background:none;
+	border:none;
+	box-shadow: none;
+	padding: 0px;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow:none;
+
+}
+.kode_calender .fc-right .fc-today-button{
+	background-color:rgba(0,0,0,0.2);
+	border-radius: 0px;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top:0px;
+	padding: 10px 15px;
+
+}
+.kode_volunteer_btn a:hover{
+	opacity:0.9;	
+}
