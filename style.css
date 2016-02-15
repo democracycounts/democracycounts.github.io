@@ -3,7 +3,7 @@
 Project:	Democracy Counts
 Version:	1.1
 Last change:	06/02/2016
-Author :	GHOST
+Author :	Alec Hahn
 
 /**
  * Table of Contents :
@@ -927,6 +927,7 @@ ul.kode_tab_lnk li:hover:after{
 	float:left;
 	width:100%;	
 	margin-top:17px;
+    word-wrap: normal;
 }
 .kode_wel_demo_des h6{
 	font-size:14px;
@@ -956,7 +957,7 @@ ul.kode_tab_lnk li:hover:after{
 }
 .kode_wel_demo_des p{
 	line-height:29px;
-	word-break:break-all;
+	
 	font-weight:400;
 	margin-bottom:20px;	
 	color:#666;
@@ -1325,7 +1326,7 @@ ul.kode_tab_lnk.nav > li > a:hover{
 }
 .kode_news_des p{
 	color:#999999;
-	word-break:break-all;
+	/*word-break:break-all;*/
 	margin-bottom:10px;	
 }
 .kode_news_des a{
@@ -1692,7 +1693,7 @@ ul.kode_tab_lnk.nav > li > a:hover{
 	line-height:31px;	
 }
 .kode_lst1_des p{
-	word-break:break-all;
+	/*word-break:break-all;*/
 	line-height:28px;	
 }
 .kode_lst1_des ul{
@@ -1837,7 +1838,7 @@ ul.kode_tab_lnk.nav > li > a:hover{
 }
 .kode_poli_img_des p{
 	color:#cccccc;
-	word-break:break-all;	
+	/*word-break:break-all;*/	
 }
 .kode_politician_des{
 	float:left;
@@ -2405,7 +2406,7 @@ ul.countdown li p {
 }
 .kode_testi_wrap p{
 	line-height:26px;
-	word-break:break-all;
+	/*word-break:break-all;*/
 	margin-bottom:20px;
 	padding:0px 30px;	
 }
@@ -2686,7 +2687,7 @@ ul.countdown li p {
 	background-color:#333333;	
 }
 .kode_about_services p{
-	word-break:break-all;
+	/*word-break:break-all;*/
 	line-height:26px;
 	font-weight:600;	
 }
@@ -2902,7 +2903,7 @@ ul.countdown li p {
 	font-weight:500;	
 }
 .kode_where_des p{
-	word-break:break-all;	
+	/*word-break:break-all;*/	
 }
 .kode_where_year{
 	background-color: #fff;
@@ -3274,7 +3275,7 @@ ul.countdown li p {
 	float:none;
 }
 .planning_des p{
-	word-break:break-all;
+	/*word-break:break-all;*/
 	color:#666666;
 	line-height:22px;
 }
@@ -3457,7 +3458,7 @@ p.planning_1{
 .kode_news_wrap_des p{
 	color:#7e7e7e;
 	font-weight:500;
-	word-break:break-all;
+	/*word-break:break-all;*/
 	margin-bottom:4px;	
 }
 .kode_news_wrap_des > b > a{
@@ -3544,7 +3545,7 @@ p.planning_1{
 	margin-right:5px;	
 }
 .kode_news_list_des p{
-	word-break:break-all;
+	/*word-break:break-all;*/
 	color:#a1a1a1;
 	float:left;
 	line-height:25px;
@@ -3658,7 +3659,7 @@ p.planning_1{
 .kode_event_des p{
 	line-height:27px;
 	color:#888;
-	word-break:break-all;	
+	/*word-break:break-all;*/	
 	margin:0px 0px 28px;	
 }
 .kode_event_des > a{
@@ -3719,7 +3720,7 @@ p.planning_1{
 	display:block;	
 }
 .kode_focus_wrap p{
-	word-break:break-all;	
+	/*word-break:break-all;*/
 }
 .kode_focus_wrap a{
 	display:inline-block;
@@ -3749,7 +3750,7 @@ p.planning_1{
 	text-align:center;	
 }
 .kode_service_video p{
-	word-break:break-all;
+	/*word-break:break-all;*/
 	margin-bottom:35px;	
 }
 .kode_video{
@@ -3834,7 +3835,7 @@ p.planning_1{
 .kode_service_caption p{
 	color:#fff;
 	font-weight:bold;
-	word-break:break-all;
+	/*word-break:break-all;*/
 	margin-bottom:20px;	
 }
 .kode_service_caption a.kode_link_2:before{
@@ -3955,7 +3956,7 @@ p.planning_1{
 }
 .kdoe_choose_content p{
 	color:#fff;
-	word-break:break-all;	
+	/*word-break:break-all;*/	
 }
 /*Tab Wrap Style*/
 .kode_choose_tab{
@@ -4014,7 +4015,7 @@ p.planning_1{
 }
 .kode_tab_img_des p{
 	color:#a3a4a7;
-	word-break:break-all;
+	/*word-break:break-all;*/
 }
 .kode_chose_tab_detail p{
 	float:left;	
@@ -4079,7 +4080,7 @@ p.planning_1{
 }
 .kode_team_img_des > p{
 	color:#666666;
-	word-break:break-all;
+	/*word-break:break-all;*/
 	margin-bottom:20px;	
 }
 .kode_team_img_des span{
@@ -4160,7 +4161,7 @@ p.planning_1{
 }
 .kode_bground_des p{
 	color:#666666;
-	word-break:break-all;	
+	/*word-break:break-all;*/	
 }
 .kode_bground_des:before,
 .kode_bground_des:after
@@ -4269,7 +4270,7 @@ p.planning_1{
 }
 .kode_edu_img_des p{
 	color:#666666;
-	word-break:break-all;	
+	/*word-break:break-all;*/	
 }
 .kode_edu_des ul li:first-child{
 	border-top:0px;
@@ -4546,7 +4547,7 @@ p.planning_1{
 .kf_month_left p
 {
 	font-size:16px;
-	word-break:break-all;	
+	/*word-break:break-all;*/	
 }
 /*Left Side Wrap Style*/
 .kf_month_left{
@@ -4743,7 +4744,7 @@ p.planning_1{
 	text-transform:uppercase;	
 }
 .kode_event_timer_des p{
-	word-break:break-all;
+	/*word-break:break-all;*/
 	margin-bottom:17px;	
 }
 .kode_event_timer_des h6{
@@ -4956,7 +4957,7 @@ ul.kode_orgnizer_social{
 .kode_event_list a{
 	color:#000000;
 	line-height:20px;
-	word-break:break-all;
+	/*word-break:break-all;*/
 	padding-right:10px;	
 	margin-bottom:5px;
 }
@@ -5131,7 +5132,7 @@ ul.kode_orgnizer_social{
 	padding-left:0px;	
 }
 .kode_news_detail p{
-	word-break:break-all;
+	/*word-break:break-all;*/
 	margin-bottom:10px;	
 }
 .kode_news_detail blockquote{
