@@ -205,7 +205,7 @@ $(document).ready(function(){
 		   Post Bx-Slider Script Start
 	  ============================================================== */
 	if($('.countdown').length){
-		$('.countdown').downCount({ date: '08/08/2016 12:00:00', offset: +1 });
+		$('.countdown').downCount({ date: '08/11/2016 12:00:00', offset: +1 });
 	}
 	  
 	  
