@@ -1,0 +1,528 @@
+.selection_color {
+  background: #cf1c22;
+  color: #ffffff;
+}
+::-moz-selection {
+  background: #cf1c22;
+  color: #ffffff;
+}
+::selection {
+  background: #cf1c22;
+  color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #242636;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #242636;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #cf1c22;
+}
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+  color: #cf1c22;
+}
+a {
+  color: #cf1c22;
+}
+a:hover {
+  color: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Pagination
+/*-----------------------------------------------------------------------------------*/
+.paginate-links span.current,
+.page-nav-btns span.current,
+.pages-nav span.current,
+.pagination span.current,
+.paginate-links a.current,
+.page-nav-btns a.current,
+.pages-nav a.current,
+.pagination a.current,
+.paginate-links span:hover,
+.page-nav-btns span:hover,
+.pages-nav span:hover,
+.pagination span:hover,
+.paginate-links a:hover,
+.page-nav-btns a:hover,
+.pages-nav a:hover,
+.pagination a:hover {
+  background-color: #cf1c22;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Theme Buttons
+/*-----------------------------------------------------------------------------------*/
+.pp-btn {
+  background-color: #cf1c22;
+}
+.pp-btn:hover,
+.pp-btn.current {
+  background-color: #242636;
+}
+input[type="submit"] {
+  background-color: #cf1c22;
+}
+input[type="submit"]:hover,
+input[type="submit"].current {
+  background-color: #242636;
+}
+.tags-list a {
+  background-color: #cf1c22;
+  color: #242636;
+  background-color: #ffffff;
+}
+.tags-list a:hover,
+.tags-list a.current {
+  background-color: #242636;
+}
+.tags-list a:hover {
+  border-color: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Widgets
+/*-----------------------------------------------------------------------------------*/
+.sidebar .widget ul li a {
+  color: #242636;
+}
+.sidebar .widget ul li a:hover {
+  color: #cf1c22;
+}
+.widget ul li {
+  color: #242636;
+}
+.widget span,
+.widget time {
+  color: #9394a3;
+}
+.widget .author {
+  color: #cf1c22;
+}
+.widget .author:hover {
+  color: #242636;
+}
+/* Display Tweets Widget -------------------------------------------------------------------------------------------------------*/
+.widget_displaytweetswidget p a {
+  color: #cf1c22;
+}
+.widget_displaytweetswidget p a:hover {
+  color: #242636;
+}
+.widget_displaytweetswidget p .small {
+  color: #cf1c22;
+}
+/* About Widget -------------------------------------------------------------------------------------------------------*/
+.widget.about h5 a {
+  color: #cf1c22;
+}
+.widget.about h5 a:hover {
+  color: #242636;
+}
+/* Search Form Widget -------------------------------------------------------------------------------------------------------*/
+.searchform #searchsubmit {
+  background-color: #cf1c22;
+}
+.searchform #searchsubmit:hover,
+.searchform #searchsubmit.current {
+  background-color: #242636;
+}
+/* Tabbed Widget -------------------------------------------------------------------------------------------------------*/
+.widget .tabbed .tabs li:hover,
+.widget .tabbed .tabs li.current {
+  color: #242636;
+}
+.widget .tabbed .tabs li.current {
+  border-top: 3px solid #cf1c22;
+}
+/* Wp Email Capture Widget -------------------------------------------------------------------------------------------------------*/
+.header-widget .wp-email-capture-widget .slide_widget_inner {
+  background-color: #1d1f2c;
+  background-color: rgba(109, 28, 31, 0.9);
+}
+.header-widget .wp-email-capture-widget input[type="submit"] {
+  background-color: #cf1c22;
+}
+.header-widget .wp-email-capture-widget input[type="submit"]:hover {
+  background-color: rgba(129, 33, 37, 0.9);
+}
+.wp-email-capture-widget .title {
+  color: #e4c5c6;
+  border-bottom-color: #7c2f32;
+}
+.wp-email-capture-widget p,
+.wp-email-capture-widget .textwidget {
+  color: #a85b5e;
+}
+.wp-email-capture-widget input[type="text"] {
+  border-color: #0d0e14 ;
+}
+.wp-email-capture-widget input[type="submit"] {
+  background-color: #cf1c22;
+}
+.wp-email-capture-widget input[type="submit"]:hover {
+  background-color: #050101;
+}
+.sidebar .wp-email-capture-widget .title {
+  color: #242636;
+}
+/* Wp Calendar Widget ---------------------------------------------------------------------------------------------------------*/
+#wp-calendar caption {
+  color: #242636;
+}
+#wp-calendar thead th {
+  background: #242636;
+}
+#wp-calendar tbody td {
+  background: #cf1c22;
+}
+#wp-calendar tbody td#today,
+#wp-calendar tbody td:hover {
+  background: #242636;
+}
+.footer #wp-calendar caption {
+  color: #c8c9d0;
+}
+.footer #wp-calendar thead th {
+  border-color: #202230;
+}
+.footer #wp-calendar tbody td {
+  border-color: #242636;
+}
+/* Tag Cloud Widget ---------------------------------------------------------------------------------------------------------*/
+.widget .tagcloud a {
+  background-color: #cf1c22;
+}
+.widget .tagcloud a:hover {
+  background: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Header
+/*-----------------------------------------------------------------------------------*/
+.header-bottom-wrapper {
+  background: url("dark-red/world-map.png") #8a2327 no-repeat center top;
+}
+.header-wrapper {
+  background-color: #000000;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Donate Now btn
+/*-----------------------------------------------------------------------------------*/
+.donate-now a {
+  color: #ffffff;
+  background-color: #8a2327;
+}
+.donate-now a:hover {
+  color: #ffffff;
+  background-color: #61191c;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Main Nav
+/*-----------------------------------------------------------------------------------*/
+.main-menu ul li:hover > a {
+  background-color: #1c1c1c;
+}
+.main-menu ul li a {
+  color: #777777;
+}
+.main-menu ul li ul {
+  background-color: #000000;
+  -webkit-box-shadow: 0 1px 5px rgba(27, 27, 27, 0.5);
+  -moz-box-shadow: 0 1px 5px rgba(27, 27, 27, 0.5);
+  box-shadow: 0 1px 5px rgba(27, 27, 27, 0.5);
+}
+.main-menu ul li ul li a {
+  border-bottom-color: rgba(27, 27, 27, 0.5);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-menu {
+    background-color: #1c1c1c;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 220px) {
+  .main-menu {
+    background-color: #1c1c1c;
+  }
+  .main-menu ul li a {
+    border-bottom-color: #292929;
+  }
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Header Testimonial
+/*-----------------------------------------------------------------------------------*/
+.quote blockquote {
+  background-image: url('dark-red/icon-quote-open.png');
+}
+.quote blockquote p {
+  color: #f4aeb1;
+  background-image: url('dark-red/icon-quote-close.png');
+}
+.quote blockquote .author {
+  color: #e56a6f;
+}
+.quote blockquote .line {
+  background: #9e373b;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Slider
+/*-----------------------------------------------------------------------------------*/
+.flex-control-paging li a {
+  background: #cf1c22;
+}
+.flex-control-paging li a:hover,
+.flex-control-paging li a.flex-active {
+  background: #ffffff;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Home FlexSlider
+/*-----------------------------------------------------------------------------------*/
+.home-flexslider .flexslider {
+  border-color: #6d1c1f;
+  border-color: rgba(109, 28, 31, 0.9);
+  background-color: rgba(109, 28, 31, 0.9);
+}
+.home-flexslider .flex-direction-nav li a {
+  background-color: rgba(109, 28, 31, 0.9);
+}
+.home-flexslider .flex-direction-nav li a:hover {
+  background-color: #cf1c22;
+}
+.lt-ie9 .home-flexslider .flex-direction-nav li a,
+.lt-ie9 .header-widget .wp-email-capture-widget .slide_widget_inner,
+.lt-ie9 .home-flexslider .flexslider,
+.lt-ie9 .home-flexslider.variation-2 .slide-description,
+.lt-ie9 .home-flexslider.variation-3 .slide-description {
+  background-color: #6d1c1f;
+}
+.home-flexslider.variation-2 {
+  background-color: rgba(109, 28, 31, 0.9);
+}
+.home-flexslider.variation-2 .slide-description .title {
+  color: #E4C5C6;
+}
+.home-flexslider.variation-2 .slide-description p {
+  color: #A85B5E;
+}
+.home-flexslider.variation-2 .slide-description .pp-btn {
+  background-color: #cf1c22;
+}
+.home-flexslider.variation-2 .slide-description .pp-btn:hover {
+  background-color: rgba(129, 33, 37, 0.9);
+}
+.home-flexslider.variation-3 .slide-description {
+  background-color: rgba(109, 28, 31, 0.9);
+}
+.home-flexslider.variation-3 .slide-description .title {
+  color: #E4C5C6;
+}
+.home-flexslider.variation-3 .slide-description p {
+  color: #A85B5E;
+}
+.home-flexslider.variation-3 .slide-description .pp-btn:hover {
+  background-color: rgba(129, 33, 37, 0.9);
+}
+/*-----------------------------------------------------------------------------------*/
+/* Footer
+/*-----------------------------------------------------------------------------------*/
+.footer {
+  color: #636363;
+  background: url("dark-red/world-map-footer.png") #151515 no-repeat center top;
+}
+.footer a {
+  color: #636363;
+}
+.footer a:hover {
+  color: #ffffff;
+}
+.footer .widget ul li {
+  background-image: url('dark-red/list-bullet.png');
+}
+.footer .widget ul li a {
+  color: #636363;
+}
+.footer .widget ul li a:hover {
+  color: #ffffff;
+}
+.footer .title,
+.footer h1,
+.footer h2,
+.footer h3,
+.footer h4,
+.footer h5,
+.footer h6 {
+  color: #c8c9d0;
+}
+.footer .title {
+  border-bottom-color: #2c2c2c;
+}
+.footer p,
+.footer ul li {
+  color: #636363;
+}
+.footer .widget_displaytweetswidget p a {
+  color: #cf1c22;
+}
+.footer .widget_displaytweetswidget p a:hover {
+  color: #ffffff;
+}
+.footer .widget_displaytweetswidget small {
+  color: #636363;
+}
+.widget.contact-us .contacts-list li.email {
+  background-image: url('dark-red/icon-mail.png');
+}
+.widget.contact-us .contacts-list li.phone {
+  background-image: url('dark-red/icon-phone.png');
+}
+form.newsletter label {
+  color: #c8c9d0;
+}
+form.newsletter input[type="text"] {
+  background-color: #303030;
+  color: #636363;
+}
+form.newsletter input[type="submit"]:hover {
+  background-color: #242636;
+}
+.footer-bottom .copyright {
+  color: #3b3b3b;
+}
+.footer-bottom {
+  background-color: #000000;
+}
+.footer-bottom .social-nav > li.facebook a {
+  background-image: url(dark-red/facebook.png);
+}
+.footer-bottom .social-nav > li.twitter a {
+  background-image: url(dark-red/twitter.png);
+}
+.footer-bottom .social-nav > li.linkedin a {
+  background-image: url(dark-red/linked-in.png);
+}
+.footer-bottom .social-nav > li.youtube a {
+  background-image: url(dark-red/youtube.png);
+}
+.footer-bottom .social-nav > li.skype a {
+  background-image: url(dark-red/skype.png);
+}
+.footer-bottom .social-nav > li.flickr a {
+  background-image: url(dark-red/flickr.png);
+}
+.footer-bottom .social-nav > li.deviantart a {
+  background-image: url(dark-red/devine-art.png);
+}
+.footer-bottom .social-nav > li.google a {
+  background-image: url(dark-red/google.png);
+}
+.footer-bottom .social-nav > li.stumble a {
+  background-image: url(dark-red/stumble.png);
+}
+.footer-bottom .social-nav li > a:hover {
+  background-position: 0 bottom;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Respond
+/*-----------------------------------------------------------------------------------*/
+#contact-form input[type="submit"],
+#respond #submit,
+.wpcf7-form input[type="submit"] {
+  background-color: #cf1c22;
+}
+#contact-form input[type="submit"]:hover,
+#respond #submit:hover,
+.wpcf7-form input[type="submit"]:hover {
+  background-color: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Home Page
+/*-----------------------------------------------------------------------------------*/
+.blog-items {
+  background-color: #d7e0e6;
+}
+.blog-items figcaption {
+  background-color: #000;
+}
+.listing-slider .flex-direction-nav a {
+  background-color: #cf1c22;
+}
+.listing-slider .flex-direction-nav a:hover {
+  background-color: #242636;
+}
+blockquote {
+  color: #383838;
+}
+.type-post.sticky {
+  border-bottom-color: #cf1c22;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Features page
+/*-----------------------------------------------------------------------------------*/
+/*  Toggle and  Accordion */
+.toggle dt,
+.accordion dt {
+  color: #242636;
+}
+.toggle dt span,
+.accordion dt span {
+  background-color: #cf1c22;
+}
+/*  Tabs  */
+.tabs-nav li.active {
+  border-top-color: #cf1c22;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Gallery Page
+/*-----------------------------------------------------------------------------------*/
+#filter-by a {
+  color: #242636;
+}
+#filter-by a:focus,
+#filter-by a.active,
+#filter-by a:hover {
+  background-color: #cf1c22;
+}
+.gallery-item a.zoom {
+  background-color: #cf1c22;
+}
+.gallery-item a.zoom:hover {
+  background-color: #242636;
+}
+.gallery-item .media_container {
+  background-color: #16435f;
+}
+.gallery-item .item-title a {
+  color: #242636;
+}
+.gallery-item .item-title a:hover {
+  color: #cf1c22;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Contact Page
+/*-----------------------------------------------------------------------------------*/
+#contact-form label {
+  color: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Event  Page
+/*-----------------------------------------------------------------------------------*/
+.ai1ec-label {
+  color: #242636;
+}

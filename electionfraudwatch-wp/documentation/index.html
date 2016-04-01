@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Political Press Theme Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+	<!-- DOCs Nav ============================================== -->
+    <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <button type="button" class="btn btn-navbar" >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+              <div class="container">              	
+                <ul class="nav">
+                  <li><a href="#disclaimer">Disclaimer</a></li>
+                  <li class="dropdown">
+                    <a href="#getting-started">Getting Started <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+						<li><a href="#install">Install Theme</a></li>
+						<li><a href="#install-child">Install Child Theme</a></li>
+						<li><a href="#xml-demo">Import XML - For Demo Contents</a></li>
+						<li><a href="#custom-menus">Configure Menus</a></li>
+						<li><a href="#reading-settings">Configure Reading Settings</a></li>						                        
+                    </ul>
+                  </li>
+				  <li class="dropdown">
+                    <a href="#setting-homepage">Homepage <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="#setting-homepage">Setting up Homepage</a></li>
+						<li><a href="#homepage-options">Homepage Options</a></li>
+                        <li><a href="#setting-homepage-slider">Homepage Slider</a></li>
+						<li><a href="#setting-subscribe-widget">Setting Up Subscribe Email Widget</a></li>
+						<li><a href="#setting-campaign-trail">Setting Up Campaign Trail</a></li>
+					</ul>
+				  </li>
+                  <li class="dropdown">
+                    <a href="#setting-blog-news">News<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#setting-blog-news">Setting Up Blog</a></li>
+                        <li><a href="#setting-blog-post">How to add New Post</a></li>
+                        <li><a href="#setting-post-gallery">How to add New Gallery Post</a></li>
+                        <li><a href="#setting-post-video">How to add New Video Post</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#setting-default-page">Pages <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+                        <li><a href="#setting-default-page">Setting Up Default Page</a></li>
+                        <li><a href="#contact-page">Setting Up Contact Page</a></li>
+						<li><a href="#events-calendar">Setting Up Events Calendar</a></li>
+						<li><a href="#setting-up-gallery-pages">Setting Up Gallery Pages</a></li>
+					</ul>
+				  </li>
+				  
+                  <li class="dropdown">
+                    <a href="#theme-options">Theme Options <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#header-settings">Header Settings</a></li>
+                        <li><a href="#home-settings">Home Settings</a></li>
+                        <li><a href="#styles-settings">Styles Settings</a></li>
+                        <li><a href="#setting-contact-page">Contact Page Settings</a></li>
+                        <li><a href="#footer-theme-options">Footer Setting Settings</a></li>
+                        <li><a href="#backup-theme-options">Backup Theme Options</a></li>                    
+                    </ul>
+                  </li>
+                  
+                  <li class="dropdown">
+                    <a href="#theme-features">Theme Features <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown">
+                            <a href="#custom-widgets">Custom Widgets <b class="caret"></b></a>
+                            <ul>
+                                <li><a href="#gallery-widget">Gallery Widget</a></li>
+                                <li><a href="#tabs-widget">Tabs Widget</a></li>
+                                <li><a href="#testimonial-widget">Testimonials Widget</a></li>
+								<li><a href="#video-widget">Video Widget</a></li>
+                                <li><a href="#plugins">Twitter Tweets Plugin</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#shortcodes">Short codes <b class="caret"></b></a>
+                            <ul>
+                                <li><a href="#columns">Columns</a></li>
+                                <li><a href="#liststyles">List Styles</a></li>
+                                <li><a href="#buttons">Button</a></li>
+                                <li><a href="#message">Message Boxes</a></li>
+                              
+                            </ul>
+                        </li>
+						<li><a href="#page-templates">Custom Page Templates</a></li>
+                        
+                    </ul>
+                  </li>
+                  <li><a href="#theme-customization"><i class="icon-chevron-right"></i>Theme Customization</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>"Political Press WordPress Theme"</h1>
+    <p class="lead">Documentation by Inspiry Themes</p>
+  </div>
+</header>
+
+
+  <div class="container">
+      
+      <div class="row">
+        <div class="span12">
+        		<div class="container-fluid topinfo">
+        			  <div class="row-fluid">
+        					<div class="span4 left-info">
+        							<p>
+        								<strong>
+                                            Last Updated: 04 October 2013<br>
+                                            Support: <a href="http://support.inspirythemes.com/" target="_blank">Support Site</a><br>
+                                            Developed By: <a href="http://themeforest.net/user/960development/portfolio" target="_blank">Inspiry Themes</a><br>				
+        								</strong>                                        
+        							</p>
+        					</div>
+        					<div class="span8">
+        							<p class="">Thank you for purchasing Political Press WordPress Theme . If you have any question that is beyond the scope of this help file, Please feel free to create a support ticket using <a href="http://support.inspirythemes.com/" target="_blank">Our Support Site</a>. Thanks!</p>
+        					</div>
+        			  </div>
+        		</div>
+        		<div class="follow-us center">
+        				<a class="tf-link-btn" href="http://themeforest.net/user/960development" target="_blank" Title="Follow on Themeforest.net"></a>
+        		  </div>
+        	<section>
+            	<div class="important">
+					<h5>Please Rate this Theme</h5>
+        			Please remember to rate this theme! To do so, Please go to your <a target="_blank" href="http://themeforest.net/downloads">Downloads</a> page and click on the star rating in front of this theme! Thanks! <a href="how-to-rate-theme.jpg" target="_blank">View Example Image.</a>
+        		</div>	
+        				
+        		<div class="important">
+        			<h5>How to Get Themeforest Item Purchase Code to Create a Support Ticket</h5>
+        			<p>Please visit following <a target="_blank" href="http://support.inspirythemes.com/knowledgebase/how-to-get-themeforest-item-purchase-code/">Link</a> to learn about how to get item purchase code from themeforest to signup into our support site and create support ticket.</p>
+        		</div>
+          </section>
+           <!-- Disclaimer ============================================== -->
+          <section id="disclaimer">
+            <div class="page-header">
+              <h1>A) Disclaimer</h1>
+            </div>
+			<blockquote>
+            	<p class="lead">We offer limited support for theme customers. We only provide support for our themes and their core features. We cannot guarantee our themes will work properly with all third party plugins and server environments. If you plan on adding numerous plugins to this theme then please note, We cannot facilitate support for any conflicts that might arise with this theme's default functionality. The Political Press WordPress theme is presented as it is.</p>
+            </blockquote>
+          </section>
+        
+          <!-- Getting Started ============================================== -->
+          <section id="getting-started">
+            <div class="page-header">
+              <h1>B) Getting Started (Recommended Quick Setup)</h1>
+            </div>
+            
+            <p class="lead">Welcome to Political Press Theme Documentation. In start you must have a working version of WordPress already installed. For information in regard to installing the WordPress CMS, please see the WordPress Codex <a target="_blank" href="http://codex.wordpress.org/Installing_WordPress">Installing WordPress</a></p>
+			
+            <div id="install">
+                <h3>2.1 Install Theme</h3>
+                <div class="main-note"><center><strong>Please make sure to unzip the package that you downloaded from themeforest, Before uploading it to your WordPress installation as a theme.</strong></center> Because, It contains many other files &amp; directories like Documentation, Import XML, License, PSDs, Theme Files, Theme Zip, Child Theme Files and Child Theme Zip.</div>
+                <p class="lead">When you are ready to install a theme, you must first upload the theme files and then activate the theme from <strong>Appearance > Themes</strong>.</p> 
+                <p class="lead">Theme files can be uploaded in two ways:</p>
+                <p class="lead"><strong>FTP Upload:</strong> Using your FTP program, upload the non-zipped theme folder into the <strong>/wp-content/themes/</strong> folder on your server.</p>
+                <p class="lead"><strong>OR</strong></p>
+                <p class="lead"><strong>WordPress Upload:</strong> Navigate to <strong>Appearance &gt; Themes &gt; Install Themes &gt; Upload</strong>. click 'Choose File', and select the zipped theme folder. Hit “Install Now” and the theme will be uploaded and installed.</p>
+                <p class="lead">Once the theme is uploaded, you need to activate it. Go to <strong>Appearance &gt; Themes</strong> and activate your chosen theme.</p>
+                <p class="lead"><strong>Note:</strong>The Theme zip name is <strong>politicalpress-theme.zip</strong>. which you will find in the downloaded package from themeforest.</p>
+				</div>
+			
+			<hr>
+			
+			<div id="install-child">
+                <h3>2.2 Install Child Theme</h3>
+                <p>It is better to use child theme and if you need to modify anything you modify in child theme only. This way you can easily update your parent theme when new update becomes available on themeforest. You can read more about child theme from <a target="_blank" href="http://codex.wordpress.org/Child_Themes">here.</a> </p>
+                <p>To install child theme, you need to upload the <strong>politicalpress-child-theme.zip</strong> and activate it the same way you uploaded <strong>politicalpress-theme.zip</strong> as guided below.</p>
+                <figure class="thumbnail"><img src="assets/images/theme-activate.png" alt="themes activation"></figure>
+            </div>
+			
+			<hr>            
+           
+           	<div id="xml-demo">
+     			<h3>2.3 Import XML - For Demo Contents</h3>
+                <p>Look for <strong>Import XML</strong> folder in unzipped package downloaded from themeforest.net and use the XML within it. Go to the <strong>WordPress Admin >> Tools >> Import >> WordPress</strong> </p> 
+                <figure class="thumbnail"><img src="assets/images/wordpress-import.png" alt="wordpress import"></figure>
+                <p><strong>( at 1st time you need to install WordPress import plugin).</strong></p>
+                <figure class="thumbnail"><img src="assets/images/install-importnow.png" alt="install-import"></figure>
+                <figure class="thumbnail"><img src="assets/images/activate-plugin.png" alt="activate plugin"></figure>
+                <figure class="thumbnail"><img src="assets/images/xml-upload.png" alt="xml upload"></figure>
+                <figure class="thumbnail"><img src="assets/images/assign-author-submit.png" alt="authors"></figure>
+                <p> After that, Import the XML file and be sure to <strong>include everything, including attachments</strong>. After that’s done, you will have a bunch of posts, pages, properties and other related contents. Next step is to configure Menu.</p>
+           	</div>
+           
+            <hr>
+            
+            <div id="custom-menus">
+				<h4>2.4 Configure Menus</h4>
+				<p> The theme has only one custom menu location, which is named <strong>"Main Menu"</strong>. To setup your custom menus, navigate to <strong>Appearance &gt; Menus</strong> and use the Already Imported Menu from XML and assign it to theme location "Main Menu" from <strong>Menu Settings</strong> section below menu.</p>
+				<p> If you want to build your own menu then, Provide your menu name and build it up using the available widgets. To extend the available widgets, click the screen options tab at the very top-right of the screen and configure your options. Once you have built your menu, save it and assign it to "Main Menu" Theme location from <strong>Menu Settings</strong> section below menu.</p>
+                <figure class="thumbnail"><img src="assets/images/menu-politicalpress.png" alt="Menus"></figure>
+            </div>
+			
+			<hr>
+			
+			<div id="reading-settings">
+				<h4>2.5 Configure Reading Settings</h4>
+				<p> To setup Home and News page you need to visit <strong>WP Admin >> Settings >> Reading</strong> and setup Home as Front Page and News as Posts Page. As, displayed in image below.</p>
+				<p> After that you can change the Number of posts to show on News page and save the changes</p>
+                <figure class="thumbnail"><img src="assets/images/configure-reading-settings.png" alt="Reading"></figure>
+            </div>
+            
+			<hr>
+            
+            <div id="setting-homepage">
+            	<h2>C) Setting up Homepage</h2>
+				<p>To set up the Homepage you need to create a new page (In case of imported XML the page is already created), you can do so by navigating to <strong>Pages > Add New</strong>. You can give this page a title &quot;Home&quot; yet you do not have to include any contents for now. Select the “Home Template” template from the Page Attributes section and click <strong>“Publish”</strong>. As, displayed in image below.</p>
+                <figure class="thumbnail"><img src="assets/images/home-page.png" alt="template home" ></figure>
+				<p>Once you have created your homepage navigate to<strong> WP Admin >> Settings >> Reading</strong> and configure the “Front Page Displays” setting. Select the static page option and choose the page you just created as your front page. As displayed in image below.</p>
+                <figure class="thumbnail"><img src="assets/images/reading-settings.png" alt="template home" ></figure>
+				<p>You can configure further Homepage related options from <strong>Theme Options >> Home</strong></p>
+            </div>
+            
+            <div id="homepage-options">
+            	<h3>3.2) Homepage Options</h3>
+				
+				<p>You can manage your home page from theme options. Go to <strong>Appearance > Theme Options > Home Options.</strong></p>
+				<figure class="thumbnail"><img src="assets/images/themeoptions-home.png" alt="Political Press" /></figure>
+				<h4>3.2.1 Quote</h4>
+				</p>If you want to place a quote on your home page then you have to provide it in given textarea under 'Quote' heading. You can also mention name of quote author in given field after it. If you do not want any quote on home page then leave these fields empty.</p>
+				
+				<h4>3.2.2 Slider</h4>
+				<p>There are three kind of sliders available in this theme. Slider with membership form on the right. A slider with description of each slider on the right and full width slider. You can see Slider types available after quote options. Select your required slider from the given radio buttons and then click on Add New Slide button to add slides for it. Add a title for the slide and them upload image for it. Required image sizes are mentioned on the right side of these options. You can add Link URL for this slide to redirect visitor and you can add description for this slide which will be visible in second type of slider.</p>
+				
+				<h4>3.2.3 Featured and Recent posts.</h4>
+				<p>After slider options you can see options for listing your posts in different types of variations. You can manage viewing featured posts under home page slider by selecting Yes or No in Featured posts display option. If you want to show these posts on mentioned place then select Yes and then select Tag from the list given under this option. Three posts from selected tag will be shown under slider.</p>
+				<p>After featured posts there are two types of post listings available. First you can select if you can list posts in default posts layout. Select your requirement and then select number of posts you want to list.</p>
+				<p>Second type of listing is Grid Layout. Select Yes if you want to use this view of post listing and select number of posts same as above.</p>
+				
+				<h4>3.2.4 Campaign Trail</h4>
+				<p>To show campaign trail on home page select Yes from display campaign trail option. You can select campaign trail position from two available position. You can show it below the header or above footer. Select the option suited you most and then provide title text for your Campaign Trail in last field.</p>
+            </div>
+			
+			<div id="setting-homepage-slider">
+            	<h3>3.3) Homepage Slider</h3>				
+				<p>You can manage the homepage slider from theme options. Go to <strong>Appearance > Theme Options > Home Options.</strong> There you can select the type of slider that you want to use and after that add the related slides. Please note that full width slider requires image of width 1156px by 389px and other types of two slider requires image of 756px by 389px.</p>
+				<figure class="thumbnail"><img src="assets/images/homepage-slider.png" alt="Home Page Slider" /></figure>				
+            </div>
+            
+			<hr/>
+			
+			<div id="setting-subscribe-widget">
+            	<h3>3.4) Setting Up Subscribe Email Widget</h3>
+				<p>On the right side of standard slider you can see subscription form which is based on a plugin named "WP Email Capture". You can find it from WordPress plugin directory. Follow screenshot given below.</p>
+				<figure class="thumbnail"><img src="assets/images/plugin-email-capture-search.png" alt="Political Press" /></figure><br/>
+				<p>After searching the exact plugin, Install and activate it.</p>
+				<figure class="thumbnail"><img src="assets/images/plugin-email-capture-install.png" alt="Political Press" /></figure><br/>
+				<p>In <strong>Settings</strong> Menu you can see additional option <strong>WP Email Capture</strong>. You can see plugin settings page by clicking on this option. Fill the form with required information. Follow screenshot given below.</p>
+				<figure class="thumbnail"><img src="assets/images/plugin-email-capture-settings.png" alt="Political Press" /></figure><br/>
+				<p>After installing and setting up the widget, go to <strong>Appearance > Widgets</strong> and insert 'WP Email Capture' widget in Subscribe Widget Area in widgetized areas available on right side. Provide a title and text for your widget. Follow screenshot given below.</p>
+				<figure class="thumbnail"><img src="assets/images/plugin-email-capture-widget.png" alt="Political Press" /></figure><br/>
+			</div>
+			
+			<div id="setting-campaign-trail">
+            	<h3>3.5) Setting Up Campaign Trail</h3>
+				<p>Campaign trail displays campaign events in a slider on homepage. You can add new event in campaign trail by clicking <strong>Campaign Trail > Add New</strong> in left side menu. After that provide required information as mentioned in following screenshot.</p>
+				<figure class="thumbnail"><img src="assets/images/campaign-trail-add-new.png" alt="Political Press" /></figure><br/>
+				<p>You can see out put results on our <a href="http://politicalpress.inspirythemes.com/" target="_blank" title="Political Press WordPress theme by Inspiry Themes">live demo</a> home page at the bottom. Don't forget to enable campaign trail from <strong>Appearance > Theme Options > Home Options</strong> and select its position according to your needs.</p>
+			</div>
+			
+        	<hr/>
+            
+            <div id="setting-blog-news">
+            	<h2>D) Setting up Blog	or	News Page</h2>
+	        	<p>To set up the blog/news you need to create a new page (In case of imported XML the page is already created). you can do so by navigating to <strong>Pages > Add New</strong>. You can give this page a title of “News” yet you do not have to include any content. Click <strong>“Publish”</strong>.</p>
+                <figure class="thumbnail"><img src="assets/images/newspage.png" alt="blog" ></figure>
+				<p>Once you have created your news page, navigate to <strong>Settings > Reading</strong> and configure the “Front Page Displays” setting. Select the static page option and choose the page you just created as your posts page. Your News page is now created and can be viewed by visiting the page you just published.</p>
+                <figure class="thumbnail"><img src="assets/images/news-reading-settings.png" alt="blog" ></figure>
+            </div>
+
+			<div id="setting-blog-post">
+            	<h4>4.1 How to add new Blog Post (Format image, Standard)</h4>
+			 	<p>To add new blog post, Navigate to <strong>Dashboard  >>  Posts  >>  Add New</strong>. Further guide is provided in image below.</p>
+                <figure class="thumbnail"><img src="assets/images/new-post.png" alt="post"></figure>
+            </div>
+
+			<div id="setting-post-gallery">
+            	<h4>4.2 How to add new Gallery Post</h4>
+			 	<p>To add new blog post with Gallery Post Format, Navigate to <strong>Dashboard  >>  Posts  >>  Add New</strong> and select <strong>Gallery</strong> from Format widget in right sidebar. Further information is provided in image below.</p>
+                <figure class="thumbnail"><img src="assets/images/gallery-post.png" alt="gallery post"></figure>
+            </div>
+
+			<div id="setting-post-video">
+            	<h4>4.3 How to add new Video Post</h4>
+			 	<p>To add new blog post with Video Post Format, Navigate to <strong>Dashboard  >>  Posts  >>  Add New</strong> and select <strong>Video</strong> from Format widget in right sidebar. Further information is provided in image below.</p>
+                <figure class="thumbnail"><img src="assets/images/video-post.png" alt="video post"></figure>
+            </div>
+		
+            <hr/>                        			
+            
+            <div id="setting-default-page">
+            	<h2>E) Setting up Default Page</h2>
+			 	<p>Create a new page and assign it <strong>Default Template.</strong></p>
+                <figure class="thumbnail"><img src="assets/images/defaultpage.png" alt="page"></figure>
+            </div>
+            
+        	<hr/>
+            
+			<div id="contact-page">
+            	<h2>F) Setting up Contact Page</h2>
+			 	<p>Political Press Theme has a <strong>contact Template</strong> and  options in Theme Options panel to help you setup a contact page like the one you can see <a target="_blank" href="http://politicalpress.inspirythemes.com/contact/">here</a>.</p>
+			 	<p>So, you need to just create a new page and assign it <strong>Contact Template</strong>. More information is provided in screenshot given below.</p>
+                <figure class="thumbnail"><img src="assets/images/contactpage.png" alt="contact page"></figure>	
+				<p>After creating the page you can setup your contact page theme options.</p>
+				<figure class="thumbnail"><img src="assets/images/themeoptions-contact.png" alt="contact options"></figure>	
+            </div>
+            
+        	<hr/>
+			
+			<div id="events-calendar">
+            	<h3>G) Setting Up Events Calendar</h3>
+				<p>Events Calendar is one of the main features of this theme. It is based on a plugin named 'All_in_One Event Calendar by Timely'. You can download it from <a target="_blank" href="http://time.ly/">time.ly</a>. After downloading it you can upload it to your website using upload feature in Plugin options and you can also upload it using FTP in <strong>'wp-content/plugins'</strong> directory. After uploading the plugin, activate it from 'plugins'. You can see <strong>Events</strong> option in left option bar after activating the plugin.</p>
+				<figure class="thumbnail"><img src="assets/images/plugin-events-calendar-install.png" alt="Events Calendar"></figure><br/>
+				<p>To display calendar on your required page you have to create a new page with default template and select it form plugin settings. To configure the plugin, Go to <strong>Events > Settings</strong> and select your page from list. You can manage all calendar related options from the setting page. Helping screenshot is displayed below.</p>
+				<figure class="thumbnail"><img src="assets/images/plugin-events-calendar-settings.png" alt="Events Calendar"></figure><br/>
+				<p>To add new event, Got to <strong>Events > Add New</strong> and provide the information related to your event. Example screenshot is displayed below.</p>
+				<figure class="thumbnail"><img src="assets/images/plugin-events-calendar-add-new.png" alt="Events Calendar"></figure><br/>
+            </div>
+            
+            <hr/>
+                        
+			<div id="setting-up-gallery-pages">
+            	<h3>H) Setting Up Gallery Pages </h3>
+				<p>To add a new gallery item you need to go to <strong>Gallery Items > Add New</strong> and provide related information as displayed in screenshot below</p>
+				<figure class="thumbnail"><img src="assets/images/gallery-add-new.png" alt="Pilitical Press"></figure><br/>
+				<h4>Gallery Listing Templates</h4>
+				<p>There are three page templates available for gallery pages. You can setup gallery page using any of those templates. Following screenshots will guide you to create a gallery page using each one of those templates.</p>				
+				<h5>Two Columns Gallery Page</h5>
+				<figure class="thumbnail"><img src="assets/images/gallery-two-columns.png" alt="Pilitical Press"></figure><br/>				
+				<h5>Three Columns Gallery Page</h5>
+				<figure class="thumbnail"><img src="assets/images/gallery-three-columns.png" alt="Pilitical Press"></figure><br/>								
+				<h5>Four Columns Gallery Page</h5>
+				<figure class="thumbnail"><img src="assets/images/gallery-four-columns.png" alt="Pilitical Press"></figure><br/>
+            </div>
+			
+			<hr/>			
+						
+            <div id="theme-options">
+            	<h2>G) Theme Options</h2>
+                <div>
+					<p>Political Press theme comes with easy to use theme options panel. You can access it by navigating to <strong>Appearance > Theme Options</strong>. The theme options are conveniently spread over a number of vertical tabs and each tab contains the options that relates to a particular area of the theme.</p>
+              	</div>
+				<h3 id="header-settings">7.1 Header Settings</h3>
+	            <p>To configure header from theme options you have to navigate to <strong>Appearance > Theme Options</strong>. Here you can see first tab <strong>Header</strong> on the left column and its options on right side. As displayed in image below. The options are pretty much self explanatory.</p>
+                <strong>a) Logo: </strong> Upload logo for your Website.<br>
+                <strong>b) Favicon: </strong> Upload a 16px by 16px PNG image that will represent your website favicon.<br>
+                <strong>c) Donate Button: </strong> Show or hide donate button from header. <br>
+                <strong>d) Donate Button Label: </strong> Give your donate button a label.<br>
+                <strong>e) Donate button Link: </strong> Provide a link url for your donate button.<br>
+                <strong>f) Tracking Code: </strong> Paste Google Analytic (or other) tracking code here.<br>
+                <br>
+                <figure class="thumbnail"><img src="assets/images/themeoptions-header.png" alt="header options" ></figure>
+            </div>
+
+			<hr/>
+            
+			<div id="home-settings">
+	            <h3>7.2 Home Options</h3>
+                <strong>a) Quote: </strong> Provide a quote to show on home page before Slider.<br>
+                <strong>b) Quote Author: </strong> Provide an author name for your quote.<br>
+                <strong>c) Sliders: </strong> Select slider suitable to your requirements from given options.<br>
+                <strong>d) Slides: </strong> Add slides for your selected slider.<br>
+                <strong>e) Featured posts: </strong> Featured posts under slider display control.<br>
+                <strong>f) Featured post tag: </strong> Select tag for your featured posts.<br>
+                <strong>g) Default Layout of posts: </strong> Default layout of posts display control.<br>
+                <strong>h) Number of posts for default layout: </strong> Select posts number you want to show in this area.<br>
+                <strong>i) Recent posts grid layout: </strong> Recent posts Grid layout display control.<br>
+                <strong>j) Number of posts for grid layout: </strong> Select posts number you want to show in this area.<br>
+				<strong>k) Campaign Trail: </strong> Campaign Trail display control.<br>
+                <strong>l) Campaign Trail Position: </strong> Select a position for your campaign trail to display on from given options.<br>
+				<strong>m) Campaign Trail Title: </strong> Provide a title for your campaign trail.<br>
+                <br>
+                <figure class="thumbnail"><img src="assets/images/themeoptions-home.png" alt="Home Settings" ></figure>
+                <br>
+            </div>
+			
+			<hr>
+			
+            <div id="styles-settings">
+	            <h3>7.3 Styling Options</h3>
+                <strong>a) Theme Skins Stylesheets: </strong> Select color scheme from available options.<br>
+                <strong>b) Quick CSS: </strong> Just want to do some quick CSS changes? Enter those here, those will be applied to the theme.<br>
+				<figure class="thumbnail"><img src="assets/images/themeoptions-styles2.png" alt="footer options" ></figure>
+            </div>
+            
+        	<hr/>
+            
+			<div id="setting-contact-page">
+	            <h3>7.4 Contact Options</h3>
+                <br>
+				<strong>a) Text above contact form: </strong> Provide text to display before your contact form.<br>
+                <strong>b) Target email address: </strong> Provide an email address that will receive email from contact form.<br>
+                <strong>c) Contact page list items: </strong> Add list items to show on the right side of your contact form.<br>
+				<br>
+                <figure class="thumbnail"><img src="assets/images/themeoptions-contact.png" alt="contact" ></figure>
+                <br>
+            </div>
+			
+			<hr/>
+			
+            <div id="footer-theme-options">
+            	<h3>7.5 Footer Options</h3>
+            	<p><strong>a) Copyright Text: </strong>Provide copyright text to display in footer.</p>
+                <p><strong>b) Show or hide footer social icons: </strong>Control the display of your footer social icons.</p>
+				<p><strong>c) Facebook: </strong>Provide Facebook URL to display its icon in footer social icons.</p>
+				<p><strong>d) Twitter: </strong>Provide Twitter URL to display its icon in footer social icons.</p>
+				<p><strong>e) Linkedin: </strong>Provide Linkedin URL to display its icon in footer social icons.</p>
+				<p><strong>f) Youtube: </strong>Provide Youtube URL to display its icon in footer social icons.</p>
+				<p><strong>g) Flickr: </strong>Provide Flickr URL to display its icon in footer social icons.</p>
+				<p><strong>h) Skype: </strong>Provide Skype Username to display its icon in footer social icons.</p>
+				<p><strong>i) Deviant Art: </strong>Provide Deviant Art URL to display its icon in footer social icons.</p>
+				<p><strong>j) Google Plus: </strong>Provide Google Plus URL to display its icon in footer social icons.</p>
+				<p><strong>k) StumbleUpon: </strong>Provide StumbleUpon URL to display its icon in footer social icons.</p>
+                <figure class="thumbnail"><img src="assets/images/themeoptions-footer.png" alt="footer theme options" ></figure>
+            </div>
+            
+            <hr/>
+            <div id="backup-theme-options">
+            	<h3>7.6 Backup Options</h3>
+	        	<p>In this tab you have options for backup and restore of your theme options. All options are self explanatory.</p>
+                <figure class="thumbnail"><img src="assets/images/themeoptions-backup.png" alt="backup theme options" ></figure>
+            </div>
+			
+        	<hr/>
+                        
+            <div id="theme-features">
+            	 <h2><strong>H) Theme Features</strong></h2>
+				 <p> This section will document theme features and how to use them successfully.</p>
+            </div>        
+            
+            <hr/>
+            
+    		<div id="widgets">
+	            <h4>8.1) Custom Widgets</h4>
+				<p>The theme comes with 4 custom widgets that can be used to configure how your site displays content - the widgets can be found under <strong>Appearance > Widgets.</strong> Detail about every widget is given below.</p>
+            </div>
+            
+            <hr/>
+            
+            <div id="gallery-widget">
+            	<div class="row-fluid">
+                	<div class="span4">
+                    	<h5>8.1.1 Political Press - Gallery Widget</h5>
+                        <p>This widget displays gallery images in a slider.</p>
+                        <figure class="thumbnail"><img src="assets/images/gallery1.png" alt="gallery widget"></figure>
+                    </div>
+                    
+                    <div class="span4">
+                    	
+                    </div>
+                    <div class="span4">
+		                <figure class="thumbnail"><img src="assets/images/gallery2.png" alt="gallery widget"></figure>
+                    </div>
+                </div>				                
+            </div>
+            
+            <hr/>
+            
+			<div id="tabs-widget">
+            	<div class="row-fluid">
+                		<div class="span4">
+	                        <h5>8.1.2 Political Press - Tabs Widget</h5>
+                            <p>This widget displays Popular Posts, Recent Posts and Recent comments in sidebar.</p>
+	                        <figure class="thumbnail"><img src="assets/images/tabs1.png" alt="Tabs widget"></figure>
+                        </div>
+                        
+                        <div class="span4">
+                        	
+                        </div>
+                        
+                        <div class="span4">
+			                <figure class="thumbnail"><img src="assets/images/tabs2.png" alt="Tabs widget"></figure>
+                        </div>
+                </div>
+            </div>
+            
+            <hr/>
+            
+            <div id="testimonial-widget">
+            	<div class="row-fluid">
+                	<div class="span4">
+						<h5>8.1.3 Political Press - Testimonial Widget</h5>
+                        <p>This widget displays a testimonial.</p>
+		                <figure class="thumbnail"><img src="assets/images/testi1.png" alt="testimonials widget"></figure>
+                    </div>
+                    
+                    <div class="span4">
+                    	
+                    </div>
+                    
+                    <div class="span4">
+                        <figure class="thumbnail"><img src="assets/images/testi2.png" alt="testimonials widget"></figure>
+                    </div>
+                </div>
+            </div>
+			
+			<hr/>
+			
+			<div id="video-widget">
+            	<div class="row-fluid">
+                	<div class="span4">
+						<h5>8.1.4 Political Press - Video Widget</h5>
+                        <p>This widget displays a video based on provided embed code.</p>
+		                <figure class="thumbnail"><img src="assets/images/video1.png" alt="video widget"></figure>
+                    </div>
+                    
+                    <div class="span4">
+                    	
+                    </div>
+                    
+                    <div class="span4">
+                        <figure class="thumbnail"><img src="assets/images/video2.png" alt="video widget"></figure>
+                    </div>
+                </div>
+            </div>
+			
+			<hr/>
+			
+            <div id="plugins">
+            	<h5>8.1.5 Twitter Tweets:  </h5>
+				<p>If you want twitter to use in footer or sidebar widgets, then you need to install Following plugin</p>
+				<ol>
+					<li>Display Tweets  <a target="_blank" href="http://wordpress.org/plugins/display-tweets-php/">http://wordpress.org/plugins/display-tweets-php/</a></li>
+					</li>
+				</ol>
+                <p>Display Tweets is a very simple and easy to use Twitter feed plugin. It allows you to display your tweets.</p>	
+                <p>Follow the steps </p>
+                <p>a) installing plugin</p>
+                <p>b) Activate Plugin</p>
+                <p>c) Click Settings</p>
+                <figure class="thumbnail"><img src="assets/images/Plugins-settings.png" alt="plugin settings"></figure>
+                <h4>OR</h4>
+                <p>After activating plugin you can find a new tab Twitter Feed in Dashboard >> Settings</p>
+                <p>Twitter's v1.1 API requires authentication. For this you need to register an application <a target="_blank" href="https://dev.twitter.com/apps/new">here.</a></p>
+                <p>After registering application , you need to configure twitter feed. Check following screenshot</p>
+                <figure class="thumbnail"><img src="assets/images/Twitter-feed-settings.png" alt="twitter feed settings"></figure>		
+            </div>
+			
+			<hr/>
+			            
+            <div id="shortcodes">
+				<h4>I) Short codes</h4>
+				<p>The theme comes pre-packed with a number of short codes allowing you to add styled content to your site with little effort.</p>	
+            </div>
+            
+            <div id="columns">
+            	<h5>9.1 Columns </h5>
+	            <p>Columns shortcode is easy way to make columns in your page or post. All short codes related to columns and usage of these codes is mentioned below.</p>
+				<pre><code>
+                [columns] 
+	                [one_half][/one_half] 
+	                [one_half][/one_half] 
+                [/columns]
+
+		[columns]
+	                [one_third][/one_third] 
+			[one_third][/one_third]
+			[one_third][/one_third]
+                [/columns]
+
+		[columns]
+	                [one_fourth][/one_fourth]
+			[one_fourth][/one_fourth]
+			[one_fourth][/one_fourth]
+			[one_fourth][/one_fourth] 
+                [/columns]
+
+		[columns]
+	                [one_sixth][/one_sixth] 
+	                [one_sixth][/one_sixth]
+	                [one_sixth][/one_sixth]
+	                [one_sixth][/one_sixth]
+	                [one_sixth][/one_sixth]
+	                [one_sixth][/one_sixth]
+                [/columns]
+
+		[columns]
+	                [three_fourth][/three_fourth] 
+			[one_fourth][/one_fourth]
+                [/columns]
+                </code></pre>		            
+            </div>
+            
+            <hr/>
+            
+            <div id="liststyles">
+            	<h5>9.2 List Styles</h5>
+	            <p>We have three different types of List styles in this theme. usage is mentioned below:</p>
+				<pre><code>
+			[arrow_list_one]
+	                    	&lt;ul&gt;&lt;li&gt;Your text here&lt;/li&gt;&lt;&frasl;ul&gt;
+			[/arrow_list_one] <br />
+			[arrow_list_two]
+	                    	&lt;ul&gt;&lt;li&gt;Your text here&lt;/li&gt;&lt;&frasl;ul&gt;
+			[/arrow_list_two] 
+                        
+	                [arrow_list_three]
+	                        &lt;ul&gt;&lt;li&gt;Your text here&lt;/li&gt;&lt;&frasl;ul&gt;
+	                [/arrow_list_three] 
+	                </code></pre>		
+            
+            </div>
+			<hr />
+            
+			<div id="buttons">
+				<h5>9.3 Button</h5>
+				<p class="lead">We have four different types of Button styles in this theme. usage is mentioned below:</p>
+				<pre><code>
+		[small_button link="#1"]Button[/small_button]
+		[medium_button link="#2"]Button[/medium_button]
+		[large_button link="#3"]Button[/large_button]
+
+		[small_orange_button link="#1"]Button[/small_orange_button]
+		[medium_orange_button link="#2"]Button[/medium_orange_button]
+		[large_orange_button link="#3"]Button[/large_orange_button]
+
+		[small_grey_button link="#1"]Button[/small_grey_button]
+		[medium_grey_button link="#2"]Button[/medium_grey_button]
+		[large_grey_button link="#3"]Button[/large_grey_button]		                    				</code>
+				</pre>                   
+			</div>
+			            
+            <hr/>
+            
+            
+            <div id="message">
+                    <h5>9.4 Message Boxes</h5>
+                    <p class="lead">We have four different types of message boxes in this theme. usage is mentioned below:</p>
+				    <pre><code>
+	            [error]Your Note Message Her[/error]
+	            [success]Your Note Message Her[/success]
+	            [info]Your Note Message Her[/info]
+	            [tip]Your Note Message Her[/tip] 
+                    </code>
+				    </pre>                   
+            </div>
+            
+            <hr/>
+            
+						<h5 id="accordion"> Accordion</h5>
+			<p>jQuery Accordion shortcode creates an accordion. Its usage example is given below</p>
+			<pre><code>			[accordion]
+				[accor_block title="First Accordion Item"]Some Contents[/accor_block]
+				[accor_block title="Second Accordion Item"]Some Contents[/accor_block]
+				[accor_block title="Third Accordion Item"]Some Contents[/accor_block]
+			[/accordion]</code></pre>
+			<hr/>
+			
+			<h5 id="tabs">Tabs</h5>
+			<p>jQuery Tabs shortcode makes beautiful tabs in very simple way.</p>
+			<pre><code>			[tabs titles="First Tab, Second Tab, Third Tab"]
+				[tab_pane] First Tab Contents [/tab_pane]
+				[tab_pane] Second Tab Contents [/tab_pane]
+				[tab_pane] Third Tab Contents [/tab_pane]
+			[/tabs]</code></pre>
+			<hr/>
+			
+			<h5 id="accordion">Toggles</h5>
+			<p>usage example is given below</p>
+			<pre><code>			[toggles]
+				[toggle_block&nbsp;title="First Toggle Item"]Some Contents[/toggle_block]
+				[toggle_block&nbsp;title="Second Toggle&nbsp;Item"]Some Contents[/toggle_block]
+				[toggle_block&nbsp;title="Third Toggle&nbsp;Item"]Some Contents[/toggle_block]
+			[/toggles]</code></pre>
+			<hr/>
+			
+
+
+
+			<div id="page-templates">
+			<h5>9.5 Custom Page Templates</h5>
+        	<p>The theme comes with  few of in built custom page templates. These templates can be used on individual pages to change the display or functionality.</p>
+            
+            <ol>
+            	<li>Biography Template</li>
+                <li>Contact Template</li>
+                <li>Full Width Template</li>
+                <li>Gallery 2 Columns Template</li>
+                <li>Gallery 3 Columns Template</li>
+                <li>Gallery 4 Columns Template</li>
+            	<li>Home Template</li>
+   			</ol>
+            
+            </div>
+			
+		<hr>
+        </section>
+        	<div id="theme-customization"><h1>J) Theme Customization</h1>
+        	<p>Our team offers theme Customization services based on availability and you can request a quote for your theme Customization using the the following <a target="_blank" href="http://inspirythemes.com/contact/">Contact</a> form.</p>
+        	<hr>
+           <p class="lead">Once again, thank you so much for purchasing this Theme, We will be glad to help you if you have any questions relating to this Theme. No guarantees, but We will try our best to assist. If you face any problem, feel free to post a ticket on our <a href="http://support.inspirythemes.com/" target="_blank">support site.</a></p>		 
+        </div>
+        </div>
+        
+        </div>
+     
+</div><!--End of container-->
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <h1><center><b><a href="http://www.inspirythemes.com" target="_blank"><i>inspirythemes.com</i></a></b></center></h1>
+      </div>
+    </footer>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>    
+    <script src="assets/js/bootstrap-scrollspy.js"></script>    
+    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/application.js"></script>
+    
+  </body>
+</html>

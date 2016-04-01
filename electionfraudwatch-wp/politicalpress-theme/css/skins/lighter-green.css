@@ -1,0 +1,550 @@
+.selection_color {
+  background: #19825f;
+  color: #ffffff;
+}
+::-moz-selection {
+  background: #19825f;
+  color: #ffffff;
+}
+::selection {
+  background: #19825f;
+  color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #242636;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #242636;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #19825f;
+}
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+  color: #19825f;
+}
+a {
+  color: #19825f;
+}
+a:hover {
+  color: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Pagination
+/*-----------------------------------------------------------------------------------*/
+.paginate-links span.current,
+.page-nav-btns span.current,
+.pages-nav span.current,
+.pagination span.current,
+.paginate-links a.current,
+.page-nav-btns a.current,
+.pages-nav a.current,
+.pagination a.current,
+.paginate-links span:hover,
+.page-nav-btns span:hover,
+.pages-nav span:hover,
+.pagination span:hover,
+.paginate-links a:hover,
+.page-nav-btns a:hover,
+.pages-nav a:hover,
+.pagination a:hover {
+  background-color: #19825f;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Theme Buttons
+/*-----------------------------------------------------------------------------------*/
+.pp-btn {
+  background-color: #19825f;
+}
+.pp-btn:hover,
+.pp-btn.current {
+  background-color: #242636;
+}
+input[type="submit"] {
+  background-color: #19825f;
+}
+input[type="submit"]:hover,
+input[type="submit"].current {
+  background-color: #242636;
+}
+.tags-list a {
+  background-color: #19825f;
+  color: #242636;
+  background-color: #ffffff;
+}
+.tags-list a:hover,
+.tags-list a.current {
+  background-color: #242636;
+}
+.tags-list a:hover {
+  border-color: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Widgets
+/*-----------------------------------------------------------------------------------*/
+.sidebar .widget ul li a {
+  color: #242636;
+}
+.sidebar .widget ul li a:hover {
+  color: #19825f;
+}
+.widget ul li {
+  color: #242636;
+}
+.widget span,
+.widget time {
+  color: #9394a3;
+}
+.widget .author {
+  color: #19825f;
+}
+.widget .author:hover {
+  color: #242636;
+}
+/* Display Tweets Widget -------------------------------------------------------------------------------------------------------*/
+.widget_displaytweetswidget p a {
+  color: #19825f;
+}
+.widget_displaytweetswidget p a:hover {
+  color: #242636;
+}
+.widget_displaytweetswidget p .small {
+  color: #19825f;
+}
+/* About Widget -------------------------------------------------------------------------------------------------------*/
+.widget.about h5 a {
+  color: #19825f;
+}
+.widget.about h5 a:hover {
+  color: #242636;
+}
+/* Search Form Widget -------------------------------------------------------------------------------------------------------*/
+.searchform #searchsubmit {
+  background-color: #19825f;
+}
+.searchform #searchsubmit:hover,
+.searchform #searchsubmit.current {
+  background-color: #242636;
+}
+/* Tabbed Widget -------------------------------------------------------------------------------------------------------*/
+.widget .tabbed .tabs li:hover,
+.widget .tabbed .tabs li.current {
+  color: #242636;
+}
+.widget .tabbed .tabs li.current {
+  border-top: 3px solid #19825f;
+}
+/* Wp Email Capture Widget -------------------------------------------------------------------------------------------------------*/
+.header-widget .wp-email-capture-widget .slide_widget_inner {
+  background-color: #1d1f2c;
+  background-color: rgba(58, 74, 69, 0.9);
+}
+.header-widget .wp-email-capture-widget input[type="submit"] {
+  background-color: #19825f;
+}
+.header-widget .wp-email-capture-widget input[type="submit"]:hover {
+  background-color: rgba(80, 103, 96, 0.9);
+}
+.wp-email-capture-widget .title {
+  color: #d9dae9;
+  border-bottom-color: #596a64;
+}
+.wp-email-capture-widget p,
+.wp-email-capture-widget .textwidget {
+  color: #809690;
+}
+.wp-email-capture-widget input[type="text"] {
+  border-color: #0d0e14 ;
+}
+.wp-email-capture-widget input[type="submit"] {
+  background-color: #19825f;
+}
+.wp-email-capture-widget input[type="submit"]:hover {
+  background-color: #000000;
+}
+.sidebar .wp-email-capture-widget .title {
+  color: #242636;
+}
+/* Wp Calendar Widget ---------------------------------------------------------------------------------------------------------*/
+#wp-calendar caption {
+  color: #242636;
+}
+#wp-calendar thead th {
+  background: #242636;
+}
+#wp-calendar tbody td {
+  background: #19825f;
+}
+#wp-calendar tbody td#today,
+#wp-calendar tbody td:hover {
+  background: #242636;
+}
+.footer #wp-calendar caption {
+  color: #c8c9d0;
+}
+.footer #wp-calendar thead th {
+  border-color: #202230;
+}
+.footer #wp-calendar tbody td {
+  border-color: #242636;
+}
+/* Tag Cloud Widget ---------------------------------------------------------------------------------------------------------*/
+.widget .tagcloud a {
+  background-color: #19825f;
+}
+.widget .tagcloud a:hover {
+  background: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Header
+/*-----------------------------------------------------------------------------------*/
+.header-bottom-wrapper {
+  background: url("lighter-green/world-map.png") #becfca no-repeat center top;
+}
+.header-wrapper {
+  background-color: #ffffff;
+}
+.logo h2 a {
+  color: #19825f;
+}
+.logo h2 a:hover {
+  color: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Donate Now btn
+/*-----------------------------------------------------------------------------------*/
+.donate-now a {
+  color: #ffffff;
+  background-color: #d31438;
+}
+.donate-now a:hover {
+  color: #ffffff;
+  background-color: #a4102c;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Main Nav
+/*-----------------------------------------------------------------------------------*/
+.main-menu ul li:hover > a {
+  background-color: #3c4b46;
+}
+.main-menu ul li a {
+  color: #19825f;
+}
+.main-menu ul li ul {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 5px rgba(56, 78, 71, 0.5);
+  -moz-box-shadow: 0 1px 5px rgba(56, 78, 71, 0.5);
+  box-shadow: 0 1px 5px rgba(56, 78, 71, 0.5);
+}
+.main-menu ul li ul li a {
+  border-bottom-color: rgba(244, 247, 246, 0.5);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-menu {
+    background-color: #3c4b46;
+  }
+  .main-menu ul li a {
+    color: #ffffff;
+  }
+  .main-menu ul li ul li a {
+    color: #19825f;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 220px) {
+  .main-menu {
+    background-color: #ffffff;
+  }
+  .main-menu ul li a {
+    border-bottom-color: rgba(214, 226, 222, 0.5);
+  }
+  .main-menu ul li ul {
+    background-color: #ffffff;
+    box-shadow: none;
+  }
+  .main-menu ul li ul li a {
+    border-bottom-color: rgba(214, 226, 222, 0.5);
+  }
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Header Testimonial
+/*-----------------------------------------------------------------------------------*/
+.quote blockquote {
+  background-image: url('lighter-green/icon-quote-open.png');
+}
+.quote blockquote p {
+  color: #3c4b46;
+  background-image: url('lighter-green/icon-quote-close.png');
+}
+.quote blockquote .author {
+  color: #3c4b46;
+}
+.quote blockquote .line {
+  background: #a3b3ae;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Slider
+/*-----------------------------------------------------------------------------------*/
+.flex-control-paging li a {
+  background: #19825f;
+}
+.flex-control-paging li a:hover,
+.flex-control-paging li a.flex-active {
+  background: #ffffff;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Home FlexSlider
+/*-----------------------------------------------------------------------------------*/
+.home-flexslider .flexslider {
+  border-color: #3a4a45;
+  border-color: rgba(58, 74, 69, 0.9);
+  background-color: rgba(58, 74, 69, 0.9);
+}
+.home-flexslider .flex-direction-nav li a {
+  background-color: rgba(58, 74, 69, 0.9);
+}
+.home-flexslider .flex-direction-nav li a:hover {
+  background-color: #19825f;
+}
+.lt-ie9 .home-flexslider .flex-direction-nav li a,
+.lt-ie9 .header-widget .wp-email-capture-widget .slide_widget_inner,
+.lt-ie9 .home-flexslider .flexslider,
+.lt-ie9 .home-flexslider.variation-2 .slide-description,
+.lt-ie9 .home-flexslider.variation-3 .slide-description {
+  background-color: #3a4a45;
+}
+.home-flexslider.variation-2 {
+  background-color: rgba(58, 74, 69, 0.9);
+}
+.home-flexslider.variation-2 .slide-description .title {
+  color: #d9dae9;
+}
+.home-flexslider.variation-2 .slide-description p {
+  color: #788d88;
+}
+.home-flexslider.variation-2 .slide-description .pp-btn {
+  background-color: #19825f;
+}
+.home-flexslider.variation-2 .slide-description .pp-btn:hover {
+  background-color: rgba(80, 103, 96, 0.9);
+}
+.home-flexslider.variation-3 .slide-description {
+  background-color: rgba(58, 74, 69, 0.9);
+}
+.home-flexslider.variation-3 .slide-description .title {
+  color: #d9dae9;
+}
+.home-flexslider.variation-3 .slide-description p {
+  color: #788d88;
+}
+.home-flexslider.variation-3 .slide-description .pp-btn:hover {
+  background-color: rgba(69, 88, 82, 0.9);
+}
+/*-----------------------------------------------------------------------------------*/
+/* Footer
+/*-----------------------------------------------------------------------------------*/
+.footer {
+  color: #59625f;
+  background: url("lighter-green/world-map-footer.png") #272d2b no-repeat center top;
+}
+.footer a {
+  color: #59625f;
+}
+.footer a:hover {
+  color: #ffffff;
+}
+.footer .widget ul li {
+  background-image: url('lighter-green/list-bullet.png');
+}
+.footer .widget ul li a {
+  color: #59625f;
+}
+.footer .widget ul li a:hover {
+  color: #ffffff;
+}
+.footer .title,
+.footer h1,
+.footer h2,
+.footer h3,
+.footer h4,
+.footer h5,
+.footer h6 {
+  color: #c8c9d0;
+}
+.footer .title {
+  border-bottom-color: #363d3b;
+}
+.footer p,
+.footer ul li {
+  color: #59625f;
+}
+.footer .widget_displaytweetswidget p a {
+  color: #19825f;
+}
+.footer .widget_displaytweetswidget p a:hover {
+  color: #ffffff;
+}
+.footer .widget_displaytweetswidget small {
+  color: #59625f;
+}
+.widget.contact-us .contacts-list li.email {
+  background-image: url('lighter-green/icon-mail.png');
+}
+.widget.contact-us .contacts-list li.phone {
+  background-image: url('lighter-green/icon-phone.png');
+}
+form.newsletter label {
+  color: #c8c9d0;
+}
+form.newsletter input[type="text"] {
+  background-color: #202523;
+  color: #59625f;
+}
+form.newsletter input[type="submit"]:hover {
+  background-color: #242636;
+}
+.footer-bottom .copyright {
+  color: #58625f;
+}
+.footer-bottom {
+  background-color: #202523;
+}
+.footer-bottom .social-nav > li.facebook a {
+  background-image: url(lighter-green/facebook.png);
+}
+.footer-bottom .social-nav > li.twitter a {
+  background-image: url(lighter-green/twitter.png);
+}
+.footer-bottom .social-nav > li.linkedin a {
+  background-image: url(lighter-green/linked-in.png);
+}
+.footer-bottom .social-nav > li.youtube a {
+  background-image: url(lighter-green/youtube.png);
+}
+.footer-bottom .social-nav > li.skype a {
+  background-image: url(lighter-green/skype.png);
+}
+.footer-bottom .social-nav > li.flickr a {
+  background-image: url(lighter-green/flickr.png);
+}
+.footer-bottom .social-nav > li.deviantart a {
+  background-image: url(lighter-green/devine-art.png);
+}
+.footer-bottom .social-nav > li.google a {
+  background-image: url(lighter-green/google.png);
+}
+.footer-bottom .social-nav > li.stumble a {
+  background-image: url(lighter-green/stumble.png);
+}
+.footer-bottom .social-nav li > a:hover {
+  background-position: 0 bottom;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Respond
+/*-----------------------------------------------------------------------------------*/
+#contact-form input[type="submit"],
+#respond #submit,
+.wpcf7-form input[type="submit"] {
+  background-color: #19825f;
+}
+#contact-form input[type="submit"]:hover,
+#respond #submit:hover,
+.wpcf7-form input[type="submit"]:hover {
+  background-color: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Home Page
+/*-----------------------------------------------------------------------------------*/
+.blog-items {
+  background-color: #ffffff;
+}
+.blog-items figcaption {
+  background-color: #19825f;
+}
+.blog-items figure img {
+  background-color: #e3ebe9;
+}
+.listing-slider .flex-direction-nav a {
+  background-color: #19825f;
+}
+.listing-slider .flex-direction-nav a:hover {
+  background-color: #242636;
+}
+blockquote {
+  color: #383838;
+}
+.type-post.sticky {
+  border-bottom-color: #19825f;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Features page
+/*-----------------------------------------------------------------------------------*/
+/*  Toggle and  Accordion */
+.toggle dt,
+.accordion dt {
+  color: #242636;
+}
+.toggle dt span,
+.accordion dt span {
+  background-color: #19825f;
+}
+/*  Tabs  */
+.tabs-nav li.active {
+  border-top-color: #19825f;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Gallery Page
+/*-----------------------------------------------------------------------------------*/
+#filter-by a {
+  color: #242636;
+}
+#filter-by a:focus,
+#filter-by a.active,
+#filter-by a:hover {
+  background-color: #19825f;
+}
+.gallery-item a.zoom {
+  background-color: #19825f;
+}
+.gallery-item a.zoom:hover {
+  background-color: #242636;
+}
+.gallery-item .media_container {
+  background-color: #16435f;
+}
+.gallery-item .item-title a {
+  color: #242636;
+}
+.gallery-item .item-title a:hover {
+  color: #19825f;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Contact Page
+/*-----------------------------------------------------------------------------------*/
+#contact-form label {
+  color: #242636;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Event  Page
+/*-----------------------------------------------------------------------------------*/
+.ai1ec-label {
+  color: #242636;
+}
