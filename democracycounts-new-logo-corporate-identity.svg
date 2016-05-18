@@ -16,7 +16,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="democracycounts-new-logo-corporate-identity.svg">
+   sodipodi:docname="democracycounts-new-logo-corporate-identity.svg"
+   inkscape:export-filename="C:\Users\alec\Documents\GitHub\democracycounts.github.io\democracycounts-new-logo-corporate-identity.png"
+   inkscape:export-xdpi="299.815"
+   inkscape:export-ydpi="299.815">
   <defs
      id="defs4">
     <linearGradient
@@ -35,9 +38,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="351.49196"
-     inkscape:cy="879.14298"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="452.03958"
+     inkscape:cy="704.84283"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -63,6 +66,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.72147858;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.16443583, 5.16443583000000040;stroke-dashoffset:0;stroke-opacity:0.47398843"
+       id="rect4480"
+       width="730.77429"
+       height="1042.2028"
+       x="7.2557349"
+       y="5.1893768" />
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.46516371;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.46516369, 1.39549107;stroke-dashoffset:0;stroke-opacity:0.36416189"
        id="rect4303-6"
@@ -472,13 +482,6 @@
          id="tspan4472">Color                                                                                                                                                                        Font: Century Gothic / <tspan
    style="fill:#88aa00;fill-opacity:1"
    id="tspan4470">RGBA:  88aa00ff</tspan></tspan></text>
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.72147858;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.16443583, 5.16443583;stroke-dashoffset:0;stroke-opacity:0.47398843"
-       id="rect4480"
-       width="730.77429"
-       height="1042.2028"
-       x="7.2557349"
-       y="5.1893768" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.73483694;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.73483695, 2.20451085;stroke-dashoffset:0;stroke-opacity:0.36416189"
        id="rect4303-7-0"
@@ -1005,5 +1008,61 @@
          y="900.73914"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.85650873px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;fill:#280b0b;fill-opacity:1"
          id="tspan4472-2-6-6-4">Logo with NoCap Tageline                                                                                                                                                                                           Font: Century Gothic / GRAYSCALED 50%</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:0.52601159;stroke:#000000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:4.80000019,2.4000001;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6507"
+       width="575.2804"
+       height="133.84375"
+       x="85.863693"
+       y="599.30951" />
+    <rect
+       style="fill:none;fill-opacity:0.52601157;stroke:#000000;stroke-width:0.28843883;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:2.30751068, 1.15375534;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6507-4"
+       width="132.64006"
+       height="134.1553"
+       x="85.455391"
+       y="598.90125" />
+    <rect
+       style="fill:none;fill-opacity:0.52601157;stroke:#000000;stroke-width:0.37565941;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:3.00527563, 1.50263783;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6507-4-7"
+       width="575.40997"
+       height="52.454937"
+       x="85.956062"
+       y="648.84222" />
+    <rect
+       style="fill:none;fill-opacity:0.52601157;stroke:#000000;stroke-width:0.28843883;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:2.30751068, 1.15375534;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6507-4-4"
+       width="132.64006"
+       height="134.1553"
+       x="350.9259"
+       y="599.30145" />
+    <rect
+       style="fill:none;fill-opacity:0.52601157;stroke:#000000;stroke-width:0.28843883;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:2.30751068, 1.15375534;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6507-4-4-1"
+       width="132.64006"
+       height="134.1553"
+       x="483.70801"
+       y="599.40631" />
+    <rect
+       style="fill:none;fill-opacity:0.52601157;stroke:#000000;stroke-width:0.16529928;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:1.32239427, 0.66119714;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6507-4-7-5"
+       width="574.90601"
+       height="10.165299"
+       x="85.939827"
+       y="677.45819" />
+    <rect
+       style="fill:none;fill-opacity:0.52601157;stroke:#000000;stroke-width:0.32208261;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:2.57666125, 1.28833064;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6507-4-7-8"
+       width="575.10645"
+       height="38.579945"
+       x="85.732491"
+       y="644.3222" />
+    <rect
+       style="fill:none;fill-opacity:0.52601157;stroke:#000000;stroke-width:0.41107994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:3.2886394, 1.64431967;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6507-4-8"
+       width="269.66028"
+       height="134.03267"
+       x="227.66985"
+       y="599.63159" />
   </g>
 </svg>
