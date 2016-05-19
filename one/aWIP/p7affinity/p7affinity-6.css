@@ -1,0 +1,300 @@
+/* 
+  -----------------------------------
+  PVII Affinity
+  Copyright (c) 2013 Project Seven Development
+  www.projectseven.com
+  Nova Theme
+  -----------------------------------
+*/
+
+body {
+	font-family: "Segoe UI", "Gill Sans", Optima, sans-serif;
+	margin: 0px;
+	background-color: #222;
+	background-image: url(img/nova-pgb-black.jpg);
+	background: url(img/nova-pgb-white.jpg), url(img/nova-pgb-black.jpg);
+	background-position: 0px 0px, 200px 200px;
+	background-repeat: repeat-x, repeat;
+	background-attachment: fixed;
+}
+#logo {
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	z-index: 5;
+	border-radius: 0px 0px 8px 8px;
+	box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+}
+#logo img { 
+}
+img {
+	vertical-align: bottom;
+}
+a:active {
+	background: none;
+}
+#layout {
+	max-width: 1320px;
+	margin: 0px auto;
+}
+#top-navigation {
+	position: relative;
+	z-index: 4;
+	margin: 0px 0px;
+	background-color: #A47C72;
+	background: rgba(125,87,78,.5);
+	box-shadow: 0px 0px 30px #000;
+	border-radius: 0px;
+	padding: 0px 80px;
+}
+#top-navigation, h1, h2, h3, h4 {
+	font-family: Federo, "Arial Narrow", Arial, sans-serif;
+	font-weight: 400;
+}
+#content {
+	position: relative;
+	z-index: 1;
+	background-color: #FFF;
+	margin: 0px 20px;
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: 0px 6px 20px #000;
+}
+h1, h2, h3, h4 {
+	margin: 30px 0px 0px 0px;
+}
+.column-content h1:first-child,
+.column-content h2:first-child,
+.column-content h3:first-child,
+.column-content h4:first-child {
+	margin-top: 10px;
+}
+#footer {
+	color: #222;
+	margin: 0px 20px;
+	background-color: rgb(34,34,34);
+	background-color: rgba(34,34,34,.65);
+	border-radius: 0px 0px 10px 10px;
+	padding: 10px 24px;
+	box-shadow: 0px 0px 30px #000;
+	text-align: center;
+}
+#footer img {
+	opacity: .6;
+	-webkit-transition: opacity linear .35s .1s;
+	transition: opacity linear .35s .1s;
+}
+#footer img:hover {
+	opacity: 1;
+}
+#copyright {
+	margin: 12px 100px 30px 100px;
+	color: #888;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	text-align: center;
+}
+.column-content img {
+	width: auto !important;
+	height: auto !important;
+	max-width: 100%;
+	border-radius: 8px;
+	border: 1px solid;
+	border-color: rgba(0,0,0,.75);
+	display: block;
+}
+
+/*The container for each column structure. Before and After pseudoclasses used to clear the floats.*/
+.affinity-row {
+	zoom: 1;
+}
+.affinity-row:after {
+	visibility: hidden;
+	display: block;
+	content: "\0020";
+	clear: both;
+	height: 0;
+}
+
+/*All Columns are floated left.*/
+.affinity-column {
+    float: left;
+}
+/*But sometimes we need to reverse the float direction to position the first column in the 
+source code order to the right of where it would ordinarily be.
+*/
+.affinity-column.reverse-float {
+	float: right;
+}
+
+/*The Base Widths for each column in the available structures. All columns in a row should always add up to 100%*/
+.affinity-row .percent15 {width: 15%;}
+.affinity-row .percent85 {width: 85%;}
+.affinity-row .percent60 {width: 60%;}
+.affinity-row .percent40 {width: 40%;}
+.affinity-row .percent20 {width: 20%;}
+.affinity-row .percent80 {width: 80%;}
+.affinity-row .percent30 {width: 30%;}
+.affinity-row .percent70 {width: 70%;}
+.affinity-row .percent25 {width: 25%;}
+.affinity-row .percent50 {width: 50%;}
+.affinity-row .percent75 {width: 75%;}
+.affinity-row .percent333 {width: 33.333%;}
+
+/* Boxed columns are possible in configurations of 2-4 columns through the Snippets suite.
+Width recalculations for columns when they are boxed. 
+Since boxed columns have a space between them assigned via right margin, 
+we need to reduce the width of each column accordingly*/
+.affinity-row .percent25.boxed {width: 23.5%;}
+.affinity-row .percent333.boxed {width: 32%;}
+.affinity-row .percent50.boxed {width: 49%;}
+
+/*Boxed columns get borders all the way around*/
+.affinity-row .column-content.boxed {
+	border: 1px solid;
+	border-color: rgba(0,0,0,.5);
+	border-radius: 8px;
+	padding: 1em;
+}
+
+/*Using margin to separate the columns when the boxed option is chosen*/
+.affinity-row .boxed.spacer {
+	margin-left: 2%;
+}
+
+
+/*Default padding for the content inside all columns*/
+.column-content {
+	padding: 32px;
+	overflow: hidden;
+}
+.column-content p {
+	line-height: 1.6em;
+}
+
+/*Assigning logical borders to render dividers between columns*/
+
+.column-content.border-left {
+	border-left: 1px #000;
+	border-left-style: dotted;
+}
+.column-content.border-right {
+	border-right: 1px #000;
+	border-right-style: dotted;
+}
+.column-content.border-top {
+	border-top: 1px #000;
+	border-top-style: dotted;
+}
+.column-content.border-bottom {
+	border-bottom: 1px #000;
+	border-bottom-style: dotted;
+}
+.column-content.border-left-right {
+	border-left: 1px #000;
+	border-right: 1px #000;
+	border-left-style: dotted;
+	border-right-style: dotted;
+}
+.column-content.radius-bottom {
+	border-radius: 0px 0px 6px 6px;
+}
+.column-content.radius-bottom-left {
+	border-radius: 0px 0px 0px 6px;
+}
+.column-content.radius-bottom-right {
+	border-radius: 0px 0px 6px 0px;
+}
+
+/*Utility Rules*/
+.centered {
+	text-align: center; 
+}
+
+/*Colored Emphasis Rows. These rules assign a colored background and a special display font at a large size.*/
+.colored-mauve {
+	color: #000000;
+	background: -webkit-linear-gradient(90deg, #A7827A, #67483F);
+	background: linear-gradient(90deg, #A7827A, #67483F);
+	background-color: #A7827A;
+	font-size: 1.35em;
+	font-family: Federo, "Arial Narrow", Arial, sans-serif;
+	line-height: 1.15em;
+}
+.colored-black {
+	color: #DDD;
+	background: -webkit-linear-gradient(90deg, #444, #000);
+	background: linear-gradient(90deg, #444, #000);
+	background-color: #222;
+	font-size: 1.35em;
+	font-family: Federo, "Arial Narrow", Arial, sans-serif;
+	line-height: 1.15em;
+}
+/*Simple Colored Boxes. These rules can be assigned to column-content or other elements to assign a distinctive background color*/
+.red {
+	background-color: #C33;
+}
+.black {
+	color: #DDD;
+	background-color: #151515;
+}
+
+
+/*MEDIA QUERIES*/
+/*
+For media queries to work correctly in 
+mobile devices, you must add this viewport meta tag to your page:
+<meta name="viewport" content="width=device-width">
+(place the query in the head region)
+*/
+
+
+/*SMARTPHONE AND NARROW WINDOWS (LESS THAN 700PX WIDE)*/
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+    .affinity-column {
+        float: none;
+        width: auto !important;
+    }
+    .column-content {
+	padding: .75em;
+	border: none !important;
+	border-radius: 0px;
+	height: auto !important;
+	max-height: 888678px;
+    }
+	#layout {max-width: none;}
+	#content, #top-navigation, .column-content, #footer, #copyright {
+		margin: 0px;
+		border-radius: 0px !important;
+	}
+	#top-navigation {padding: 0px;}
+	#logo .left-side, #logo .right-side {
+	float: none;
+	width: auto;
+	margin: 0px;
+	text-align: left;
+	}
+	#logo {
+	z-index: 999999;
+	left: 0px;
+}
+	#logo img {max-width: 44px; width: auto !important; height: auto !important;}
+	#top-navigation {padding-left: 0px;}
+	#top-navigation ul {padding-left: 48px;}
+	#top-navigation ul ul {padding-left: 0px;}
+}
+
+/*Smartphones ONLY*/
+@media only screen and (max-device-width: 480px) {}
+
+/*Tablet ONLY. Use this query to add rules for tablets.*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	#content {margin: 0px 40px;}
+	#top-navigation {margin: 0px 20px;}
+	#footer {margin: 0px 60px;}
+	#copyright {margin: 0px 10px;}
+	.column-content {padding: 20px;}
+}
+
+/*Portrait Tablet ONLY. Use this query to add rules for tablets in Prtrait orientation.
+Landscape tablets should get a normal and unaltered display.*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}

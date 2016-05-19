@@ -1,0 +1,95 @@
+/*
+-----------------------------
+PVII Layout Builder Magic
+by Project Seven Development
+www.projectseven.com
+Design Time CSS
+Version: 1.2.5
+-----------------------------
+*/
+.width-10 {width: 6% !important;}
+.width-15 {width: 11% !important;}
+.width-20 {width: 16% !important;}
+.width-25 {width: 21% !important;}
+.width-30 {width: 26% !important;}
+.width-33 {width: 29% !important;}
+.width-35 {width: 32% !important;}
+.width-40 {width: 36% !important;}
+.width-45 {width: 42% !important;}
+.width-50 {width: 46% !important;}
+.width-55 {width: 52% !important;}
+.width-60 {width: 56% !important;}
+.width-65 {width: 60% !important;}
+.width-70 {width: 66% !important;}
+.width-75 {width: 70% !important;}
+.width-80 {width: 76% !important;}
+.width-85 {width: 82% !important;}
+.width-90 {width: 86% !important;}
+.width-100 {float: none !important;}
+
+.lbm-gutter.width-10 {width: 6% !important;}
+.lbm-gutter.width-15 {width: 10% !important;}
+.lbm-gutter.width-20 {width: 15% !important;}
+.lbm-gutter.width-25 {width: 20% !important;}
+.lbm-gutter.width-30 {width: 25% !important;}
+.lbm-gutter.width-33 {width: 28% !important;}
+.lbm-gutter.width-35 {width: 31% !important;}
+.lbm-gutter.width-40 {width: 35% !important;}
+.lbm-gutter.width-45 {width: 41% !important;}
+.lbm-gutter.width-50 {width: 45% !important;}
+.lbm-gutter.width-55 {width: 51% !important;}
+.lbm-gutter.width-60 {width: 55% !important;}
+.lbm-gutter.width-65 {width: 59% !important;}
+.lbm-gutter.width-70 {width: 65% !important;}
+.lbm-gutter.width-75 {width: 69% !important;}
+.lbm-gutter.width-80 {width: 75% !important;}
+.lbm-gutter.width-85 {width: 81% !important;}
+.lbm-gutter.width-90 {width: 85% !important;}
+.lbm-gutter.width-100 {float: none !important;}
+
+
+.lbm-gutter .width-10 {width: 6% !important;}
+.lbm-gutter .width-15 {width: 10% !important;}
+.lbm-gutter .width-20 {width: 15% !important;}
+.lbm-gutter .width-25 {width: 20% !important;}
+.lbm-gutter .width-30 {width: 25% !important;}
+.lbm-gutter .width-33 {width: 28% !important;}
+.lbm-gutter .width-35 {width: 31% !important;}
+.lbm-gutter .width-40 {width: 35% !important;}
+.lbm-gutter .width-45 {width: 41% !important;}
+.lbm-gutter .width-50 {width: 45% !important;}
+.lbm-gutter .width-55 {width: 51% !important;}
+.lbm-gutter .width-60 {width: 55% !important;}
+.lbm-gutter .width-65 {width: 59% !important;}
+.lbm-gutter .width-70 {width: 65% !important;}
+.lbm-gutter .width-75 {width: 69% !important;}
+.lbm-gutter .width-80 {width: 75% !important;}
+.lbm-gutter .width-85 {width: 81% !important;}
+.lbm-gutter .width-90 {width: 85% !important;}
+.lbm-gutter .width-100 {float: none !important;}
+
+.lbm-col-wrapper {overflow: hidden;}
+.lbm-column {padding: 2% 2% !important;}
+
+
+/*Display Table fixes*/
+.lbm-ehc {
+	display: block !important;
+}
+.lbm-ehc .lbm-column {
+	display: block !important;
+	float: left !important;
+}
+
+/*img.scalable, img.scalable-rounded, img.scalable-fancy {width: 100%;}*/
+
+.lbm-ehc img.scalable,
+.lbm-ehc img.scalable-rounded,
+.lbm-ehc img.scalable-fancy {
+	width: auto !important; height: auto !important; max-width: 100% !important;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+.lbm-column {float: none !important; width: auto !important;}
+}

@@ -1,0 +1,401 @@
+/*
+ ----------------------------- 
+ PVII Drop Menu Magic
+ by Project Seven Development
+ www.projectseven.com
+ Theme 06: Affinity Nova
+ -----------------------------
+*/
+
+.p7DMM06 {
+	position: relative;
+	padding: 0px;
+}
+.p7DMM06:after {
+	content: "\0020";
+	clear: both;
+	font-size: 0px;
+	line-height: 0;
+	display: inline;
+	height: 0px;
+}
+.p7DMM06.p7dmm-centered {
+	text-align: center;
+}
+.p7DMM06.p7dmm-right {
+	text-align: right;
+}
+.p7DMM06 ul {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.p7DMM06 ul li {
+	list-style-type: none;
+	float: left;
+	padding: 6px 0px;
+	margin-right: 6px;
+}
+
+.p7DMM06 ul li:last-child {
+	margin-right: 0px;
+}
+.p7DMM06 ul a.trig {
+	background-image: url(img/p7dmm_nova_east_black.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 16px;
+}
+.p7DMM06 ul a.trig:hover {
+	background-image: url(img/p7dmm_nova_east_black.gif);
+}
+.p7DMM06 ul a.open.trig {
+	background-image: url(img/p7dmm_nova_south_black.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.p7DMM06 ul a {
+	color: #000;
+	font-size: 1.2em;
+	padding: 10px 10px 10px 0px;
+	text-decoration: none;
+	display: block;
+	-webkit-transition: linear .25s .1s;
+	transition: linear .25s .1s;
+	-webkit-transition-property: color, background-color;
+	transition-property: color, background-color;
+}
+.p7DMM06 ul a:hover,
+.p7DMM06 ul a.open,
+.p7DMM06 ul a.current_mark.closed {
+	outline: none;
+	color: #000;
+}
+.p7dmm-sub-wrapper {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	left: 0px;
+	display: none;
+}
+.p7DMM06 ul ul {
+	margin: 0px;
+	display: inline-block;
+	padding: 0px;
+	vertical-align: bottom;
+}
+.p7DMM06 ul ul li {
+	padding: 8px 0px;
+}
+.p7DMM06 ul ul a {
+	background-color: rgba(255,255,255,0);
+	border-color: #FFF;
+	box-shadow: none;
+	padding: 8px 10px;
+	color: #000;
+	-webkit-transition-property: color;
+	transition-property: color;
+	font-size: 1em;
+}
+.p7DMM06 ul ul a:hover {
+	background-color: rgba(255,255,255,.5);
+	border-color: #999;
+	color: #000000;
+}
+/*By default the current-marked root link is in the open state. 
+This rule can be used if you would like to further differentiate the current-marked root link.*/
+.p7DMM06 ul a.current_mark.closed,
+.p7DMM06 ul a.current_mark.open,
+.p7DMM06 ul a.current_mark:hover {
+	font-weight: bold;
+}
+/*Current Marked Sub-menu Link*/
+.p7DMM06 ul ul a.current_mark {
+	color: #000000;
+	font-weight: bold;
+}
+/*Toolbar for Smartphones to Hide or Show entire menu*/
+.p7DMM-toolbar {
+	display: none;
+}
+/*VERTICAL MENU*/
+/*RESET VERTICAL MENU*/
+.p7DMM06.dmm-vertical,
+.p7DMM06.dmm-vertical ul,
+.p7DMM06.dmm-vertical li,
+.p7DMM06.dmm-vertical a {
+	background-color: transparent;
+	background: none;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	float: none;
+	display: block;
+}
+.p7DMM06.dmm-vertical {
+	margin: 12px 0px;
+	background-color: #222;
+	background-image: linear-gradient(90deg, #333, #000);
+	border: 1px solid;
+	border-color: rgba(0,0,0,.35);
+	padding: 10px !important;
+	border-radius: 5px;
+}
+.p7DMM06.dmm-vertical ul li {
+	margin-bottom: 0px;
+}
+.p7DMM06.dmm-vertical ul a.trig {
+	background-image: url(img/p7dmm_east_gray.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.p7DMM06.dmm-vertical ul a.open.trig {
+	background-image: url(img/p7dmm_south_gray.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.p7DMM06.dmm-vertical ul a {
+	padding: 8px 20px;
+	color: #BBB;
+	transition: box-shadow linear .35s .1s;
+	-webkit-transition: box-shadow linear .35s .1s;
+}
+.p7DMM06.dmm-vertical ul a:hover,
+.p7DMM06.dmm-vertical ul a.open {
+	box-shadow: inset 0px 12px 20px rgba(255,255,255,.06);
+}
+.p7DMM06.dmm-vertical ul ul {
+	background-color: #FFF;
+	background: -webkit-linear-gradient(90deg, #FFF, #DDD);
+	background: linear-gradient(90deg, #FFF, #DDD);
+}
+.p7DMM06.dmm-vertical ul ul li {
+	margin-bottom: 0px;
+}
+.p7DMM06.dmm-vertical ul ul a {
+	border: none;
+	border-bottom: 1px solid;
+	border-color: rgba(0,0,0,.1) !important;
+	background: none;
+	box-shadow: inset 0px 0px 0px rgba(255,255,255,0);
+	color: #000;
+	-webkit-transition: none;
+	transition: none;
+}
+.p7DMM06.dmm-vertical ul ul li:last-child a {
+	border-bottom: none !important;
+}
+.p7DMM06.dmm-vertical ul ul a:hover {
+	color: #FFF;
+	background-image: linear-gradient(90deg, #666, #999);
+}
+.p7DMM06.dmm-vertical .p7dmm-sub-wrapper {
+	width: 100%;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	top: 0px;
+}
+.p7DMM06.dmm-vertical ul ul a.current_mark {
+	font-weight: bold;
+}
+/*POP MENU MODE*/
+.p7DMM06.dmm06-pop .p7dmm-sub-wrapper {
+	text-align: left;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	width: auto;
+	left: auto;
+	display: none;
+	z-index: 99;
+}
+.p7DMM06.dmm06-pop ul ul {
+	background-color: #222;
+	background: rgba(0,0,0,.85);
+	border-radius: 0px 0px 5px 5px;
+	border: 1px solid;
+	border-top: none;
+	border-color: #000000;
+}
+.p7DMM06.dmm06-pop ul ul li {
+	padding: 0px;
+	float: none;
+	margin: 0px;
+}
+.p7DMM06.dmm06-pop ul ul a {
+	background-color: transparent;
+	box-shadow: none;
+	border-radius: 0px;
+	padding: 8px 20px;
+	box-shadow: none;
+	color: #B4B4B4;
+	border: none;
+}
+.p7DMM06.dmm06-pop ul ul li:last-child a {
+	border-radius: 0px 0px 4px 4px;
+}
+.p7DMM06.dmm06-pop ul ul a:hover {
+	color: #CCCCCC;
+	background-color: #444;
+	background: rgba(255,255,255,.15);
+	box-shadow: none;
+}
+/*By default the current-marked root link is in the open state. 
+This rule can be used if you would like to further differentiate the current-marked root link.*/
+.p7DMM06 ul a.current_mark.closed,
+.p7DMM06 ul a.current_mark:hover {
+}
+/*Current Marked Sub-menu Link*/
+.p7DMM06.dmm06-pop ul ul a.current_mark {
+	color: #EEE;
+	font-weight: bold;
+}
+
+/*Smartphone Menu Presentation*/
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+.p7DMM06.responsive {
+	padding: 0px;
+	margin: 0px;
+}
+.p7DMM06.responsive ul a.trig {
+	background-image: url(img/p7dmm_east_black.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.p7DMM06.responsive ul a.open.trig {
+	background-image: url(img/p7dmm_south_white.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.p7DMM06.responsive.p7DMM06.dmm-vertical ul a.trig {
+	background-image: url(img/p7dmm_east_gray.gif);
+}
+.p7DMM06.responsive.p7DMM06.dmm-vertical ul a.open.trig {
+	background-image: url(img/p7dmm_south_gray.gif);
+}
+.p7DMM06.responsive ul li {
+	margin: 0px;
+	padding: 0px;
+}
+.p7DMM06.responsive ul,
+.p7DMM06.responsive ul ul {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+.p7DMM06.responsive ul li,
+.p7DMM06.responsive ul ul li {
+	float: none;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+.p7DMM06.responsive ul li a {
+	border: none;
+	border-radius: 0px !important;
+	padding: 8px 20px;
+	border-bottom: 1px solid #000;
+}
+.p7DMM06.responsive ul ul li:last-child a {
+	border-bottom: none;
+}
+.p7DMM06.responsive .p7dmm-sub-wrapper {
+	width: 100%;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	top: 0px;
+}
+.p7DMM06.responsive .p7dmm-sub-wrapper ul {
+	border-radius: 0px;
+	background: rgba(24,24,24,1);
+}
+.p7DMM06.responsive.p7DMM06.dmm-vertical .p7dmm-sub-wrapper ul {
+	background-color: #AAA;
+	background: -webkit-linear-gradient(#DDD, #999);
+	background: linear-gradient(#DDD, #999);
+}
+/*Toolbar for Smartphones to Hide or Show entire menu*/
+.p7DMM06.responsive .p7DMM-toolbar {
+	position: relative;
+	z-index: 999;
+	display: block;
+	background-color: #222;
+	text-align: right;
+	padding: 6px;
+	cursor: pointer;
+}
+.p7DMM06.responsive .p7DMM-toolbar.closed a:before {
+	content: "Show Menu";
+}
+.p7DMM06.responsive .p7DMM-toolbar.opened a:before {
+	content: "Hide Menu";
+}
+.p7DMM.responsive ul.closed {
+	display: none;
+}
+.p7DMM.responsive ul.opened {
+	display: block;
+}
+
+.p7DMM06.responsive .p7DMM-toolbar img,
+.p7DMM06.dmm-vertical .p7DMM-toolbar img {
+	border: none;
+	padding-left: 16px;
+}
+.p7DMM06.responsive .p7DMM-toolbar a {
+	color: #999;
+	text-transform: uppercase;
+	font-size: .8em;
+	background-color: transparent !important;
+	border: none !important;
+	text-decoration: underline;
+}
+.p7DMM06.responsive .p7DMM-toolbar.closed a,
+.p7DMM06.dmm-vertical .p7DMM-toolbar.closed a {
+	color: #EEE;
+}
+.p7DMM06.responsive .p7DMM-toolbar img,
+.p7DMM06.dmm-vertical .p7DMM-toolbar img {
+	opacity: .5;
+}
+.p7DMM06.responsive .p7DMM-toolbar:hover img,
+.p7DMM06.dmm-vertical .p7DMM-toolbar:hover img {
+	opacity: .85;
+}
+.p7DMM06.responsive .p7DMM-toolbar:hover a,
+.p7DMM06.dmm-vertical .p7DMM-toolbar:hover a {
+	color: #EEE;
+}
+.p7DMM06.responsive .p7DMM-toolbar.closed img,
+.p7DMM06.dmm-vertical .p7DMM-toolbar.closed img {
+	opacity: 1;
+}
+.p7DMM06.responsive .p7DMM-toolbar.closed:hover,
+.p7DMM06.dmm-vertical .p7DMM-toolbar.closed:hover {
+	background-color: #555;
+}
+.p7DMM06.dmm-vertical * {
+	border-radius: 0px !important;
+}
+.p7DMM06.dmm06-pop .p7dmm-sub-wrapper {
+	padding-bottom: 0px;
+	padding-right: 0px;
+	width: 100%;
+}
+/*END MEDIA QUERY - DO NOT REMOVE CURLY BRACE BELOW*/
+}
+
+/*Exception rules for Smartphones in Landscape orientation only*/
+@media only screen and (max-device-width: 480px) and (orientation : landscape) {
+.p7DMM06.responsive ul a {
+	font-size: 1.35em;
+	padding: .35em .75em;
+}
+.p7DMM06.responsive ul ul a {
+	font-size: 1em;
+	padding: .3em 1em;
+}
+/*END MEDIA QUERY - DO NOT REMOVE CURLY BRACE BELOW*/
+}

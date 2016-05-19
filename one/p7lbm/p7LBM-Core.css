@@ -1,0 +1,235 @@
+/*
+ ----------------------------- 
+ PVII Layout Builder Magic
+ by Project Seven Development
+ www.projectseven.com
+ Core Styles
+ Version: 1.2.5
+ -----------------------------
+*/
+
+/*
+**************************************
+DO NOT EDIT OR DELETE BELOW THIS LINE
+**************************************
+*/
+
+body {margin: 0px;}
+.lbm {margin: auto !important;}
+
+
+/*Font Size*/
+.lbm-text-150 {font-size: 150%;}
+.lbm-text-140 {font-size: 140%;}
+.lbm-text-130 {font-size: 130%;}
+.lbm-text-120 {font-size: 120%;}
+.lbm-text-110 {font-size: 110%;}
+.lbm-text-100 {font-size: 100%;}
+.lbm-text-90 {font-size: 90%;}
+.lbm-text-80 {font-size: 80%;}
+
+
+.lbm-col-wrapper {
+	margin: auto;
+	box-sizing: border-box;
+}
+.lbm-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.lbm-column {
+	box-sizing: border-box;
+	padding: 20px 30px;
+	float: left;
+}
+
+/*Column Widths*/
+.width-10 {width: 10%;}
+.width-15 {width: 15%;}
+.width-20 {width: 20%;}
+.width-25 {width: 25%;}
+.width-30 {width: 30%;}
+.width-33 {width: 33.333%;}
+.width-35 {width: 35%;}
+.width-40 {width: 40%;}
+.width-45 {width: 45%;}
+.width-50 {width: 50%;}
+.width-55 {width: 55%;}
+.width-60 {width: 60%;}
+.width-65 {width: 65%;}
+.width-70 {width: 70%;}
+.width-75 {width: 75%;}
+.width-80 {width: 80%;}
+.width-85 {width: 85%;}
+.width-90 {width: 90%;}
+.width-100 {float: none;}
+
+/*Column Gutters*/
+.lbm-gutter {
+	margin: 0% 0%;
+}
+.lbm-gutter.lbm-rounded,
+.lbm-gutter.lbm-bordered {
+	margin: .5%;
+}
+.lbm-bordered {
+	border: 1px solid;
+}
+.lbm-rounded {
+	border-radius: 6px;
+}
+
+.lbm-gutter.width-10 {width: 9%;}
+.lbm-gutter.width-15 {width: 14%;}
+.lbm-gutter.width-20 {width: 19%;}
+.lbm-gutter.width-25 {width: 24%;}
+.lbm-gutter.width-30 {width: 29%;}
+.lbm-gutter.width-33 {width: 32.333%;}
+.lbm-gutter.width-35 {width: 34%;}
+.lbm-gutter.width-40 {width: 39%;}
+.lbm-gutter.width-45 {width: 44%;}
+.lbm-gutter.width-50 {width: 49%;}
+.lbm-gutter.width-55 {width: 54%;}
+.lbm-gutter.width-60 {width: 59%;}
+.lbm-gutter.width-65 {width: 64%;}
+.lbm-gutter.width-70 {width: 69%;}
+.lbm-gutter.width-75 {width: 74%;}
+.lbm-gutter.width-80 {width: 79%;}
+.lbm-gutter.width-85 {width: 84%;}
+.lbm-gutter.width-90 {width: 89%;}
+
+
+/*Column Separators */
+.lbm-sep-left {border-left: 1px solid;}
+.lbm-sep-right {border-right: 1px solid;}
+.lbm-sep-top {border-top: 1px solid;}
+.lbm-sep-bottom {border-bottom: 1px solid;}
+
+/*Column Group Widths*/
+.max-1600 {max-width: 1600px;}
+.max-1400 {max-width: 1400px;}
+.max-1200 {max-width: 1200px;}
+.max-1000 {max-width: 1000px;}
+.max-940 {max-width: 940px;}
+.max-800 {max-width: 800px;}
+
+.max-1600,
+.max-1400,
+.max-1200,
+.max-1000,
+.max-940,
+.max-800 {
+	margin: auto;
+}
+
+
+
+/*Alignment*/
+.lbm-centered {text-align: center;}
+.lbm-right {text-align: right;}
+
+.lbm-float-right {float: right;}
+
+/* word break */
+.lbm-break-text {
+	word-break: break-all;
+}
+
+/*Background Images*/
+.lbm-bg-fixed {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover; 
+}
+.lbm-bg-repeat {
+	background-repeat: repeat;
+}
+.lbm-bg-no-repeat {
+	background-repeat: no-repeat;
+}
+.lbm-bg-tile-x {
+	background-repeat: repeat-x;
+}
+.lbm-bg-tile-y {
+	background-repeat: repeat-y;
+}
+
+img.scalable {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+.lbm-ehc img.scalable,
+.lbm-ehc img.scalable-rounded,
+.lbm-ehc img.scalable-fancy {
+	width: 100%; height: auto; max-width: none;
+}
+
+/*Video and Map Wrappers 
+When inserting an iframe-based video or Google Map, add a DIV first and assign the appropriate wrapper class
+*/
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0px;
+	overflow: hidden;
+}
+.video-wrapper iframe, .video-wrapper object, .video-wrapper embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+.map-wrapper {
+	position: relative; 
+	padding-bottom: 100%; 
+	padding-top: 0px; 
+	height: 0px; 
+	overflow: hidden; 
+	margin-bottom: 20px; 
+}
+.map-wrapper iframe, .map-wrapper object, .map-wrapper embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*EHC Rules*/
+.lbm-ehc .lbm-col-wrapper {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+	padding: 0px;
+}
+
+.lbm-ehc.lbm-gutter .lbm-col-wrapper {
+	border-collapse: separate;
+	border-spacing: 10px;
+	margin: auto;
+}
+
+
+.lbm-ehc .lbm-column {
+	display: table-cell;
+	vertical-align: top;
+	float: none;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+.lbm-column {float: none !important; width: auto !important; border: none !important; padding: 10px 10px !important;}
+.lbm-ehc, .lbm-ehc .lbm-column {display: block !important; border-radius: 0px;}
+.lbm-row.lbm-ehc.lbm-gutter .lbm-col-wrapper {padding: 0px 0px;}
+.lbm-col-wrapper {display: block;}
+}

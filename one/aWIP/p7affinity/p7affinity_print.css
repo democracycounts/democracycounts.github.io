@@ -1,0 +1,37 @@
+/* 
+  ------------------------------------------------
+  PVII Affinity
+  Copyright (c) 2011 Project Seven Development
+  www.projectseven.com
+  Print Media Style Sheet
+  ------------------------------------------------
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 0;
+}
+.sidebar, .main-content, .sidebar2, .sidebar-right, .content, .column-content   {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none !important;
+}
+.main-content  {
+	margin: 0;
+}
+#layout {
+	max-width: none;
+	margin: 0px;
+}
+.column-content, .content {
+	height: auto !important;
+	max-height: 888678px;
+	border: none !important;
+}
+.column-content * {
+	padding: 0px !important;
+}
+.footer {
+	position: static;
+}

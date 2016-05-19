@@ -1,0 +1,107 @@
+/* 
+  ------------------------------------------------
+  PVII CSS Layout Magic
+  Copyright (c) 2007 Project Seven Development
+  www.projectseven.com
+  10: 1Col_Fixed
+  ------------------------------------------------
+*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 20px;
+	padding: 0;
+}
+#masthead {
+	color: #999999;
+	background-color: #000000;
+	padding: 0px;
+	margin: 0;
+}
+#wrapper {
+	width: 990px;
+	margin: 0 auto;
+}
+#center {
+	width: 990px;
+}
+#center .content {
+	padding: 20px 24px;
+	font-size: 0.8em;
+	line-height: 1.65em;
+	border: 1px solid #000;
+}
+#masthead .content {
+	padding: 12px 20px;
+}
+#footer .content {
+	padding: 12px 20px;
+}
+#footer {
+	color: #999999;
+	background-color: #000000;
+	padding: 0px;
+	margin: 0;
+	font-size: 0.7em;
+}
+.menulist {
+	margin: 6px 0 12px 0;
+	padding: 0;
+	list-style-type: none;
+}
+#center a:link {
+	color: #669999;
+}
+#center a:visited {
+	color: #333333;
+}
+#center a:hover {
+	color: #000000;
+}
+#wrapper .menulist a, #wrapper .menulist a:visited {
+	color: #000000;
+	border-left: 6px solid #FFFFFF;
+	padding: 0 0 0 3px;
+}
+#wrapper .menulist a:hover {
+	border-color: #000000;
+}
+#footer a:link {
+	color: #999999;
+}
+#footer a:visited {
+	color: #666666;
+}
+#footer a:hover {
+	color: #FFFFFF;
+}
+.p7uberlink {
+	font-weight: bold !important;
+	letter-spacing: 0.15em;
+	border-color: #000000 !important;
+}
+h1 {
+	font-size: 1.8em;
+	margin: 0;
+}
+h2 {
+	font-size: 1.6em;
+	margin: 30px 0 0 0;
+}
+h3 {
+	font-size: 1.25em;
+	margin: 30px 0 0 0;
+}
+h4 {
+	font-size: 1.1em;
+	margin: 20px 0 0 0;
+}
+.nomargintop {
+	margin-top: 0;
+}
+.content p {
+	margin: 12px 0;
+}

@@ -1,0 +1,87 @@
+/*
+ ----------------------------- 
+ PVII Layout Builder Magic
+ by Project Seven Development
+ www.projectseven.com
+ Custom Styles
+ -----------------------------
+*/
+
+/*
+***************************************************
+Font Families: You may edit the font-family values,
+BUT DO NOT REMOVE OR RENAME THE 4 RULES BELOW
+***************************************************
+*/
+.lbm-stack-sans {font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", sans-serif;}
+.lbm-stack-serif {font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;}
+.lbm-stack-thin {font-family: Lato, "Gill Sans", Optima, sans-serif; font-weight: 300;}
+.lbm-stack-fancy {font-family: Federo, "Gill Sans", Optima, sans-serif;}
+
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+h1 {font-size: 200%;}
+h2 {font-size: 170%;}
+h3 {font-size: 155%;}
+h4 {font-size: 135%;}
+h5 {font-size: 125%;}
+
+.scalable-rounded {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	border-radius: 7px;
+}
+.scalable-fancy {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	border-radius: 7px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.65);
+}
+
+.bigg {
+	font-size: 180%;
+}
+.bigg strong {
+	font-weight: 400;
+}
+
+/*
+Link Styles
+Assign one of the following classes to
+Text Links on your page
+*/
+.text-link-light {
+	color: #EEE;
+	border-bottom: 1px dotted;
+}
+.text-link-dark {
+	color: #000;
+	border-bottom: 1px dotted;
+}
+.text-link-dark:hover, .text-link-light:hover {
+	border-bottom: 1px solid;
+}
+.text-link-dark, .text-link-light {
+	text-decoration: none;
+}
+
+
+/*Media Queries*/
+
+@media only screen and (min-width: 767px) and (max-width: 1100px) {
+body {font-size: 85%;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+body {font-size: 80%;}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+body {font-size: 80%;}
+}
