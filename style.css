@@ -476,7 +476,7 @@ header{
 	font-size:16px;
 }
 .kode_caption a.kode_link_1:hover{
-	color:#fff;
+	color:#000000;
 }
 .kode_caption a.kode_link_1:hover:before{
 	background-color:#fff;	
@@ -1402,7 +1402,7 @@ ul.kode_tab_lnk.nav > li > a:hover{
 	background-color:#474747;	
 }
 .kode_press_link a.kode_link_2:hover{
-	color:#fff;	
+	color:#000000;	
 }
 
 /*
