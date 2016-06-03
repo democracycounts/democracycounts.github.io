@@ -967,14 +967,14 @@ ul.kode_tab_lnk.nav > li > a:hover{
 	background:none;	
 }
 .kode_wel_demo_des a.kode_link_3:hover{
-	color:#fff;	
+	color:#000000;	
 }
 /*About US Welcome*/
 .kode_about_welcome{
 	padding:95px 0px 85px;	
 }
 .kode_about_welcome a.kode_link_3:hover i{
-	color:#fff;	
+	color:#000000;	
 }
 /*
 	  ==============================================================
